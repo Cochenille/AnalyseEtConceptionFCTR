@@ -4,11 +4,14 @@ aside: false
 
 # 📅 Calendrier — Groupe 1109 (mercredi)
 
-| Semaine | Date | Compétence | Énoncés / Remises |
+Les cours ont lieu le **mercredi de 18 h 30 à 22 h** (4 périodes), sauf la dernière séance (18 h 30 à 21 h 15).
+
+| Séance | Date | Compétence | Énoncés / Remises |
 |---:|:---|:---|:---|
-| 1 | 30 sept. | HK29 — Faisabilité technique | — |
-| 2 | 7 oct. | HK29 — Faisabilité technique | <Badge type="info" text="Énoncé" /> **Énoncé de l'évaluation 1** |
-| 3 | 14 oct. | HK29 — Faisabilité technique | — |
+| 1 | 23 sept. | HK29 — Faisabilité technique | — |
+| 2 | 30 sept. | HK29 — Faisabilité technique | <Badge type="info" text="Énoncé" /> **Énoncé de l'évaluation 1** |
+| 3 | 7 oct. | HK29 — Faisabilité technique | — |
+| — | 14 oct. |  | <Badge type="info" text="Pause" /> **Pas de cours** |
 | 4 | 21 oct. | HK29 — Faisabilité technique | — |
 | 5 | 28 oct. | HK29 — Faisabilité technique | — |
 | 6 | 4 nov. | HK29 — Faisabilité technique | — |
@@ -18,7 +21,7 @@ aside: false
 | 10 | 2 déc. | HK33 — Conception d'un projet Web | — |
 | 11 | 9 déc. | HK33 — Conception d'un projet Web | <Badge type="warning" text="Remise" /> **Évaluation 2** (20 %) — <Badge type="info" text="Énoncé" /> Évaluation 3 |
 | 12 | 16 déc. | HK33 — Conception d'un projet Web | — |
-| — | 21 déc. au 9 janv. |  | <Badge type="info" text="Pause" /> **Relâche des fêtes** |
+| — | 21 déc. au 10 janv. |  | <Badge type="info" text="Pause" /> **Vacances des fêtes** |
 | 13 | 13 janv. | HK33 — Conception d'un projet Web | — |
 | 14 | 20 janv. | HK33 — Conception d'un projet Web | — |
 | 15 | 27 janv. | HK33 — Conception d'un projet Web | — |
