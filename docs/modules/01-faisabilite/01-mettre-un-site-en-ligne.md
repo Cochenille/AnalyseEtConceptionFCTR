@@ -91,8 +91,7 @@ Quand une cliente tape `bistro-exemple.ca` dans son téléphone, voici ce qui se
 flowchart TD
     A["Appareil + navigateur<br/>la cliente tape l'adresse"] -->|"① Où est ce site?"| B["DNS<br/>nom de domaine → adresse IP"]
     B -->|"② Voici l'adresse IP"| A
-    A -->|"③ Demande la page (SSL/TLS)"| C["CDN<br/>(optionnel)"]
-    C --> D["Hébergement<br/>le serveur"]
+    A -->|"③ Demande la page (SSL/TLS)"| D["Hébergement<br/>le serveur"]
     D --> E["Plateforme<br/>WordPress, Shopify, code maison…"]
     E --> F["Contenus<br/>textes, photos, menu"]
     E -->|"④ Page HTML, CSS, JS, images"| A
@@ -101,7 +100,7 @@ flowchart TD
 
 1. Le **navigateur** demande au **DNS** : « à quelle adresse se trouve `bistro-exemple.ca` ? ».
 2. Le DNS répond avec l'**adresse IP** du serveur. Le nom de domaine a été loué chez un **registraire**.
-3. Le navigateur contacte le serveur par une **connexion sécurisée** (le cadenas, grâce au **certificat SSL/TLS**). Souvent, un **CDN** reçoit la demande en premier pour répondre plus vite.
+3. Le navigateur contacte le serveur par une **connexion sécurisée** (le cadenas, grâce au **certificat SSL/TLS**).
 4. L'**hébergement** fait fonctionner la **plateforme**, qui assemble les **contenus** et renvoie la page.
 5. Certaines fonctions ne sont pas dans le site lui-même : la réservation ou le paiement passent souvent par un **service externe**.
 
@@ -123,11 +122,10 @@ Même un site « gratuit » a des **limites techniques** qui décident de ce qu'
 | Ressource | À quoi elle sert | Qui la fournit | Comment on la paie |
 |:--|:--|:--|:--|
 | **Nom de domaine** | L'adresse du site (`.ca`, `.com`, `.quebec`…) | Un registraire | Chaque année |
-| **DNS** | Relier le nom de domaine au serveur et au courriel | Le registraire, l'hébergeur ou un service comme Cloudflare | Souvent inclus |
+| **DNS** | Relier le nom de domaine au serveur et au courriel | Le registraire ou l'hébergeur | Souvent inclus |
 | **Hébergement** | Le serveur qui garde le site et le rend accessible | Un hébergeur ou la plateforme elle-même | Chaque mois ou chaque année |
 | **Certificat SSL/TLS** | Chiffrer la connexion (le cadenas) | L'hébergeur, souvent gratuitement | Souvent inclus |
 | **Plateforme** | Construire et gérer le site | Logiciel libre (WordPress), service par abonnement (Wix, Shopify) ou développement sur mesure | Abonnement, licences ou développement |
-| **CDN** | Accélérer et protéger le site | Cloudflare, Fastly… | Gratuit à payant |
 | **Contenus** | Ce que le visiteur vient chercher | Le client, un photographe, un rédacteur… | Temps du client ou honoraires |
 | **Services externes** | Réservation, paiement, livraison, infolettre | Libro, OpenTable, Stripe… | Abonnement ou frais par transaction |
 | **Navigateurs et appareils** | Afficher le site | Le visiteur | — mais il faut **tester** sur plusieurs |
@@ -138,7 +136,6 @@ Même un site « gratuit » a des **limites techniques** qui décident de ce qu'
   <li><strong>Confondre nom de domaine et hébergement.</strong> On peut louer le nom chez une entreprise et héberger le site chez une autre.</li>
   <li><strong>Croire que « gratuit » veut dire sans coût.</strong> Les forfaits gratuits imposent souvent de la publicité, une adresse du genre <code>monresto.wixsite.com</code> ou des limites.</li>
   <li><strong>Oublier les coûts récurrents.</strong> Le site se paie chaque année, pas seulement au lancement.</li>
-  <li><strong>Prendre le CDN pour l'hébergeur.</strong> Si un outil indique « Cloudflare », le site est souvent hébergé ailleurs, derrière Cloudflare.</li>
   <li><strong>Oublier le mobile.</strong> Pour un restaurant, une grande partie des visites se font sur téléphone.</li>
 </ul>
 </div>
@@ -169,4 +166,4 @@ Une même situation touche souvent **plusieurs sortes** de contraintes à la foi
 
 ## À faire maintenant
 
-➡️ [Lab 01 — Enquête technique : comparer deux sites](./../../labs/lab01-enquete-technique)
+[Lab 01 — Enquête technique : comparer deux sites](./../../labs/lab01-enquete-technique)

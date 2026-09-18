@@ -4,6 +4,7 @@ import Theme from 'vitepress/theme'
 import './style.css'
 import './custom.css'
 import WeeklyTodo from "./components/WeeklyTodo.vue"
+import TrajetCartes from "./components/TrajetCartes.vue"
 
 
 export default {
@@ -15,6 +16,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component("WeeklyTodo", WeeklyTodo);
+    app.component("TrajetCartes", TrajetCartes);
   }
 }
 

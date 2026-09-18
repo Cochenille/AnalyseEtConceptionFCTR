@@ -3,7 +3,7 @@ title: "Lab 01 — Enquête technique : comparer deux sites"
 aside: false
 ---
 
-# 🔎 Lab 01 — Enquête technique : comparer deux sites
+# Lab 01 — Enquête technique : comparer deux sites
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Objectifs du laboratoire</strong><br>
@@ -20,7 +20,7 @@ aside: false
 <ul class="list-disc pl-5">
   <li>En <strong>duo</strong> (salle de sous-groupe).</li>
   <li>Durée : environ 1 h 30, puis mise en commun en grand groupe.</li>
-  <li>Remise : la fiche d'observation remplie, déposée dans le <strong>forum du cours</strong>. Ce travail est <strong>formatif</strong> (non noté).</li>
+  <li>Remise : la fiche d'observation remplie, déposée dans l'<strong>équipe Teams du cours</strong>. Ce travail est <strong>formatif</strong> (non noté).</li>
 </ul>
 </div>
 
@@ -55,19 +55,11 @@ L'enseignant attribue une paire à chaque duo.
 ## Préparation (10 min)
 
 ### 1. Télécharger la fiche
-<a href="./../fiches/lab01-fiche-observation.docx" download>📄 Télécharger la fiche d'observation (Word)</a>
+<a href="./../fiches/lab01-fiche-observation.docx" download>Télécharger la fiche d'observation (Word)</a>
 
 Une seule fiche par duo. Travaillez dans un document partagé (OneDrive, Google Docs…) pour la remplir à deux.
 
-### 2. Se répartir les rôles
-
-| Personne 1 — **Ordinateur** | Personne 2 — **Mobile** |
-|:--|:--|
-| Wappalyzer, code source, domaine, certificat | PageSpeed Insights, mode appareil, test sur un vrai téléphone |
-
-Les deux personnes **installent quand même tous les outils** : vous inversez les rôles pour le site B.
-
-### 3. Installer les outils
+### 2. Installer les outils
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">Installer l'extension <a href="https://www.wappalyzer.com/apps/" target="_blank">Wappalyzer</a> dans Chrome, Edge ou Firefox, puis l'épingler à la barre d'outils</span></label></li>
@@ -96,7 +88,7 @@ Sur la page d'accueil de chaque site, cliquez sur l'icône **Wappalyzer**.
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">La plateforme ou le CMS (WordPress, Shopify, Squarespace, Next.js…)</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">L'hébergement, le CDN et le serveur Web</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">L'hébergement et le serveur Web</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les services externes : réservation, paiement, commerce en ligne</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les outils d'analyse et de publicité (Google Analytics, Meta Pixel…)</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les bibliothèques JavaScript et leurs versions (p. ex. jQuery)</span></label></li>
@@ -174,7 +166,7 @@ Affichez le code source de la page d'accueil (<kbd>Ctrl</kbd> + <kbd>U</kbd>), p
   <li><label><input type="checkbox"><span class="check-text"><code>&lt;title&gt;</code> : le titre est-il clair et descriptif ?</span></label></li>
   <li><label><input type="checkbox"><span class="check-text"><code>description</code> : y a-t-il une description pour les moteurs de recherche ?</span></label></li>
   <li><label><input type="checkbox"><span class="check-text"><code>lang=</code> : quelle langue est déclarée ?</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Un indice qui confirme la plateforme trouvée par Wappalyzer (p. ex. <code>wp-content</code>, <code>cdn.shopify.com</code>, <code>squarespace</code>, <code>_next</code>)</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Un indice qui confirme la plateforme trouvée par Wappalyzer (p. ex. <code>wp-content</code>, <code>myshopify.com</code>, <code>squarespace</code>, <code>_next</code>)</span></label></li>
 </ul>
 
 ---
@@ -201,7 +193,7 @@ Rédigez une justification de **5 à 8 lignes** qui s'appuie sur **au moins troi
 
 ---
 
-## 🏆 Défi bonus
+## Défi bonus
 
 Trouvez un site de restaurant québécois dont le **score de performance mobile** dans PageSpeed Insights est **plus bas** que ceux de votre paire.
 Notez l'adresse, le score et **deux causes** probables de sa lenteur.
@@ -214,7 +206,7 @@ Notez l'adresse, le score et **deux causes** probables de sa lenteur.
   <li><label><input type="checkbox"><span class="check-text">La fiche est complète pour les <strong>deux</strong> sites</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le verdict est justifié par au moins trois observations</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le fichier est nommé <code>lab01-paireN-nom1-nom2.docx</code></span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">La fiche est déposée dans le forum du cours</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">La fiche est déposée dans l'équipe Teams du cours</span></label></li>
 </ul>
 
 ---

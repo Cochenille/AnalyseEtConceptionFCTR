@@ -50,7 +50,7 @@ hero:
     subtitle="À compléter de votre côté."
     :steps="[
       {
-        title: 'Déposer la fiche du Lab 01 dans le forum',
+        title: 'Déposer la fiche du Lab 01 dans Teams',
         description: 'Travail formatif, une fiche par duo.',
         links: [
           { text: 'Consignes de remise', href: '/labs/lab01-enquete-technique#remise', variant: 'primary' }

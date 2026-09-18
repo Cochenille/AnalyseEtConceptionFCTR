@@ -2,7 +2,7 @@
 aside: false
 ---
 
-# 📅 Calendrier — Groupe 1109 (mercredi)
+# Calendrier — Groupe 1109 (mercredi)
 
 Les cours ont lieu le **mercredi de 18 h 30 à 22 h** (4 périodes), sauf la dernière séance (18 h 30 à 21 h 15).
 
