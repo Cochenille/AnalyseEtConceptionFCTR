@@ -29,27 +29,11 @@ aside: false
 
 Trois restaurants ont un site Web. Pour chacun, estimez :
 1. **combien** il a coûté à construire ;
-2. **combien de temps** il a fallu ;
+2. **combien de temps** il a fallu pour le faire ;
 3. **combien de personnes** y ont travaillé ;
 4. **combien** il coûte **chaque année** pour rester en ligne.
 
-| | Restaurant | Ce que fait le site |
-|:-:|:--|:--|
-| **A** | Un café de quartier | Une page : photos, heures d'ouverture, adresse, lien vers Facebook |
-| **B** | Un bistro gastronomique | Plusieurs pages, menu mis à jour chaque saison, réservation en ligne, bilingue |
-| **C** | Une chaîne de 60 restaurants | Commande en ligne, programme de fidélité, compte client, application mobile, localisateur de succursales |
-
-<details class="mb-5">
-<summary><strong>Ordres de grandeur</strong> (à ouvrir après la discussion)</summary>
-
-| | Construction | Délai | Équipe | Chaque année |
-|:-:|:--|:--|:--|:--|
-| **A** | 0 $ à quelques centaines de dollars (fait soi-même avec Wix, Squarespace…) | Une fin de semaine | 1 personne, souvent la propriétaire | Quelques centaines de dollars (abonnement + nom de domaine) |
-| **B** | Quelques milliers à ~15 000 $ (pigiste ou petite agence, souvent WordPress) | Quelques semaines | 1 à 3 personnes | Quelques centaines à quelques milliers de dollars (hébergement, extensions, entretien, réservation) |
-| **C** | Des dizaines, voire des centaines de milliers de dollars (agence, développement sur mesure) | Plusieurs mois | Une équipe complète | Des dizaines de milliers de dollars (serveurs, licences, équipe, sécurité) |
-
-Ces chiffres sont des **ordres de grandeur** pour lancer la discussion, pas des prix à citer dans un rapport. Apprendre à trouver de vrais prix fait partie de la séance 3.
-</details>
+<EchelleSites />
 
 **Ce qu'il faut retenir :** « faire un site Web » peut vouloir dire des choses très différentes. Avant de juger si un projet est faisable, il faut savoir **de quoi il est fait**.
 
@@ -87,22 +71,9 @@ Activité : [Le trajet d'une page Web (casse-tête)](./activite-casse-tete)
 
 Quand une cliente tape `bistro-exemple.ca` dans son téléphone, voici ce qui se passe :
 
-```mermaid
-flowchart TD
-    A["Appareil + navigateur<br/>la cliente tape l'adresse"] -->|"① Où est ce site?"| B["DNS<br/>nom de domaine → adresse IP"]
-    B -->|"② Voici l'adresse IP"| A
-    A -->|"③ Demande la page (SSL/TLS)"| D["Hébergement<br/>le serveur"]
-    D --> E["Plateforme<br/>WordPress, Shopify, code maison…"]
-    E --> F["Contenus<br/>textes, photos, menu"]
-    E -->|"④ Page HTML, CSS, JS, images"| A
-    A -.->|"⑤ Réserver une table"| G["Service externe<br/>réservation, paiement"]
-```
+<TrajetAnime />
 
-1. Le **navigateur** demande au **DNS** : « à quelle adresse se trouve `bistro-exemple.ca` ? ».
-2. Le DNS répond avec l'**adresse IP** du serveur. Le nom de domaine a été loué chez un **registraire**.
-3. Le navigateur contacte le serveur par une **connexion sécurisée** (le cadenas, grâce au **certificat SSL/TLS**).
-4. L'**hébergement** fait fonctionner la **plateforme**, qui assemble les **contenus** et renvoie la page.
-5. Certaines fonctions ne sont pas dans le site lui-même : la réservation ou le paiement passent souvent par un **service externe**.
+Retenez les mots clés : **DNS**, **adresse IP**, **registraire**, **certificat SSL/TLS**, **hébergement**, **plateforme**, **contenus**, **service externe**.
 
 Le **courriel professionnel** ne fait pas partie du trajet de la page, mais il utilise le même nom de domaine. Changer de fournisseur sans précaution peut le briser.
 
@@ -140,6 +111,12 @@ Même un site « gratuit » a des **limites techniques** qui décident de ce qu'
 </ul>
 </div>
 
+### Payer une fois ou chaque année ?
+
+La construction se paie **une fois**. Le nom de domaine, l'hébergement, les abonnements et l'entretien se paient **chaque année**. Avec le temps, ce sont souvent eux qui coûtent le plus cher.
+
+<CoutsAnnees />
+
 ---
 
 ## Les trois sortes de contraintes
@@ -151,6 +128,10 @@ Une **contrainte**, c'est tout ce qui limite les choix possibles dans un projet.
 | **Techniques** | Qu'est-ce que la technologie permet ou impose ? | La plateforme ne permet pas la commande en ligne ; le site doit fonctionner sur les vieux téléphones ; le système de réservation actuel ne s'intègre pas au site. |
 | **Organisationnelles** | Comment le client fonctionne-t-il ? | Personne n'a le temps de mettre le menu à jour ; trois associés doivent approuver chaque décision ; le site doit respecter les lois sur la vie privée et la langue française. |
 | **De ressources** | De quoi dispose-t-on ? | Budget de 3 000 $ ; lancement dans 6 semaines ; aucune personne à l'interne qui connaît WordPress. |
+
+### À vous de classer
+
+<TriContraintes />
 
 ### Retour sur l'accroche
 

@@ -58,3 +58,61 @@
   position: absolute;
   text-indent: -9999px;
 }
+
+/* Lab : quel outil pour quelle question */
+.outils-grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0 1.5rem;
+}
+.outils-grille .outil {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.8rem;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.outils-grille .outil:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+.outils-grille strong { font-size: 0.9rem; }
+.outils-grille .outil-question { font-size: 0.82rem; line-height: 1.45; color: var(--vp-c-text-2); }
+.outils-grille .outil-partie { margin-top: auto; padding-top: 0.3rem; font-size: 0.75rem; font-weight: 600; color: var(--vp-c-brand-1); }
+
+/* Frise des séances d'une partie */
+.frise {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+.frise li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: 0 !important;
+  padding: 0.7rem 0.75rem 0.75rem;
+  border: 1px solid var(--vp-c-divider);
+  border-top: 4px solid var(--vp-c-brand-3);
+  border-radius: 0.6rem;
+  background: var(--vp-c-bg-soft);
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+.frise li.is-actuelle { border-top-color: var(--vp-c-brand-1); background: var(--vp-c-brand-soft); }
+.frise li.is-pause { border-top-color: var(--vp-c-divider); border-style: dashed; opacity: 0.7; }
+.frise li.is-remise { border-top-color: var(--vp-c-warning-1); }
+.frise .frise-date { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--vp-c-text-2); }
+.frise strong { font-size: 0.9rem; }
+.frise .frise-sous { color: var(--vp-c-text-2); }
+.frise .frise-badge { align-self: flex-start; margin-top: 0.3rem; padding: 0.1rem 0.45rem; border-radius: 999px; background: var(--vp-c-warning-soft); color: var(--vp-c-warning-1); font-size: 0.7rem; font-weight: 600; }

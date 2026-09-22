@@ -37,6 +37,10 @@ Votre travail : **enquêter** sur deux sites, comme le ferait un analyste avant 
 
 Il n'y a pas de réponse évidente. Ce qui compte, c'est la qualité de vos **observations** et de votre **justification**.
 
+### Le parcours de l'enquête
+
+<ParcoursLab />
+
 ---
 
 ## Les paires de sites
@@ -52,7 +56,7 @@ L'enseignant attribue une paire à chaque duo.
 
 ---
 
-## Préparation (10 min)
+## Préparation (10 min) {#preparation}
 
 ### 1. Télécharger la fiche
 <a href="./../fiches/lab01-fiche-observation.docx" download>Télécharger la fiche d'observation (Word)</a>
@@ -68,9 +72,20 @@ Une seule fiche par duo. Travaillez dans un document partagé (OneDrive, Google 
   <li><label><input type="checkbox"><span class="check-text">Vérifier que les outils de développement s'ouvrent avec <kbd>F12</kbd></span></label></li>
 </ul>
 
+### 3. Quel outil répond à quelle question ?
+
+<div class="outils-grille">
+  <a class="outil" href="#partie-2"><strong>Wappalyzer</strong><span class="outil-question">Avec quoi le site est-il construit ?</span><span class="outil-partie">Partie 2 →</span></a>
+  <a class="outil" href="#partie-3"><strong>ICANN Lookup</strong><span class="outil-question">Depuis quand existe le domaine ? Chez qui est-il loué ?</span><span class="outil-partie">Partie 3 →</span></a>
+  <a class="outil" href="#partie-3"><strong>Le cadenas</strong><span class="outil-question">Qui a émis le certificat ? Jusqu'à quand est-il valide ?</span><span class="outil-partie">Partie 3 →</span></a>
+  <a class="outil" href="#partie-4"><strong>PageSpeed Insights</strong><span class="outil-question">Le site est-il rapide et accessible ?</span><span class="outil-partie">Partie 4 →</span></a>
+  <a class="outil" href="#partie-4"><strong>F12 — mode appareil</strong><span class="outil-question">S'affiche-t-il bien sur un téléphone ?</span><span class="outil-partie">Partie 4 →</span></a>
+  <a class="outil" href="#partie-5"><strong>Ctrl + U — code source</strong><span class="outil-question">Les indices confirment-ils la plateforme ?</span><span class="outil-partie">Partie 5 →</span></a>
+</div>
+
 ---
 
-## Partie 1 — Première impression (10 min)
+## Partie 1 — Première impression (10 min) {#partie-1}
 
 Parcourez les deux sites **sans outil**, comme un client ordinaire.
 
@@ -82,9 +97,11 @@ Parcourez les deux sites **sans outil**, comme un client ordinaire.
 
 ---
 
-## Partie 2 — Les technologies (15 min)
+## Partie 2 — Les technologies (15 min) {#partie-2}
 
 Sur la page d'accueil de chaque site, cliquez sur l'icône **Wappalyzer**.
+
+<BarreNavigateur mode="extension" />
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">La plateforme ou le CMS (WordPress, Shopify, Squarespace, Next.js…)</span></label></li>
@@ -101,7 +118,7 @@ Il devine les technologies à partir d'indices. Il en rate parfois, ou en voit q
 
 ---
 
-## Partie 3 — Domaine et sécurité (15 min)
+## Partie 3 — Domaine et sécurité (15 min) {#partie-3}
 
 ### Le nom de domaine
 Dans **ICANN Lookup**, entrez le nom de domaine (sans `https://` ni `www`).
@@ -114,6 +131,8 @@ Dans **ICANN Lookup**, entrez le nom de domaine (sans `https://` ni `www`).
 
 ### Le certificat
 Cliquez sur l'icône à gauche de l'adresse, puis sur **La connexion est sécurisée → Le certificat est valide** (les libellés varient selon le navigateur).
+
+<BarreNavigateur mode="cadenas" />
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">L'émetteur du certificat (Let's Encrypt, Google, Sectigo…)</span></label></li>
@@ -130,7 +149,7 @@ Ouvrez le site dans une **fenêtre de navigation privée**.
 
 ---
 
-## Partie 4 — Performance et mobile (20 min)
+## Partie 4 — Performance et mobile (20 min) {#partie-4}
 
 ### PageSpeed Insights
 Analysez l'**adresse de la page d'accueil** de chaque site.
@@ -146,6 +165,10 @@ Analysez l'**adresse de la page d'accueil** de chaque site.
 Deux analyses du même site peuvent donner des scores différents. Lancez l'analyse <strong>deux fois</strong> et notez les deux résultats.
 </div>
 
+#### Situer vos résultats
+
+<JaugesPageSpeed />
+
 ### L'affichage sur téléphone
 Dans le navigateur, ouvrez les outils de développement (<kbd>F12</kbd>), puis le **mode appareil** (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>). Choisissez un téléphone dans la liste. Si possible, ouvrez aussi le site sur **votre vrai téléphone**.
 
@@ -158,7 +181,7 @@ Dans le navigateur, ouvrez les outils de développement (<kbd>F12</kbd>), puis l
 
 ---
 
-## Partie 5 — Le code source (10 min)
+## Partie 5 — Le code source (10 min) {#partie-5}
 
 Affichez le code source de la page d'accueil (<kbd>Ctrl</kbd> + <kbd>U</kbd>), puis cherchez (<kbd>Ctrl</kbd> + <kbd>F</kbd>) :
 
@@ -171,7 +194,7 @@ Affichez le code source de la page d'accueil (<kbd>Ctrl</kbd> + <kbd>U</kbd>), p
 
 ---
 
-## Partie 6 — Les contraintes probables (10 min)
+## Partie 6 — Les contraintes probables (10 min) {#partie-6}
 
 Pour chaque site, imaginez une contrainte probable de chaque sorte. Appuyez-vous sur vos observations.
 
@@ -183,7 +206,7 @@ Pour chaque site, imaginez une contrainte probable de chaque sorte. Appuyez-vous
 
 ---
 
-## Partie 7 — Le verdict (10 min)
+## Partie 7 — Le verdict (10 min) {#partie-7}
 
 > **Lequel de ces deux sites serait le plus facile à faire évoluer ? Pourquoi ?**
 

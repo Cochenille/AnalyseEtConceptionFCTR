@@ -73,9 +73,4 @@ Plusieurs ordres se défendent — par exemple, on peut placer le certificat SSL
 
 </details>
 
----
-
-### Étape 2 — Mise en commun
-On compare les trajets. Là où les équipes ne sont pas d'accord, c'est souvent là que se cache une notion importante.
-
 Suite : [Séance 1 — Ce qu'il faut pour mettre un site en ligne](./01-mettre-un-site-en-ligne#le-trajet-d-une-page-web)
