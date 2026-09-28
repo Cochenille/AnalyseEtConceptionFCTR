@@ -116,3 +116,32 @@
 .frise strong { font-size: 0.9rem; }
 .frise .frise-sous { color: var(--vp-c-text-2); }
 .frise .frise-badge { align-self: flex-start; margin-top: 0.3rem; padding: 0.1rem 0.45rem; border-radius: 999px; background: var(--vp-c-warning-soft); color: var(--vp-c-warning-1); font-size: 0.7rem; font-weight: 600; }
+
+/* Mandat : courriel et notes de rencontre */
+.courriel {
+  margin: 1rem 0 1.5rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.9rem;
+  background: var(--vp-c-bg-soft);
+  overflow: hidden;
+}
+.courriel-entete {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+.courriel-entete span { display: inline-block; min-width: 3.5rem; color: var(--vp-c-text-2); }
+.courriel-corps { padding: 0.25rem 1rem 0.75rem; }
+.notes-rencontre {
+  margin: 1rem 0 1.5rem;
+  padding: 0.25rem 1rem 0.75rem;
+  border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 0.6rem;
+  background: var(--vp-c-bg-soft);
+}
+.notes-rencontre h3 { margin-top: 1.25rem !important; font-size: 1rem; }

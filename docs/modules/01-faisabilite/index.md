@@ -10,8 +10,8 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
 ## Rappel du calendrier
 
 <ol class="frise">
-  <li class="is-actuelle"><span class="frise-date">23 sept.</span><strong>Séance 1</strong><span class="frise-sous">Mettre un site en ligne · Lab 01</span></li>
-  <li><span class="frise-date">30 sept.</span><strong>Séance 2</strong><span class="frise-sous">Mandat du client et équipes</span><span class="frise-badge">Énoncé éval. 1</span></li>
+  <li><span class="frise-date">23 sept.</span><strong>Séance 1</strong><span class="frise-sous">Mettre un site en ligne · Lab 01</span></li>
+  <li class="is-actuelle"><span class="frise-date">30 sept.</span><strong>Séance 2</strong><span class="frise-sous">Mandat, contraintes et risques · Lab 02</span><span class="frise-badge">Énoncé éval. 1</span></li>
   <li><span class="frise-date">7 oct.</span><strong>Séance 3</strong></li>
   <li class="is-pause"><span class="frise-date">14 oct.</span><strong>—</strong><span class="frise-sous">Pas de cours</span></li>
   <li><span class="frise-date">21 oct.</span><strong>Séance 4</strong></li>
@@ -32,3 +32,6 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
 - [Séance 1 — Ce qu'il faut pour mettre un site en ligne](./01-mettre-un-site-en-ligne)
   - [Activité — Le trajet d'une page Web (casse-tête)](./activite-casse-tete)
   - [Lab 01 — Enquête technique : comparer deux sites](./../../labs/lab01-enquete-technique)
+- [Séance 2 — Le mandat, les contraintes et les risques](./02-contraintes-et-risques)
+  - [Mandat — Aventure Saint-Maurice](./../../mandat/)
+  - [Lab 02 — Radiographie du mandat](./../../labs/lab02-radiographie-mandat)

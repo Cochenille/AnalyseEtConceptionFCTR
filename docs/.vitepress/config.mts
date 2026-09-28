@@ -19,6 +19,7 @@ export default withMermaid(defineConfig({
 		nav: [
 			{ text: "Plan de cours", link: "/plan-cours/plan-de-cours" },
 			{ text: "Calendrier", link: "/plan-cours/calendrier" },
+			{ text: "Mandat", link: "/mandat/" },
 			{
 				text: "Modules",
 				items: [
@@ -33,6 +34,7 @@ export default withMermaid(defineConfig({
 				items: [
 					{ text: "Plan de cours", link: "/plan-cours/plan-de-cours" },
 					{ text: "Calendrier", link: "/plan-cours/calendrier" },
+					{ text: "Mandat — Aventure Saint-Maurice", link: "/mandat/" },
 				],
 			},
 			{
@@ -52,6 +54,10 @@ export default withMermaid(defineConfig({
 								text: "Activité — Le trajet d'une page Web",
 								link: "/modules/01-faisabilite/activite-casse-tete",
 							},
+							{
+								text: "Séance 2 — Contraintes et risques",
+								link: "/modules/01-faisabilite/02-contraintes-et-risques",
+							},
 						],
 					},
 				],
@@ -61,6 +67,7 @@ export default withMermaid(defineConfig({
 				collapsed: false,
 				items: [
 					{ text: "Lab 01 — Enquête technique", link: "/labs/lab01-enquete-technique" },
+					{ text: "Lab 02 — Radiographie du mandat", link: "/labs/lab02-radiographie-mandat" },
 				],
 			},
 			/*{

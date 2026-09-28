@@ -12,6 +12,9 @@ import TriContraintes from "./components/TriContraintes.vue"
 import ParcoursLab from "./components/ParcoursLab.vue"
 import JaugesPageSpeed from "./components/JaugesPageSpeed.vue"
 import BarreNavigateur from "./components/BarreNavigateur.vue"
+import TriExigences from "./components/TriExigences.vue"
+import PhrasesCachees from "./components/PhrasesCachees.vue"
+import MatriceRisques from "./components/MatriceRisques.vue"
 
 
 export default {
@@ -31,6 +34,9 @@ export default {
     app.component("ParcoursLab", ParcoursLab);
     app.component("JaugesPageSpeed", JaugesPageSpeed);
     app.component("BarreNavigateur", BarreNavigateur);
+    app.component("TriExigences", TriExigences);
+    app.component("PhrasesCachees", PhrasesCachees);
+    app.component("MatriceRisques", MatriceRisques);
   }
 }
 

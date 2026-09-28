@@ -144,3 +144,6 @@ vite.config.ts.timestamp-*
 
 # Lockfile (comme BD1A26)
 /package-lock.json
+
+# Documents enseignant privés (corrigés) — jamais versionnés
+/prive/
