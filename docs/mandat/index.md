@@ -16,6 +16,15 @@ Gardez cette page sous la main : vous y reviendrez souvent.
 Aventure Saint-Maurice n'existe pas. Toute ressemblance avec une entreprise réelle de la Mauricie serait une coïncidence. Les outils et les services nommés par le client, eux, existent vraiment.
 </div>
 
+<div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
+<strong>Pour surligner et annoter</strong><br>
+Téléchargez les trois documents du mandat et placez-les dans le dossier partagé de votre équipe :
+<ul class="list-disc pl-5">
+  <li><a href="./../fiches/mandat-aventure-saint-maurice.docx" download>Mandat — version Word</a> (outil <em>Couleur de surbrillance</em> de l'onglet Accueil)</li>
+  <li><a href="./../fiches/mandat-aventure-saint-maurice.pdf" download>Mandat — version PDF</a> (outil <em>Surligner</em> d'Edge ou d'Acrobat, ou pour imprimer)</li>
+</ul>
+</div>
+
 ## Le client en bref
 
 | | |

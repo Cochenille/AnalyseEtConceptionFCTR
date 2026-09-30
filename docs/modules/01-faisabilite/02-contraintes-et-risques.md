@@ -16,7 +16,7 @@ aside: false
 
 | Heure | Activité |
 |:--|:--|
-| 18 h 30 | Retour sur le Lab 01 : le tableau des quatre paires |
+| 18 h 30 | Retour sur le Lab 01 : le tableau de la classe |
 | 18 h 45 | Formation des équipes |
 | 18 h 55 | [Le mandat du client](./../../mandat/) : lecture en équipe |
 | 19 h 15 | Les contraintes de ressources, en détail |
@@ -32,20 +32,26 @@ aside: false
 
 ## Retour sur le Lab 01
 
-Chaque duo donne ses résultats : plateforme, score de performance mobile, verdict. On remplit ensemble le tableau.
+La semaine dernière, chaque duo a enquêté sur deux sites de restaurants. Ce soir, on met les huit enquêtes côte à côte pour voir ce qu'aucun duo ne pouvait voir seul.
 
-| Paire | Site | Plateforme | Performance mobile | Plus facile à faire évoluer ? |
-|:-:|:--|:--|:-:|:-:|
-| 1 | La Banquise | | | |
-| 1 | Casse-Croûte Courteau | | | |
-| 2 | Thaï Express | | | |
-| 2 | Ashton | | | |
-| 3 | Schwartz's | | | |
-| 3 | Commensal | | | |
-| 4 | Joe Beef | | | |
-| 4 | Épi, buvette de quartier | | | |
+### 1. Le tableau de la classe
 
-**La question à retenir :** un site peut être beau, rapide et difficile à faire évoluer. C'est ce genre de nuance qu'on attend dans un rapport de faisabilité.
+Chaque duo a **une minute** : la plateforme de ses deux sites, leur score de performance mobile, le constat qui l'a le plus surpris et son verdict.
+
+<RetourLab01 />
+
+### 2. Ce qu'on en retient
+
+Une fois le tableau rempli, on répond ensemble à trois questions :
+
+1. **La plateforme explique-t-elle le score ?** Deux sites sur la même plateforme ont-ils des scores semblables ? Sinon, qu'est-ce qui fait la différence ?
+2. **Le site le plus rapide est-il toujours le plus facile à faire évoluer ?** Regardez les paires où ce n'est pas le cas : qu'est-ce qui a fait pencher le verdict ?
+3. **Qu'est-ce que les outils n'ont pas pu vous dire ?** Le budget, qui met le site à jour, pourquoi cette plateforme a été choisie…
+
+<div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
+<strong>Le lien avec ce soir</strong><br>
+Au Lab 01, vous avez observé des sites qui <strong>existent déjà</strong> et vous avez dû <strong>deviner</strong> leurs contraintes. Ce soir, c'est l'inverse : le site n'existe pas encore, mais le client vous <strong>dit</strong> ses contraintes… à sa façon. À vous de les trouver.
+</div>
 
 ---
 
@@ -65,6 +71,13 @@ Chaque duo donne ses résultats : plateforme, score de performance mobile, verdi
 ## Le mandat du client
 
 Le mandat qui servira toute la session : **[Aventure Saint-Maurice](./../../mandat/)**, un centre de plein air qui veut refaire son site Web.
+
+<div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
+<strong>À télécharger pour surligner</strong><br>
+<a href="./../../fiches/mandat-aventure-saint-maurice.docx" download>Mandat — version Word</a> ·
+<a href="./../../fiches/mandat-aventure-saint-maurice.pdf" download>Mandat — version PDF</a><br>
+Placez le fichier dans le dossier partagé de votre équipe : une seule copie, surlignée à plusieurs.
+</div>
 
 Lisez-le en équipe : le courriel du client, les notes de la première rencontre et les chiffres. Pendant la lecture, **surlignez** avec trois couleurs :
 
@@ -163,9 +176,10 @@ La **Charte de la langue française** s'ajoute : un site offert au Québec doit 
 <strong>Consigne (20 min, en équipe)</strong><br>
 Chacune des phrases ci-dessous a été prononcée pendant la rencontre. Elles ont l'air banales, mais chacune cache un problème technique.
 <ol class="list-decimal pl-5">
-  <li>Pour chaque phrase, trouvez le problème caché et notez une question à poser au client.</li>
+  <li>Pour chaque phrase, écrivez dans les deux cases le <strong>problème caché</strong> et <strong>une question à poser au client</strong>.</li>
   <li>Estimez ce que ça pourrait coûter : <strong>$</strong>, <strong>$$</strong> ou <strong>$$$</strong>. Est-ce un coût unique ou annuel ?</li>
-  <li>Ne cliquez sur « Révéler » qu'une fois votre réponse écrite. On compare en grand groupe.</li>
+  <li>Cliquez ensuite sur « Révéler » et comparez avec votre réponse.</li>
+  <li>À la fin, cliquez sur « Copier nos réponses » et collez-les dans le document de votre équipe : vos questions resserviront à la rencontre avec le client.</li>
 </ol>
 </div>
 

@@ -15,6 +15,7 @@ import BarreNavigateur from "./components/BarreNavigateur.vue"
 import TriExigences from "./components/TriExigences.vue"
 import PhrasesCachees from "./components/PhrasesCachees.vue"
 import MatriceRisques from "./components/MatriceRisques.vue"
+import RetourLab01 from "./components/RetourLab01.vue"
 
 
 export default {
@@ -37,6 +38,7 @@ export default {
     app.component("TriExigences", TriExigences);
     app.component("PhrasesCachees", PhrasesCachees);
     app.component("MatriceRisques", MatriceRisques);
+    app.component("RetourLab01", RetourLab01);
   }
 }
 

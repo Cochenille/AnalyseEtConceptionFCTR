@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactive } from "vue";
+import { computed, onMounted, reactive, ref, watch } from "vue";
 
 type Cout = 1 | 2 | 3;
 type Phrase = {
@@ -107,11 +107,82 @@ const PHRASES: Phrase[] = [
   },
 ];
 
-const etat = reactive(PHRASES.map(() => ({ estimation: null as Cout | null, revele: false })));
+const props = withDefaults(defineProps<{ storageKey?: string }>(), {
+  storageKey: "asm-cinq-phrases",
+});
+
+const etat = reactive(
+  PHRASES.map(() => ({ probleme: "", question: "", estimation: null as Cout | null, revele: false }))
+);
+const copie = ref(false);
+
+const pret = (n: number) => etat[n].probleme.trim() !== "" && etat[n].question.trim() !== "";
+const nbPretes = computed(() => PHRASES.filter((_, n) => pret(n)).length);
 
 function symbole(c: Cout) {
   return COUTS[c - 1].symbole;
 }
+
+function texteReponses() {
+  return PHRASES.map((p, n) => {
+    const e = etat[n];
+    return [
+      `Phrase ${n + 1} (${p.qui}) : « ${p.phrase} »`,
+      `Problème caché : ${e.probleme.trim() || "—"}`,
+      `Question à poser au client : ${e.question.trim() || "—"}`,
+      `Coût estimé : ${e.estimation ? symbole(e.estimation) : "—"}`,
+    ].join("\n");
+  }).join("\n\n");
+}
+
+async function copier() {
+  try {
+    await navigator.clipboard.writeText(texteReponses());
+    copie.value = true;
+    setTimeout(() => (copie.value = false), 2500);
+  } catch {
+    alert("La copie automatique n'a pas fonctionné. Sélectionnez vos réponses et copiez-les à la main.");
+  }
+}
+
+function basculer(n: number) {
+  const e = etat[n];
+  if (!e.revele && !pret(n) && !confirm("Vous n'avez pas encore écrit vos deux réponses. Révéler quand même ?")) return;
+  e.revele = !e.revele;
+}
+
+function reinitialiser() {
+  if (!confirm("Effacer toutes vos réponses ?")) return;
+  for (const e of etat) Object.assign(e, { probleme: "", question: "", estimation: null, revele: false });
+}
+
+onMounted(() => {
+  try {
+    const brut = localStorage.getItem(props.storageKey);
+    if (!brut) return;
+    const data = JSON.parse(brut);
+    etat.forEach((e, n) => {
+      const v = data[n];
+      if (!v) return;
+      e.probleme = String(v.probleme ?? "");
+      e.question = String(v.question ?? "");
+      e.estimation = [1, 2, 3].includes(v.estimation) ? v.estimation : null;
+    });
+  } catch {
+    /* stockage indisponible : on part de réponses vides */
+  }
+});
+
+watch(etat, () => {
+  try {
+    localStorage.setItem(
+      props.storageKey,
+      JSON.stringify(etat.map(({ probleme, question, estimation }) => ({ probleme, question, estimation })))
+    );
+  } catch {
+    /* stockage indisponible : rien à faire */
+  }
+});
 </script>
 
 <template>
@@ -128,8 +199,19 @@ function symbole(c: Cout) {
         <p class="pc-qui">Phrase {{ n + 1 }} · {{ p.qui }}</p>
         <blockquote class="pc-phrase">« {{ p.phrase }} »</blockquote>
 
+        <div class="pc-notes">
+          <label class="pc-champ">
+            <span>Le problème caché, selon nous</span>
+            <textarea v-model="etat[n].probleme" rows="2" placeholder="Qu'est-ce que cette demande implique vraiment ?"></textarea>
+          </label>
+          <label class="pc-champ">
+            <span>Une question à poser au client</span>
+            <textarea v-model="etat[n].question" rows="2" placeholder="Ce qu'il faut savoir avant d'aller plus loin"></textarea>
+          </label>
+        </div>
+
         <div class="pc-estimer">
-          <span>Votre estimation :</span>
+          <span>Coût estimé :</span>
           <div class="pc-boutons" role="group" :aria-label="'Coût estimé pour la phrase ' + (n + 1)">
             <button
               v-for="c in COUTS"
@@ -142,7 +224,12 @@ function symbole(c: Cout) {
               {{ c.symbole }}
             </button>
           </div>
-          <button type="button" class="pc-reveler" :aria-expanded="etat[n].revele" @click="etat[n].revele = !etat[n].revele">
+          <button
+            type="button"
+            class="pc-reveler"
+            :aria-expanded="etat[n].revele"
+            @click="basculer(n)"
+          >
             {{ etat[n].revele ? "Cacher" : "Révéler le problème caché" }}
           </button>
         </div>
@@ -169,6 +256,14 @@ function symbole(c: Cout) {
         </div>
       </li>
     </ol>
+
+    <div class="pc-pied">
+      <span><strong>{{ nbPretes }} / {{ PHRASES.length }}</strong> phrases analysées · réponses conservées dans ce navigateur</span>
+      <span class="pc-actions">
+        <button type="button" class="pc-action" @click="copier">{{ copie ? "Copié ✓" : "Copier nos réponses" }}</button>
+        <button type="button" class="pc-action" @click="reinitialiser">Recommencer</button>
+      </span>
+    </div>
   </section>
 </template>
 
@@ -234,6 +329,62 @@ function symbole(c: Cout) {
   font-weight: 600;
   line-height: 1.45;
   color: var(--vp-c-text-1) !important;
+}
+.pc-notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.pc-champ {
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+}
+.pc-champ textarea {
+  width: 100%;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.5rem;
+  background: var(--vp-c-bg-soft);
+  font-size: 0.86rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--vp-c-text-1);
+  resize: vertical;
+}
+.pc-champ textarea:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 1px;
+}
+.pc-pied {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--vp-c-divider);
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+}
+.pc-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+.pc-action {
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.65rem;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  font-size: 0.8rem;
+  color: var(--vp-c-text-1);
+}
+.pc-action:hover {
+  border-color: var(--vp-c-brand-1);
 }
 .pc-estimer {
   display: flex;

@@ -38,7 +38,7 @@ Avant de penser à une seule solution, un analyste fait la **radiographie** du m
 ## Préparation (5 min) {#preparation}
 
 <ul class="checklist">
-  <li><label><input type="checkbox"><span class="check-text">Ouvrir le <a href="./../mandat/" target="_blank">mandat Aventure Saint-Maurice</a> dans un onglet</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Ouvrir le <a href="./../mandat/" target="_blank">mandat Aventure Saint-Maurice</a> dans un onglet, ou reprendre votre copie surlignée (<a href="./../fiches/mandat-aventure-saint-maurice.docx" download>Word</a> · <a href="./../fiches/mandat-aventure-saint-maurice.pdf" download>PDF</a>)</span></label></li>
   <li><label><input type="checkbox"><span class="check-text"><a href="./../fiches/lab02-fiche-radiographie.docx" download>Télécharger la fiche de radiographie (Word)</a> et la placer dans le dossier partagé de l'équipe</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Se répartir la lecture : une personne par document (courriel, notes, chiffres), puis chacun résume le sien aux autres en deux minutes</span></label></li>
 </ul>
