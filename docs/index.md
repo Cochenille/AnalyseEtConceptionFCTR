@@ -17,6 +17,80 @@ hero:
       text: Calendrier
       link: /plan-cours/calendrier
 ---
+<section id="seance-2">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 2 — mercredi 30 septembre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Retour sur le Lab 01 et formation des équipes',
+        badge: 'Équipes de 2 ou 3',
+        links: [
+          { text: 'Séance 2', href: '/modules/01-faisabilite/02-contraintes-et-risques', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Le mandat du client : Aventure Saint-Maurice',
+        description: 'Lire le mandat en équipe et le surligner en trois couleurs.',
+        links: [
+          { text: 'Mandat', href: '/mandat/', variant: 'primary' },
+          { text: 'Version Word', href: '/fiches/mandat-aventure-saint-maurice.docx', variant: 'secondary' },
+          { text: 'Version PDF', href: '/fiches/mandat-aventure-saint-maurice.pdf', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Contraintes, exigences et risques',
+        description: 'Activité des cinq phrases du client, puis la matrice des risques.',
+        links: [
+          { text: 'Séance 2', href: '/modules/01-faisabilite/02-contraintes-et-risques', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Lab 02 — Radiographie du mandat',
+        badge: 'En équipe',
+        links: [
+          { text: 'Lab 02', href: '/labs/lab02-radiographie-mandat', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab02-fiche-radiographie.docx', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="À compléter de votre côté."
+    :steps="[
+      {
+        title: 'Déposer la fiche du Lab 02 dans Teams',
+        description: 'Travail formatif, une fiche par équipe. Gardez-la : c’est la base de l’évaluation 1.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab02-radiographie-mandat#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Écrire l’entente d’équipe',
+        description: 'Cinq lignes : comment vous communiquez, quand vous travaillez ensemble, qui remet les travaux, et quoi faire si quelqu’un ne livre pas sa part. À déposer dans le dossier partagé de l’équipe.',
+        links: [
+          { text: 'Formation des équipes', href: '/modules/01-faisabilite/02-contraintes-et-risques#formation-des-equipes', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Relire le mandat et noter vos questions pour le client',
+        description: 'Collez vos réponses des cinq phrases dans le document de l’équipe : vos questions serviront plus tard, lors de la rencontre avec le client.',
+        links: [
+          { text: 'Mandat', href: '/mandat/', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
 <section id="seance-1">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>
