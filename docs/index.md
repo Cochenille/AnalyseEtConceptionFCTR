@@ -17,6 +17,72 @@ hero:
       text: Calendrier
       link: /plan-cours/calendrier
 ---
+<section id="seance-3">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 3 — mercredi 7 octobre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'L’énoncé de l’évaluation 1',
+        badge: '20 % · remise le 11 nov.',
+        links: [
+          { text: 'Évaluation 1', href: '/evaluations/evaluation-1', variant: 'primary' },
+          { text: 'Gabarit (Word)', href: '/fiches/eval1-gabarit-rapport.docx', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'La veille technologique',
+        description: 'Dix sources à classer, puis trois outils et trois factures.',
+        links: [
+          { text: 'Séance 3', href: '/modules/01-faisabilite/03-veille-technologique', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Lab 03 — Le plan d’essai',
+        badge: 'En équipe',
+        links: [
+          { text: 'Lab 03', href: '/labs/lab03-plan-essai', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab03-fiche-plan-essai.docx', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="Pas de cours le 14 octobre : prochaine séance le 21 octobre."
+    :steps="[
+      {
+        title: 'Déposer la fiche du Lab 03 dans Teams',
+        description: 'Travail formatif, une fiche par équipe. Vos essais de la séance 4 en dépendent.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab03-plan-essai#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Ouvrir les comptes d’essai au bon moment',
+        description: 'Ils doivent être actifs le 21 octobre. Un essai de 14 jours ouvert ce soir sera expiré.',
+        links: [
+          { text: 'Ouvrir un compte sans se faire piéger', href: '/modules/01-faisabilite/03-veille-technologique#ouvrir-un-compte-d-essai-sans-se-faire-pieger', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Commencer le rapport',
+        description: 'Mettre au propre les sections 3, 4 et 5 à partir de votre fiche du Lab 02 et de vos notes de la correction en classe.',
+        links: [
+          { text: 'Évaluation 1', href: '/evaluations/evaluation-1', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
 <section id="seance-2">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>
