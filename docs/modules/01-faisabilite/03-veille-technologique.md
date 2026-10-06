@@ -75,6 +75,20 @@ Le problème : sur le Web, une bonne partie de l'information sur les outils est 
 | **Comparatifs** | Articles « les 10 meilleurs… », vidéos « j'ai testé… » | Trouver des noms d'outils… et c'est tout, tant qu'on n'a pas vérifié qui paie |
 | **Assistants d'IA** | ChatGPT, Copilot, Claude | Trouver des pistes et du vocabulaire. Jamais une source en soi : tout est à vérifier |
 
+#### Exemples réels : des sources fiables
+
+Ouvrez chaque lien et cherchez **qui parle**, **la date** et **l'absence de produit à vendre**.
+
+| Source | Ce qu'il faut remarquer |
+|:--|:--|
+| [MDN — Formats d'image](https://developer.mozilla.org/fr/docs/Web/Media/Guides/Formats/Image_types) | En bas de page : la date de modification et l'historique des contributions. On sait qui a écrit quoi, et quand. |
+| [Can I use — AVIF](https://caniuse.com/avif) | Une case par navigateur et par version, le pourcentage d'utilisateurs couverts, les sources dans l'onglet « Resources ». |
+| [CAI — Principaux changements de la Loi 25](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25) | L'organisme qui applique la loi explique chaque obligation et sa date d'entrée en vigueur. |
+| [W3C — Introduction à l'accessibilité](https://www.w3.org/WAI/fundamentals/accessibility-intro/fr) | Publié par l'organisme qui écrit les normes. En bas : date, auteurs, traducteurs. |
+| [OQLF — Une entreprise condamnée pour son site](https://www.oqlf.gouv.qc.ca/office/communiques/2021/20210709_infraction-cible-jeu.aspx) | Un vrai cas : une amende parce que le site n'était pas en français. Utile pour la Q5. |
+
+Un piège vécu en préparant ce cours : la page de l'OQLF sur les sites Web sort encore dans Google, mais elle a été retirée. Une source officielle peut disparaître : notez toujours **la date de consultation**, et repartez de la [page Entreprises de l'OQLF](https://www.oqlf.gouv.qc.ca/francisation/entreprises/).
+
 ### Les cinq questions à poser à une source
 
 1. **Qui parle ?** Un organisme, un expert identifié, un vendeur, un anonyme ?
@@ -96,6 +110,20 @@ Le problème : sur le Web, une bonne partie de l'information sur les outils est 
 </ul>
 Un comparatif publicitaire n'est pas inutile : il donne des <strong>noms d'outils</strong> à explorer. Mais il ne peut jamais servir de preuve dans un rapport.
 </div>
+
+#### Exemples réels : trois publicités déguisées
+
+Trois vraies pages sur des outils qui pourraient servir à Aventure Saint-Maurice. Retrouvez les indices de l'encadré rouge.
+
+| Page | Ce qu'il faut remarquer |
+|:--|:--|
+| [« Best booking software for tour operators »](https://www.peekpro.com/blog/best-booking-software-for-tour-operators) — blogue de Peek Pro | Regardez l'adresse : qui arrive premier ? Comptez les boutons « Request Demo ». Les autres outils nommés restent de bonnes pistes. |
+| [« FareHarbor pricing guide »](https://www.trekksoft.com/en/blog/fareharbor-pricing-guidewhat-to-know-before-you-buy) — blogue de TrekkSoft | Un guide des prix de FareHarbor écrit par un concurrent. Devinez qui est le moins cher dans son tableau. |
+| [« Best website builders for small business »](https://tech.co/website-builders/best-website-builders-for-small-business) — tech.co | Auteur nommé et page datée, mais avis de commission. Survolez un lien vers Wix : il passe par `tech.co/go/…`. |
+
+**Essayez-le :** cherchez *FareHarbor pricing* dans Google. Parmi les dix premiers résultats, combien viennent de FareHarbor ? Combien de concurrents ? Combien de sites de comparaison (Capterra, G2, GetApp) ?
+
+**Pour trouver de vrais témoignages :** `site:reddit.com FareHarbor problems` ne montre que les discussions Reddit. Vérifiez la date de chaque message et si quelqu'un dans le fil travaille pour l'outil.
 
 ---
 
@@ -140,6 +168,20 @@ Les outils Web se paient rarement « une fois ». Presque tous sont des **abonne
   <li><strong>La saison.</strong> Une entreprise saisonnière paie-t-elle 12 mois pour en utiliser 8 ? Peut-on suspendre l'abonnement l'hiver ?</li>
 </ul>
 </div>
+
+#### Exemples réels : des grilles de prix
+
+Les prix changent souvent : ceux-ci ont été vérifiés le **6 octobre 2026**. Dans votre rapport, notez toujours la date à laquelle vous avez lu un prix.
+
+| Outil | Le piège à repérer |
+|:--|:--|
+| [Square — Nos frais (Canada)](https://squareup.com/ca/fr/payments/our-fees) | Déjà utilisé par le client. En ligne : 2,8 % + 0,30 $. Cherchez le supplément pour les cartes émises hors du Canada. |
+| [Checkfront](https://www.checkfront.com/pricing) (Q1) | Abonnement mensuel **et** commission par réservation en ligne, en dollars américains. |
+| [Weglot](https://www.weglot.com/pricing) (Q5) | Prix en euros, limite de mots traduits et de langues. Comparez « Monthly » et « Yearly ». |
+| [Wix — Forfaits](https://www.wix.com/plans) (Q3) | Le prix au mois suppose un paiement annuel. Que manque-t-il au forfait gratuit ? |
+| FareHarbor (Q1) | Pas d'abonnement : les frais de réservation sont ajoutés à la facture **du client**. Le modèle de prix touche aussi l'expérience client. |
+
+**Calcul rapide :** une réservation en ligne de 400 $ avec Checkfront, frais de paiement compris. Et si la carte vient des États-Unis ?
 
 ## Activité 2 — Trois outils, trois factures
 
