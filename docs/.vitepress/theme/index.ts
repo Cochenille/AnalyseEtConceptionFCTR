@@ -18,6 +18,7 @@ import MatriceRisques from "./components/MatriceRisques.vue"
 import RetourLab01 from "./components/RetourLab01.vue"
 import TriSources from "./components/TriSources.vue"
 import GrillePrix from "./components/GrillePrix.vue"
+import VersionImprimable from "./components/VersionImprimable.vue"
 
 
 export default {
@@ -25,6 +26,8 @@ export default {
   Layout: () => {
     return h(Theme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      "doc-before": () => h(VersionImprimable, { position: "haut" }),
+      "doc-after": () => h(VersionImprimable, { position: "bas" }),
     })
   },
   enhanceApp({ app, router, siteData }) {

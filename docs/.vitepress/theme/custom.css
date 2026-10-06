@@ -145,3 +145,40 @@
   background: var(--vp-c-bg-soft);
 }
 .notes-rencontre h3 { margin-top: 1.25rem !important; font-size: 1rem; }
+
+/* Version PDF (impression) des pages de modules
+   Marge de droite élargie pour la prise de notes. */
+@media print {
+  @page { size: letter; margin: 15mm 55mm 15mm 15mm; }
+
+  .VPNav, .VPLocalNav, .VPSidebar, .VPDoc .aside, .VPDocFooter, .VPFooter,
+  .VPSkipLink, .vp-doc .header-anchor { display: none !important; }
+
+  html, body, .VPContent, .VPDoc { background: #fff !important; }
+  .VPContent { padding: 0 !important; margin: 0 !important; }
+  .VPDoc { padding: 0 !important; }
+  .VPDoc .container, .VPDoc .content, .VPDoc .content-container { max-width: none !important; margin: 0 !important; padding: 0 !important; }
+
+  .vp-doc { font-size: 10.5pt; color: #111; }
+  .vp-doc h1 { font-size: 20pt; }
+  .vp-doc h2 { font-size: 15pt; break-after: avoid; }
+  .vp-doc h3, .vp-doc h4 { break-after: avoid; }
+  .vp-doc tr, .vp-doc figure, .vp-doc pre, .vp-doc img, .vp-doc svg,
+  .vp-doc .custom-block, .vp-doc li { break-inside: avoid; }
+  .vp-doc table { display: table; width: 100%; }
+  .vp-doc a { color: inherit; text-decoration: underline; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .vp-doc button { display: none !important; }
+
+  /* Activités interactives : remplacées par un renvoi au site */
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr) > * { display: none !important; }
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr) {
+    margin: 1rem 0; padding: 0.7rem 0.9rem;
+    border: 1px dashed #999; border-radius: 0.5rem; background: #f6f6f7;
+    break-inside: avoid;
+  }
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr)::before {
+    content: "Activité interactive — à faire en classe sur le site du cours.";
+    font-size: 9.5pt; font-style: italic; color: #444;
+  }
+}
