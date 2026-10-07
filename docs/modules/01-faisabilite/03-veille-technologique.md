@@ -119,7 +119,7 @@ Trois vraies pages sur des outils qui pourraient servir à Aventure Saint-Mauric
 |:--|:--|
 | [« Best booking software for tour operators »](https://www.peekpro.com/blog/best-booking-software-for-tour-operators) — blogue de Peek Pro | Regardez l'adresse : qui arrive premier ? Comptez les boutons « Request Demo ». Les autres outils nommés restent de bonnes pistes. |
 | [« FareHarbor pricing guide »](https://www.trekksoft.com/en/blog/fareharbor-pricing-guidewhat-to-know-before-you-buy) — blogue de TrekkSoft | Un guide des prix de FareHarbor écrit par un concurrent. Devinez qui est le moins cher dans son tableau. |
-| [« Best website builders for small business »](https://tech.co/website-builders/best-website-builders-for-small-business) — tech.co | Auteur nommé et page datée, mais avis de commission. Survolez un lien vers Wix : il passe par `tech.co/go/…`. |
+| [« Best website builders for small business »](https://tech.co/website-builders/best-website-builders-for-small-business) — tech.co | Auteur nommé et page datée, mais avis de commission. Survolez un lien vers Wix : il passe par `tech.co/go/…`, ce qui permet au site d'enregistrer votre clic et de toucher une commission si vous vous abonnez. |
 
 **Essayez-le :** cherchez *FareHarbor pricing* dans Google. Parmi les dix premiers résultats, combien viennent de FareHarbor ? Combien de concurrents ? Combien de sites de comparaison (Capterra, G2, GetApp) ?
 
