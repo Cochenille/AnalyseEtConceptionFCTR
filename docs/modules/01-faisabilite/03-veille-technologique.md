@@ -175,13 +175,28 @@ Les prix changent souvent : ceux-ci ont été vérifiés le **6 octobre 2026**. 
 
 | Outil | Le piège à repérer |
 |:--|:--|
-| [Square — Nos frais (Canada)](https://squareup.com/ca/fr/payments/our-fees) | Déjà utilisé par le client. En ligne : 2,8 % + 0,30 $. Cherchez le supplément pour les cartes émises hors du Canada. |
+| [Square — Nos frais (Canada)](https://squareup.com/ca/fr/payments/our-fees) | Déjà utilisé par le client. En ligne : 2,8 % + 0,30 $. Le supplément de 1,5 % pour les cartes émises hors du Canada n'est pas sur cette page : il est dans les [conditions de paiement](https://squareup.com/ca/en/legal/general/payment) (annexe C). Une grille de prix ne dit pas toujours tout. |
 | [Checkfront](https://www.checkfront.com/pricing) (Q1) | Abonnement mensuel **et** commission par réservation en ligne, en dollars américains. |
 | [Weglot](https://www.weglot.com/pricing) (Q5) | Prix en euros, limite de mots traduits et de langues. Comparez « Monthly » et « Yearly ». |
 | [Wix — Forfaits](https://www.wix.com/plans) (Q3) | Le prix au mois suppose un paiement annuel. Que manque-t-il au forfait gratuit ? |
 | FareHarbor (Q1) | Pas d'abonnement : les frais de réservation sont ajoutés à la facture **du client**. Le modèle de prix touche aussi l'expérience client. |
 
-**Calcul rapide :** une réservation en ligne de 400 $ avec Checkfront, frais de paiement compris. Et si la carte vient des États-Unis ?
+**Calcul rapide :** une réservation en ligne de 400 $ avec Checkfront. Supposez que les frais de paiement sont ceux de Square en ligne. Combien Mélanie paie-t-elle en frais ? Et si la carte vient des États-Unis ?
+
+::: details Voir la réponse
+| Frais | Calcul | Carte canadienne | Carte américaine |
+|:--|:--|--:|--:|
+| Commission Checkfront | 3 % × 400 $ | 12,00 $ | 12,00 $ |
+| Paiement en ligne Square | 2,8 % × 400 $ + 0,30 $ | 11,50 $ | 11,50 $ |
+| Carte émise hors du Canada | 1,5 % × 400 $ | — | 6,00 $ |
+| **Total des frais** | | **23,50 $** (5,9 %) | **29,50 $** (7,4 %) |
+| **Ce que Mélanie reçoit** | | 376,50 $ | 370,50 $ |
+
+Ce qu'il faut en retenir :
+- De 6 à 7,5 % de chaque vente part en frais, **avant** l'abonnement mensuel, qui est en dollars américains.
+- La commission de Checkfront peut être refilée au client, qui paierait alors 412 $. C'est un choix d'affaires, comme avec FareHarbor.
+- Les clients de Viator sont souvent des touristes étrangers : le cas à 7,4 % risque d'être fréquent.
+:::
 
 ## Activité 2 — Trois outils, trois factures
 
