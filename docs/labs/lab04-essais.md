@@ -76,7 +76,7 @@ Pour chaque outil, notez aussi une seule fois dans la fiche : **la date**, **le 
 
 C'est la version de travail du tableau demandé dans la section 6 de l'évaluation 1. Remplissez-le dans la fiche, une colonne par outil.
 
-Ce soir, remplissez les lignes que vos essais permettent de remplir. Les lignes marquées **(maison)** se complètent après le cours, avec la section [À faire à la maison](./../modules/01-faisabilite/04-essayer-et-comparer#a-faire-a-la-maison) présentée à la fin de la matière.
+Ce soir, remplissez les lignes que vos essais permettent de remplir. La ligne marquée **(maison)** se complète après le cours, avec la section [À faire à la maison](./../modules/01-faisabilite/04-essayer-et-comparer#a-faire-a-la-maison) présentée à la fin de la matière.
 
 | Ligne | Ce qu'on y écrit | Appuyé sur |
 |:--|:--|:--|
@@ -85,8 +85,6 @@ Ce soir, remplissez les lignes que vos essais permettent de remplir. Les lignes 
 | **Modèle de prix** | Au mois, à l'utilisateur, à la transaction, avec plafond… | Page de prix, avec la date |
 | **Coût estimé sur trois ans** (maison) | En dollars canadiens, avec le calcul | Vos hypothèses, écrites sous le tableau |
 | **Temps pour apprendre** | Le temps mesuré pour la personne qui jouait Mélanie, et l'aide en français | Vos essais |
-| **Facilité d'en changer** (maison) | Ce qu'on peut exporter, dans quel format; engagement, frais de résiliation | Essai de sortie, conditions d'utilisation |
-| **Signes de pérennité** (maison) | Deux ou trois signes observés, rassurants ou inquiétants | Journal des modifications, magasin d'applications, témoignages récents |
 | **Points à vérifier** | Ce qui est resté non vérifiable, et comment le vérifier | Vos essais |
 
 <div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
@@ -125,7 +123,7 @@ Le retour en grand groupe a lieu **au début de la séance 5**. L'enseignant dé
   <li><label><input type="checkbox"><span class="check-text">Le tableau des résultats, collé depuis le journal, avec une mesure pour chaque essai fait</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les changements au plan et les imprévus, expliqués</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Au moins une capture par outil collée dans la fiche; les autres rangées dans le dossier <code>captures</code>, bien nommées</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Le tableau de comparaison rempli, y compris les lignes faites à la maison, avec les hypothèses du coût sur trois ans</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Le tableau de comparaison rempli, y compris la ligne faite à la maison, avec les hypothèses du coût sur trois ans</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Trois constats appuyés, sans recommandation</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le fichier est nommé <code>lab04-equipeN-QX.docx</code> et déposé dans l'équipe Teams du cours</span></label></li>
 </ul>

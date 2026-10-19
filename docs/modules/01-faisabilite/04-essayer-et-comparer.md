@@ -8,7 +8,7 @@ aside: false
 ## Objectifs
 - Faire les essais prévus au Lab 03 et en **documenter les résultats** : réussi, échoué ou non vérifiable, avec une mesure et une preuve.
 - Écrire un **constat appuyé**, sans jugement vague et sans recommandation.
-- Comparer des outils sur les critères de l'évaluation 1 : ce qu'ils font, le **coût sur trois ans**, le **temps pour apprendre**, la **facilité d'en sortir** et les **signes de pérennité** (ces trois derniers se complètent à la maison).
+- Comparer des outils sur les critères de l'évaluation 1 : ce qu'ils font, le **coût sur trois ans** (à compléter à la maison) et le **temps pour apprendre**.
 
 ## Déroulement de la séance
 
@@ -139,8 +139,6 @@ Ce sont les lignes du tableau demandé dans l'évaluation 1. Chaque case se remp
 | **Ce que l'outil fait** | Quels besoins essentiels du Lab 03 sont couverts ? Lesquels ne le sont pas ? | Vos essais d'abord, la documentation ensuite |
 | **Le modèle de prix et le coût sur trois ans** | Combien, au total, pour les trois premières années, en dollars canadiens ? | La page de prix (datée), et votre calcul avec ses hypothèses |
 | **Le temps pour apprendre** | Combien de temps avant que Mélanie puisse faire seule une tâche courante ? | L'essai joué par le membre qui ne connaît pas l'outil; l'aide offerte en français |
-| **La facilité d'en changer** | Si l'entreprise veut quitter l'outil dans trois ans, que peut-elle emporter ? | L'essai de sortie : export, format, fermeture du compte; les conditions d'utilisation |
-| **Les signes de pérennité** | Qu'est-ce qui indique que l'outil existera encore dans cinq ans ? | Le journal des modifications, l'historique de l'entreprise, les témoignages récents |
 
 ---
 
@@ -148,34 +146,7 @@ Ce sont les lignes du tableau demandé dans l'évaluation 1. Chaque case se remp
 
 <div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
 <strong>Pour compléter votre tableau de comparaison</strong><br>
-Trois lignes du tableau demandent plus que vos essais : la <strong>facilité d'en changer</strong>, les <strong>signes de pérennité</strong> et le <strong>coût sur trois ans</strong>. Lisez les trois sections ci-dessous, faites l'activité 2, puis complétez ces lignes dans la fiche du Lab 04 avant de la déposer.
-</div>
-
-### Lire : le verrouillage, ou la facilité d'en changer
-
-On parle de **verrouillage** (en anglais, *lock-in*) quand il coûte si cher de quitter un outil qu'on reste, même s'il ne convient plus. Le client en vit déjà un : le site actuel est sur Wix, au nom du neveu, et personne ne sait le modifier.
-
-Ce qui verrouille le plus souvent :
-- **Les données qu'on ne peut pas exporter**, ou seulement dans un format que personne d'autre ne lit. Une liste de réservations en CSV ou en Excel se réutilise; un PDF par client, beaucoup moins.
-- **Le contenu qui ne sort pas de la plateforme.** Un site fait sur un constructeur ne se transporte généralement pas tel quel chez un autre : il faut le refaire. Le [centre d'aide de Wix](https://support.wix.com/en/article/exporting-or-embedding-your-wix-site-elsewhere) l'indique clairement : un site Wix ne peut pas être hébergé ailleurs. Le nom de domaine, lui, peut changer de fournisseur.
-- **Les comptes au nom d'une personne** plutôt que de l'entreprise.
-- **Les contrats** : engagement de 12 mois, frais de résiliation, renouvellement automatique.
-
-### Lire : les signes de pérennité
-
-Personne ne peut prédire qu'un outil existera dans cinq ans. On peut toutefois **observer des signes** et les rapporter, avec leur source. Aucun signe ne suffit seul.
-
-| Plutôt rassurant | Plutôt inquiétant |
-|:--|:--|
-| Un journal des modifications avec des nouveautés récentes | Aucune nouveauté depuis plus d'un an |
-| Une application mobile mise à jour régulièrement | Une application mal notée et pas mise à jour depuis longtemps |
-| Une entreprise qui existe depuis plusieurs années, des clients nommés | Aucun nom, aucune adresse, aucune date sur le site |
-| Une page d'état du service, qui montre l'historique des pannes | Des témoignages récents de pannes sans réponse du support |
-| Des prix publics et des conditions claires | L'annonce de la fin d'une fonction ou d'un forfait |
-
-<div class="bg-slate-50 border border-slate-200 text-slate-800 rounded-lg p-4 mb-5">
-<strong>Un rachat : bon ou mauvais signe ?</strong><br>
-Quand une grande entreprise achète un outil, il a plus de moyens… mais ses prix et ses priorités peuvent changer. Exemple : le logiciel de réservation Bókun appartient à Tripadvisor, qui possède aussi Viator. Pour Aventure Saint-Maurice, est-ce un avantage ou un risque ? Les deux : c'est exactement le genre de nuance à <strong>décrire</strong> dans le rapport, sans trancher.
+Une ligne du tableau demande plus que vos essais : le <strong>coût sur trois ans</strong>. Lisez la section ci-dessous, faites l'activité 2, puis complétez cette ligne dans la fiche du Lab 04 avant de la déposer.
 </div>
 
 ### Le coût sur trois ans
@@ -214,7 +185,7 @@ Trois outils de décharge électronique <strong>fictifs</strong> pour la questio
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">Faire l'<a href="#activite-2">activité 2 — Le coût sur trois ans</a> et copier vos réponses dans vos notes</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Compléter les lignes « coût sur trois ans », « facilité d'en changer » et « signes de pérennité » du tableau de comparaison</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Compléter la ligne « coût sur trois ans » du tableau de comparaison</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Déposer la fiche du Lab 04 dans l'équipe Teams du cours</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Préparer votre <a href="./../../labs/lab04-essais#retour">présentation de 2 minutes</a> pour le retour en grand groupe du début de la séance 5</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Terminer les essais qui n'ont pas pu être faits en classe, avec les mêmes règles</span></label></li>

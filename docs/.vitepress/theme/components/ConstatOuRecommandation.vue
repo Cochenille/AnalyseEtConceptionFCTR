@@ -41,10 +41,10 @@ const PHRASES: Phrase[] = [
     reecriture: "Les deux plateformes payantes essayées n'affichent ni publicité ni suggestion de vidéos à la fin de la lecture; la plateforme gratuite affiche des vidéos d'autres chaînes (essai E5, captures en annexe A).",
   },
   {
-    texte: "Cet outil risque de disparaître bientôt.",
+    texte: "Réservio est l'outil le plus rapide.",
     reponse: "nonappuye",
-    pourquoi: "Une prédiction sans appui. On ne prédit pas l'avenir d'un outil : on rapporte les signes qu'on a observés, avec leur source.",
-    reecriture: "Le journal des modifications de l'outil n'annonce aucune nouveauté depuis mars 2025, et son application mobile n'a pas été mise à jour depuis 18 mois (App Store, consulté le 20 octobre 2026).",
+    pourquoi: "Le plus rapide pour faire quoi, et mesuré comment ? Sans la mesure, le lecteur doit vous croire sur parole. Donnez les temps, et l'essai d'où ils viennent.",
+    reecriture: "Sur téléphone, la réservation de 5 places a pris 2 min 40 s avec Réservio, contre 4 min 10 s avec PagayePro (essai E2, annexe A).",
   },
   {
     texte: "En mode avion, la liste des participants du jour ne s'est pas affichée dans l'application de Signéo (essai E3, capture Q2-Signeo-E3-01).",

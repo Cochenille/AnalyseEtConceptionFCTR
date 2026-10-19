@@ -67,7 +67,7 @@ hero:
       },
       {
         title: 'Activité 2 — Le coût sur trois ans',
-        description: 'Lire le verrouillage et la pérennité, faire le calcul, copier vos réponses, puis compléter les lignes (maison) du tableau de comparaison.',
+        description: 'Lire la section sur le coût sur trois ans, faire le calcul, copier vos réponses, puis compléter la ligne (maison) du tableau de comparaison.',
         links: [
           { text: 'À faire à la maison', href: '/modules/01-faisabilite/04-essayer-et-comparer#a-faire-a-la-maison', variant: 'primary' }
         ]
