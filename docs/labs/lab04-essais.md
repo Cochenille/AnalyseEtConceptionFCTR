@@ -49,14 +49,14 @@ Ce soir, vous ne lisez plus ce que les outils **prétendent** faire : vous véri
 
 ## Partie 1 — Les essais (environ 80 min) {#partie-1}
 
-Remplissez le journal ci-dessous pendant les essais. Recopiez d'abord votre plan (étape 1), puis passez d'un outil à l'autre avec les onglets (étape 2). Le chronomètre de chaque essai inscrit le temps dans la case « Mesure ».
+Faites les essais de votre plan et notez les résultats **directement dans la fiche du Lab 04**, partie 1. Travaillez dans la fiche placée dans le dossier partagé de l'équipe : tout le monde la voit en même temps.
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
-<strong>Copiez souvent</strong><br>
-Le journal est conservé dans ce navigateur seulement, et il peut disparaître si la cache est vidée ou si vous changez d'ordinateur. Toutes les 20 minutes, et à la fin, cliquez sur « Copier le tableau des résultats » et collez-le dans la fiche Word : il s'y colle comme un tableau.
-</div>
+Pour chaque essai et chaque outil, écrivez dans la case :
+- le **résultat** : réussi, échoué ou non vérifiable;
+- la **mesure** brute : un temps, un nombre de clics, un poids, un score;
+- ce que vous avez **observé** : un imprévu, une aide demandée, ou la raison du « non vérifiable ».
 
-<JournalEssais />
+Pour le temps, utilisez le chronomètre d'un téléphone. Nommez les captures au fur et à mesure : `Q1-Outil-E3-01.png` (question, outil, essai, numéro).
 
 <div class="bg-slate-50 border border-slate-200 text-slate-800 rounded-lg p-4 mb-5">
 <strong>Gérer le temps</strong>
@@ -120,7 +120,7 @@ Le retour en grand groupe a lieu **au début de la séance 5**. L'enseignant dé
 ## Remise
 
 <ul class="checklist">
-  <li><label><input type="checkbox"><span class="check-text">Le tableau des résultats, collé depuis le journal, avec une mesure pour chaque essai fait</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Le tableau des résultats rempli, avec une mesure pour chaque essai fait</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les changements au plan et les imprévus, expliqués</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Au moins une capture par outil collée dans la fiche; les autres rangées dans le dossier <code>captures</code>, bien nommées</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le tableau de comparaison rempli, y compris la ligne faite à la maison, avec les hypothèses du coût sur trois ans</span></label></li>

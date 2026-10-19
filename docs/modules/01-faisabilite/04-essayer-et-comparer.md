@@ -17,9 +17,10 @@ La séance se fait en deux temps : **toute la matière d'abord**, en grand group
 | Heure | Activité |
 |:--|:--|
 | 18 h 30 | Retour sur les plans d'essai du Lab 03 |
-| 18 h 40 | Documenter un essai |
-| 18 h 55 | Activité 1 — Constat, affirmation non appuyée ou recommandation ? |
-| 19 h 20 | Comparer sans recommander : les familles de solutions et les critères du tableau |
+| 18 h 40 | Des exemples concrets d'essais |
+| 18 h 50 | Documenter un essai |
+| 19 h 00 | Activité 1 — Constat, affirmation non appuyée ou recommandation ? |
+| 19 h 25 | Comparer sans recommander : les familles de solutions et les critères du tableau |
 | 19 h 35 | Les consignes du Lab 04 et ce qu'il y a à faire à la maison |
 | 19 h 45 | Pause |
 | 20 h 00 | [Lab 04 — Les essais](./../../labs/lab04-essais), en équipe, jusqu'à la fin de la soirée |
@@ -49,6 +50,28 @@ Ce soir, vous passez de la lecture à l'essai. Un plan d'essai faible se voit to
 | Réussi si l'outil fonctionne hors ligne | Réussi si, en mode avion, la liste des participants du jour et leurs allergies s'affichent |
 | Réussi si Mélanie peut s'en servir | Réussi si le membre qui n'a jamais vu l'outil change un prix en moins de 5 minutes, sans ouvrir l'aide |
 | Réussi si la vidéo ne ralentit pas le site | Réussi si le LCP mobile de la page reste sous 2,5 secondes dans PageSpeed Insights |
+
+---
+
+## Des exemples concrets d'essais
+
+Voici à quoi ressemble un essai bien préparé, puis bien noté, pour chacune des cinq questions. Les outils (A, B) et les résultats sont **inventés** pour l'exemple : ce sont vos essais qui diront ce que font les vrais outils.
+
+| Question et côté | Le scénario | Réussi si… | Le résultat, tel qu'on le note |
+|:--|:--|:--|:--|
+| **Q1** · Client, sur téléphone | Une famille de 2 adultes et 2 enfants réserve la via ferrata, samedi 10 h, départ de 8 places. | Moins de 3 minutes, sans aide, et le départ affiche ensuite 4 places restantes | **Réussi** — 2 min 50 s, 6 écrans. Le départ affiche bien 4 places. Capture `Q1-OutilA-E1-01.png` |
+| **Q1** · Mélanie | Un orage arrive : annuler tous les départs de kayak du samedi et avertir les clients. | Une seule action annule les départs et avertit tous les clients | **Échoué** — il faut annuler chacun des 7 départs séparément (11 min). Un courriel part par réservation, aucun texto. |
+| **Q2** · Guide, au quai | Téléphone en mode avion : ouvrir la liste des participants du départ de 13 h. | La liste et les allergies s'affichent sans réseau | **Non vérifiable** — l'application du guide n'est offerte qu'avec le forfait payant. À demander au vendeur, ou à vérifier dans la documentation. |
+| **Q3** · Mélanie | Le membre qui n'a jamais vu l'outil fait passer le prix du kayak à la journée de 45 $ à 49 $. | Moins de 5 minutes, sans ouvrir l'aide, et le prix est à jour sur téléphone | **Réussi** — 3 min 40 s. Une hésitation : le prix est dans le menu « Boutique », pas dans « Pages ». |
+| **Q4** · Non fonctionnel | Page test avec une vidéo d'arrière-plan de 15 secondes, mesurée dans PageSpeed Insights (mobile). | LCP sous 2,5 secondes | **Échoué** — LCP de 4,1 s, score de 58 : la vidéo pèse 18 Mo. Noté aussi : refaite en 720p sans son, elle pèse 3,2 Mo et le LCP passe à 2,2 s. |
+| **Q5** · Mélanie | Changer le prix de la via ferrata dans la version française, puis ouvrir la version anglaise. | Le prix est à jour en anglais, sans le saisir deux fois | **Réussi** — le prix suit. Mais une phrase modifiée reste en français dans la page anglaise tant qu'on ne relance pas la traduction (capture). |
+| **Toutes** · Sortie | Exporter la liste des réservations, ou du contenu, du mois. | Un fichier CSV ou Excel avec les colonnes utiles | **Réussi** — fichier CSV. Les participants d'une même réservation sont tous dans une seule cellule. |
+
+**Remarquez :**
+- Chaque scénario donne des **données précises** : qui, quoi, combien, sur quel appareil.
+- Chaque critère se vérifie par **oui ou non**, ou par un chiffre.
+- Chaque résultat donne la **mesure brute** et ce qu'on a **observé**, même quand l'essai réussit. Le détail « une phrase reste en français » vaut autant que le « réussi ».
+- Un échec dit **ce qui s'est passé**, pas seulement « échoué ».
 
 ---
 

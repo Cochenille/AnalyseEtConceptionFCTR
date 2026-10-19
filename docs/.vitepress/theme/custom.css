@@ -171,13 +171,13 @@
   .vp-doc button { display: none !important; }
 
   /* Activités interactives : remplacées par un renvoi au site */
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .je, .nq) > * { display: none !important; }
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .je, .nq) {
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq) > * { display: none !important; }
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq) {
     margin: 1rem 0; padding: 0.7rem 0.9rem;
     border: 1px dashed #999; border-radius: 0.5rem; background: #f6f6f7;
     break-inside: avoid;
   }
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .je, .nq)::before {
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq)::before {
     content: "Activité interactive — à faire en classe sur le site du cours.";
     font-size: 9.5pt; font-style: italic; color: #444;
   }

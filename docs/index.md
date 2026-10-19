@@ -45,7 +45,7 @@ hero:
       {
         title: 'Lab 04 — Les essais',
         badge: 'En équipe',
-        description: 'Après la matière, en équipe, jusqu’à la fin de la soirée. Le journal d’essais a un chronomètre; copiez souvent vos résultats dans la fiche.',
+        description: 'Après la matière, en équipe, jusqu’à la fin de la soirée. Les résultats se notent directement dans la fiche.',
         links: [
           { text: 'Lab 04', href: '/labs/lab04-essais', variant: 'primary' },
           { text: 'Fiche (Word)', href: '/fiches/lab04-fiche-essais.docx', variant: 'secondary' }

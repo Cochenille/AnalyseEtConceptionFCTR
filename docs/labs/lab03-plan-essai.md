@@ -174,6 +174,6 @@ Complétez le bas de la fiche :
 
 ## Et ensuite ?
 
-À la **séance 4 (21 octobre)**, vous ferez vos essais, avec captures et chronomètre. Le retour en grand groupe portera sur les cinq questions : pour chacune, qu'est-ce qui ressort, et pourquoi.
+À la **séance 4 (21 octobre)**, vous ferez vos essais, avec captures et chronomètre. Le retour en grand groupe, au début de la séance 5, portera sur les cinq questions : pour chacune, qu'est-ce qui ressort, et pourquoi.
 
 Dans l'**évaluation 1**, la partie « Les possibilités techniques » s'appuie directement sur ce travail : votre question en profondeur, grâce à vos essais, et les quatre autres en survol, grâce à votre propre recherche documentaire. La méthode de ce lab (sources classées, grilles de prix) vous servira pour chacune.
