@@ -17,6 +17,86 @@ hero:
       text: Calendrier
       link: /plan-cours/calendrier
 ---
+<section id="seance-4">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 4 — mercredi 21 octobre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Documenter un essai',
+        description: 'Réussi, échoué ou non vérifiable. Puis : constat, affirmation non appuyée ou recommandation ?',
+        links: [
+          { text: 'Séance 4', href: '/modules/01-faisabilite/04-essayer-et-comparer', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Lab 04 — Les essais',
+        badge: 'En équipe',
+        description: 'Le journal d’essais du site a un chronomètre. Copiez souvent vos résultats dans la fiche.',
+        links: [
+          { text: 'Lab 04', href: '/labs/lab04-essais', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab04-fiche-essais.docx', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Comparer sans recommander',
+        description: 'Les familles de solutions et les critères du tableau de comparaison.',
+        links: [
+          { text: 'Les critères du tableau', href: '/modules/01-faisabilite/04-essayer-et-comparer#comparer-sans-recommander', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Retour en grand groupe : les cinq questions',
+        description: 'Prenez des notes pour le survol des quatre autres questions.',
+        links: [
+          { text: 'Notes du retour', href: '/modules/01-faisabilite/04-essayer-et-comparer#retour-en-grand-groupe-les-cinq-questions', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="Prochaine séance le 28 octobre."
+    :steps="[
+      {
+        title: 'Déposer la fiche du Lab 04 dans Teams',
+        description: 'Travail formatif, une fiche par équipe. Elle deviendra l’annexe A du rapport.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab04-essais#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Activité 2 — Le coût sur trois ans',
+        description: 'Lire le verrouillage et la pérennité, faire le calcul, copier vos réponses, puis compléter les lignes (maison) du tableau de comparaison.',
+        links: [
+          { text: 'À faire à la maison', href: '/modules/01-faisabilite/04-essayer-et-comparer#a-faire-a-la-maison', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Écrire le premier jet de votre question',
+        description: 'Section 6 du rapport : le tableau de comparaison et les résultats résumés de vos essais.',
+        links: [
+          { text: 'Évaluation 1', href: '/evaluations/evaluation-1', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Commencer le survol des quatre autres questions',
+        description: 'Deux outils par question, page de prix datée et coût sur trois ans. Vos propres sources, pas les notes des autres équipes.',
+        links: [
+          { text: 'Avant la séance 5', href: '/modules/01-faisabilite/04-essayer-et-comparer#avant-la-seance-5-28-octobre', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
 <section id="seance-3">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>

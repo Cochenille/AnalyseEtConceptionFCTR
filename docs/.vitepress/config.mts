@@ -63,6 +63,10 @@ export default withMermaid(defineConfig({
 								text: "Séance 3 — La veille technologique",
 								link: "/modules/01-faisabilite/03-veille-technologique",
 							},
+							{
+								text: "Séance 4 — Essayer et comparer des outils",
+								link: "/modules/01-faisabilite/04-essayer-et-comparer",
+							},
 						],
 					},
 				],
@@ -74,6 +78,7 @@ export default withMermaid(defineConfig({
 					{ text: "Lab 01 — Enquête technique", link: "/labs/lab01-enquete-technique" },
 					{ text: "Lab 02 — Radiographie du mandat", link: "/labs/lab02-radiographie-mandat" },
 					{ text: "Lab 03 — Le plan d'essai", link: "/labs/lab03-plan-essai" },
+					{ text: "Lab 04 — Les essais", link: "/labs/lab04-essais" },
 				],
 			},
 			{

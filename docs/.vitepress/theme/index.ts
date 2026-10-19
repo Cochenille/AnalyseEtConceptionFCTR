@@ -18,6 +18,10 @@ import MatriceRisques from "./components/MatriceRisques.vue"
 import RetourLab01 from "./components/RetourLab01.vue"
 import TriSources from "./components/TriSources.vue"
 import GrillePrix from "./components/GrillePrix.vue"
+import ConstatOuRecommandation from "./components/ConstatOuRecommandation.vue"
+import CoutTroisAns from "./components/CoutTroisAns.vue"
+import JournalEssais from "./components/JournalEssais.vue"
+import NotesCinqQuestions from "./components/NotesCinqQuestions.vue"
 import VersionImprimable from "./components/VersionImprimable.vue"
 
 
@@ -46,6 +50,10 @@ export default {
     app.component("RetourLab01", RetourLab01);
     app.component("TriSources", TriSources);
     app.component("GrillePrix", GrillePrix);
+    app.component("ConstatOuRecommandation", ConstatOuRecommandation);
+    app.component("CoutTroisAns", CoutTroisAns);
+    app.component("JournalEssais", JournalEssais);
+    app.component("NotesCinqQuestions", NotesCinqQuestions);
   }
 }
 
