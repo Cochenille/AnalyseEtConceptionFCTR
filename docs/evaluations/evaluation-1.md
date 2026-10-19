@@ -95,7 +95,7 @@ C'est la partie la plus importante, et la plus nouvelle. Elle couvre les **cinq 
 **Votre question** (celle explorée aux séances 3 et 4), **en profondeur** :
 - le **besoin** à combler, en rappel des sections 3 et 4;
 - les **familles de solutions** possibles (par exemple : un service spécialisé, une fonction de la plateforme du site, un développement sur mesure);
-- **deux ou trois outils** existants, présentés dans un **tableau de comparaison** : ce qu'ils font, leur modèle de prix et une **estimation du coût sur trois ans**, le temps pour apprendre à s'en servir, la facilité d'en changer plus tard, les signes qu'ils existeront encore dans cinq ans;
+- **deux ou trois outils** existants, présentés dans un **tableau de comparaison** : ce qu'ils font, leur modèle de prix, une **estimation du coût sur trois ans** et le temps pour apprendre à s'en servir;
 - les **résultats de vos essais**, résumés (le détail va en annexe A);
 - les **avantages et les limites** de chacun **pour ce client-ci**, et les points qui restent à vérifier.
 
