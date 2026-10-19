@@ -36,15 +36,6 @@ hero:
         ]
       },
       {
-        title: 'Lab 04 — Les essais',
-        badge: 'En équipe',
-        description: 'Le journal d’essais du site a un chronomètre. Copiez souvent vos résultats dans la fiche.',
-        links: [
-          { text: 'Lab 04', href: '/labs/lab04-essais', variant: 'primary' },
-          { text: 'Fiche (Word)', href: '/fiches/lab04-fiche-essais.docx', variant: 'secondary' }
-        ]
-      },
-      {
         title: 'Comparer sans recommander',
         description: 'Les familles de solutions et les critères du tableau de comparaison.',
         links: [
@@ -52,10 +43,12 @@ hero:
         ]
       },
       {
-        title: 'Retour en grand groupe : les cinq questions',
-        description: 'Prenez des notes pour le survol des quatre autres questions.',
+        title: 'Lab 04 — Les essais',
+        badge: 'En équipe',
+        description: 'Après la matière, en équipe, jusqu’à la fin de la soirée. Le journal d’essais a un chronomètre; copiez souvent vos résultats dans la fiche.',
         links: [
-          { text: 'Notes du retour', href: '/modules/01-faisabilite/04-essayer-et-comparer#retour-en-grand-groupe-les-cinq-questions', variant: 'secondary' }
+          { text: 'Lab 04', href: '/labs/lab04-essais', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab04-fiche-essais.docx', variant: 'secondary' }
         ]
       }
     ]"
@@ -77,6 +70,13 @@ hero:
         description: 'Lire le verrouillage et la pérennité, faire le calcul, copier vos réponses, puis compléter les lignes (maison) du tableau de comparaison.',
         links: [
           { text: 'À faire à la maison', href: '/modules/01-faisabilite/04-essayer-et-comparer#a-faire-a-la-maison', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Préparer le retour en grand groupe',
+        description: 'Au début de la séance 5 : 2 minutes par question, une équipe désignée par question.',
+        links: [
+          { text: 'Lab 04 — partie 4', href: '/labs/lab04-essais#retour', variant: 'secondary' }
         ]
       },
       {

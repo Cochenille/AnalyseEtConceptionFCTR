@@ -135,7 +135,6 @@ Votre équipe cherche de l'information pour le projet Aventure Saint-Maurice et 
 <ol class="list-decimal pl-5">
   <li>Pour chacune, écrivez votre <strong>justification</strong> en une phrase : quel indice vous a fait trancher ?</li>
   <li>Classez-la : <strong>fiable</strong>, <strong>à vérifier</strong> ou <strong>publicitaire</strong>. La réponse s'affiche après votre choix.</li>
-  <li>À la fin, cliquez sur « Copier nos réponses » et collez-les dans le document de votre équipe.</li>
 </ol>
 </div>
 

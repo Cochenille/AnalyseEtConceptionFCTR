@@ -9,22 +9,22 @@ aside: false
 - Faire les essais prévus au Lab 03 et en **documenter les résultats** : réussi, échoué ou non vérifiable, avec une mesure et une preuve.
 - Écrire un **constat appuyé**, sans jugement vague et sans recommandation.
 - Comparer des outils sur les critères de l'évaluation 1 : ce qu'ils font, le **coût sur trois ans**, le **temps pour apprendre**, la **facilité d'en sortir** et les **signes de pérennité** (ces trois derniers se complètent à la maison).
-- Profiter du travail des autres équipes pour préparer le survol des quatre autres questions.
 
 ## Déroulement de la séance
 
+La séance se fait en deux temps : **toute la matière d'abord**, en grand groupe, puis **le reste de la soirée pour le Lab 04**, en équipe. L'enseignant reste disponible dans la réunion du cours pendant le lab.
+
 | Heure | Activité |
 |:--|:--|
-| 18 h 30 | Retour sur les plans d'essai du Lab 03 et correction des critères |
-| 18 h 45 | Documenter un essai |
+| 18 h 30 | Retour sur les plans d'essai du Lab 03 |
+| 18 h 40 | Documenter un essai |
 | 18 h 55 | Activité 1 — Constat, affirmation non appuyée ou recommandation ? |
-| 19 h 20 | [Lab 04 — Les essais](./../../labs/lab04-essais) (en équipe) |
-| 20 h 00 | Pause |
-| 20 h 15 | Lab 04 — suite des essais |
-| 21 h 00 | Comparer sans recommander : les familles de solutions et les critères du tableau |
-| 21 h 10 | Lab 04 — le tableau de comparaison et les trois constats |
-| 21 h 30 | Retour en grand groupe : les cinq questions |
-| 21 h 45 | À faire à la maison et avant la séance 5 |
+| 19 h 20 | Comparer sans recommander : les familles de solutions et les critères du tableau |
+| 19 h 35 | Les consignes du Lab 04 et ce qu'il y a à faire à la maison |
+| 19 h 45 | Pause |
+| 20 h 00 | [Lab 04 — Les essais](./../../labs/lab04-essais), en équipe, jusqu'à la fin de la soirée |
+
+Le **retour en grand groupe** sur les cinq questions aura lieu **au début de la séance 5**.
 
 ---
 
@@ -41,7 +41,7 @@ Ce soir, vous passez de la lecture à l'essai. Un plan d'essai faible se voit to
 </ul>
 </div>
 
-**Le test des deux observateurs :** deux personnes regardent le même essai, chacune de son côté. Si elles peuvent arriver à un verdict différent, le critère n'est pas assez précis. Prenez cinq minutes pour corriger vos critères **avant** de commencer.
+**Le test des deux observateurs :** deux personnes regardent le même essai, chacune de son côté. Si elles peuvent arriver à un verdict différent, le critère n'est pas assez précis. Au début du lab, prenez cinq minutes pour corriger vos critères **avant** de commencer les essais.
 
 | Critère faible | Critère mesurable |
 |:--|:--|
@@ -105,7 +105,6 @@ Les onze phrases ci-dessous viennent du brouillon d'une équipe fictive. Les out
 <ol class="list-decimal pl-5">
   <li>Classez chaque phrase. La réponse s'affiche après votre choix.</li>
   <li>Pour chaque phrase qui n'est pas un constat, écrivez votre réécriture <strong>avant</strong> de regarder celle qu'on propose. Inventez la mesure ou la source au besoin.</li>
-  <li>À la fin, cliquez sur « Copier nos réponses » et collez-les dans vos notes ou le document de l'équipe.</li>
 </ol>
 </div>
 
@@ -113,15 +112,11 @@ Les onze phrases ci-dessous viennent du brouillon d'une équipe fictive. Les out
 
 **Ce qu'il faut retenir :** derrière presque chaque recommandation, il y a un fait utile. Le travail de l'évaluation 1, c'est de **trouver ce fait et de le montrer**, pour que Mélanie puisse décider. L'évaluation 2 dira ce que vous lui conseillez.
 
-## À faire maintenant
-
-[Lab 04 — Les essais](./../../labs/lab04-essais) : partie 1, les essais, jusqu'à la pause et après.
-
 ---
 
 ## Comparer sans recommander
 
-À la fin des essais, vous avez des résultats pour deux ou trois outils. L'évaluation 1 demande de les présenter dans un **tableau de comparaison**, sur les mêmes critères, sans désigner de gagnant.
+À la fin du lab, vous aurez des résultats pour deux ou trois outils. L'évaluation 1 demande de les présenter dans un **tableau de comparaison**, sur les mêmes critères, sans désigner de gagnant.
 
 ### Les familles de solutions
 
@@ -146,31 +141,6 @@ Ce sont les lignes du tableau demandé dans l'évaluation 1. Chaque case se remp
 | **Le temps pour apprendre** | Combien de temps avant que Mélanie puisse faire seule une tâche courante ? | L'essai joué par le membre qui ne connaît pas l'outil; l'aide offerte en français |
 | **La facilité d'en changer** | Si l'entreprise veut quitter l'outil dans trois ans, que peut-elle emporter ? | L'essai de sortie : export, format, fermeture du compte; les conditions d'utilisation |
 | **Les signes de pérennité** | Qu'est-ce qui indique que l'outil existera encore dans cinq ans ? | Le journal des modifications, l'historique de l'entreprise, les témoignages récents |
-
-## À faire maintenant
-
-[Lab 04 — Les essais](./../../labs/lab04-essais) : parties 2 et 3, le tableau de comparaison et les trois constats. Remplissez ce que vos essais permettent; les lignes du coût sur trois ans, de la facilité d'en changer et de la pérennité se complètent à la maison.
-
----
-
-## Retour en grand groupe : les cinq questions
-
-**Une équipe par question** présente ses essais en **2 minutes**, sans diapositive :
-
-1. Les outils essayés, avec leur famille.
-2. **Deux constats**, dont au moins une limite.
-3. Ce qui est resté **non vérifiable**.
-
-Si deux équipes ont la même question, la deuxième ajoute seulement ce qui diffère de la première, en 30 secondes.
-
-Pendant ce temps, les autres prennent des notes. Elles serviront au **survol des quatre autres questions** dans l'évaluation 1.
-
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
-<strong>Les notes d'une autre équipe ne sont pas une source</strong><br>
-Elles vous donnent des <strong>pistes</strong> : des noms d'outils, des pièges, des pages à aller lire. Dans votre rapport, chaque information sur un outil doit venir de <strong>votre propre recherche</strong> : la page de prix, la documentation, un témoignage, avec la date de consultation.
-</div>
-
-<NotesCinqQuestions />
 
 ---
 
@@ -225,12 +195,18 @@ Montrez toujours le calcul et **les hypothèses** : nombre de réservations, de 
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Consigne (environ 20 min, seul ou en équipe)</strong><br>
-Trois outils de décharge électronique <strong>fictifs</strong> pour la question Q2. Avec les hypothèses fournies, calculez pour chacun le coût de la <strong>première année</strong> et le coût <strong>total sur trois ans</strong>, en dollars canadiens. Cliquez sur « Vérifier », puis <strong>copiez vos réponses dans vos notes</strong> : on en fera un court retour au début de la séance 5.
+Trois outils de décharge électronique <strong>fictifs</strong> pour la question Q2. Avec les hypothèses fournies, calculez pour chacun le coût de la <strong>première année</strong> et le coût <strong>total sur trois ans</strong>, en dollars canadiens. Cliquez sur « Vérifier », puis <strong>copiez vos réponses dans vos notes</strong> : on en fera un court retour au début de la séance 5, avec le retour en grand groupe sur les cinq questions.
 </div>
 
 <CoutTroisAns />
 
 **Ce qu'il faut retenir :** le classement de la première année n'est pas celui de trois ans. Et le moins cher n'est pas un choix : dans l'évaluation 1, on présente les trois coûts côte à côte, avec ce que chaque outil fait et ne fait pas.
+
+---
+
+## À faire maintenant
+
+[Lab 04 — Les essais](./../../labs/lab04-essais), en équipe, jusqu'à la fin de la soirée. Avant de partir, déposez ce que vous avez fait; la fiche se termine à la maison.
 
 ---
 
@@ -240,6 +216,7 @@ Trois outils de décharge électronique <strong>fictifs</strong> pour la questio
   <li><label><input type="checkbox"><span class="check-text">Faire l'<a href="#activite-2">activité 2 — Le coût sur trois ans</a> et copier vos réponses dans vos notes</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Compléter les lignes « coût sur trois ans », « facilité d'en changer » et « signes de pérennité » du tableau de comparaison</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Déposer la fiche du Lab 04 dans l'équipe Teams du cours</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Préparer votre <a href="./../../labs/lab04-essais#retour">présentation de 2 minutes</a> pour le retour en grand groupe du début de la séance 5</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Terminer les essais qui n'ont pas pu être faits en classe, avec les mêmes règles</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Ranger les captures dans le dossier partagé, bien nommées : elles iront dans l'annexe A</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Rédiger le premier jet de votre question dans la section 6 du rapport, avec le tableau de comparaison</span></label></li>

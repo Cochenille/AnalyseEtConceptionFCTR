@@ -179,7 +179,6 @@ Chacune des phrases ci-dessous a été prononcée pendant la rencontre. Elles on
   <li>Pour chaque phrase, écrivez dans les deux cases le <strong>problème caché</strong> et <strong>une question à poser au client</strong>.</li>
   <li>Estimez ce que ça pourrait coûter : <strong>$</strong>, <strong>$$</strong> ou <strong>$$$</strong>. Est-ce un coût unique ou annuel ?</li>
   <li>Cliquez ensuite sur « Révéler » et comparez avec votre réponse.</li>
-  <li>À la fin, cliquez sur « Copier nos réponses » et collez-les dans le document de votre équipe : vos questions resserviront à la rencontre avec le client.</li>
 </ol>
 </div>
 

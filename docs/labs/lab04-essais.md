@@ -18,7 +18,7 @@ aside: false
 <strong>Modalités</strong><br>
 <ul class="list-disc pl-5">
   <li>Avec <strong>votre équipe de la session</strong>, sur la question reçue au tirage.</li>
-  <li>Durée : environ 1 h 45 en classe, en trois blocs : les essais avant et après la pause, puis le tableau et les constats en fin de soirée. Ce qui n'est pas terminé se complète avant la séance 5.</li>
+  <li>Durée : de 20 h à la fin de la soirée, en équipe, après la matière. Vous quittez la réunion du cours pour travailler ensemble; l'enseignant reste disponible dans la réunion du cours si vous avez une question. Ce qui n'est pas terminé se complète avant la séance 5.</li>
   <li>Remise : la fiche remplie, déposée dans l'<strong>équipe Teams du cours</strong>. Travail <strong>formatif</strong>. La fiche deviendra l'annexe A et le cœur de la section 6 de l'évaluation 1.</li>
 </ul>
 </div>
@@ -47,7 +47,7 @@ Ce soir, vous ne lisez plus ce que les outils **prétendent** faire : vous véri
 
 ---
 
-## Partie 1 — Les essais (environ 85 min) {#partie-1}
+## Partie 1 — Les essais (environ 80 min) {#partie-1}
 
 Remplissez le journal ci-dessous pendant les essais. Recopiez d'abord votre plan (étape 1), puis passez d'un outil à l'autre avec les onglets (étape 2). Le chronomètre de chaque essai inscrit le temps dans la case « Mesure ».
 
@@ -72,11 +72,11 @@ Pour chaque outil, notez aussi une seule fois dans la fiche : **la date**, **le 
 
 ---
 
-## Partie 2 — Le tableau de comparaison (10 min en classe) {#partie-2}
+## Partie 2 — Le tableau de comparaison (15 min) {#partie-2}
 
 C'est la version de travail du tableau demandé dans la section 6 de l'évaluation 1. Remplissez-le dans la fiche, une colonne par outil.
 
-En classe, remplissez les lignes que vos essais permettent de remplir. Les lignes marquées **(maison)** se complètent après le cours : on verra comment à la fin de la séance.
+Ce soir, remplissez les lignes que vos essais permettent de remplir. Les lignes marquées **(maison)** se complètent après le cours, avec la section [À faire à la maison](./../modules/01-faisabilite/04-essayer-et-comparer#a-faire-a-la-maison) présentée à la fin de la matière.
 
 | Ligne | Ce qu'on y écrit | Appuyé sur |
 |:--|:--|:--|
@@ -109,9 +109,13 @@ Pas de « bon », « excellent », « ★★★★ » ni de note sur 10. Chaque 
 
 ---
 
-## Le retour en grand groupe {#retour}
+## Partie 4 — Préparer le retour en grand groupe (5 min) {#retour}
 
-Si votre équipe est désignée pour présenter sa question, prenez **2 minutes**, sans diapositive : les outils essayés avec leur famille, deux de vos constats, et ce qui est resté non vérifiable. Tout est déjà dans votre fiche.
+Le retour en grand groupe a lieu **au début de la séance 5**. L'enseignant désigne alors une équipe par question : toutes les équipes se préparent. Notez dans la fiche ce que vous direz en **2 minutes**, sans diapositive :
+
+1. Les outils essayés, avec leur famille.
+2. Deux de vos constats, dont au moins une limite.
+3. Ce qui est resté non vérifiable.
 
 ---
 
@@ -135,4 +139,4 @@ Dans l'**évaluation 1**, votre fiche devient :
 - le **tableau de comparaison** et les **résultats résumés** de votre question, dans la section 6;
 - une partie des **problèmes à prévoir et des questions au client** (section 7), grâce à vos « non vérifiables ».
 
-À la **séance 5 (28 octobre)**, on travaille l'organisation du rapport et l'écriture pour une cliente qui n'est pas du métier. Apportez votre brouillon.
+À la **séance 5 (28 octobre)**, on commence par le retour en grand groupe sur les cinq questions. On travaille ensuite l'organisation du rapport et l'écriture pour une cliente qui n'est pas du métier. Apportez votre brouillon.
