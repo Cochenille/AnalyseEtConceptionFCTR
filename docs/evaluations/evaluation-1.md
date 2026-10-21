@@ -106,7 +106,7 @@ C'est la partie la plus importante, et la plus nouvelle. Elle couvre les **cinq 
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Votre question, et les quatre autres</strong><br>
-Pour les quatre autres questions, appliquez la méthode du Lab 03 : pages de prix officielles, documentation de l'outil, témoignages d'utilisateurs, sources classées selon leur fiabilité. Sans essai, vous ne pouvez pas affirmer qu'un outil « fonctionne bien » : écrivez ce que la source annonce, citez-la, et dites ce qui resterait à vérifier. À titre indicatif : de 3 à 4 pages pour votre question, environ une page pour chacune des autres.
+Pour les quatre autres questions, appliquez la méthode du Lab 03 : pages de prix officielles, documentation de l'outil, témoignages d'utilisateurs, sources classées selon leur fiabilité. Sans essai, vous ne pouvez pas affirmer qu'un outil « fonctionne bien » : écrivez ce que la source annonce, citez-la, et dites ce qui resterait à vérifier.
 </div>
 
 ### 7. Les problèmes techniques à prévoir et les questions au client
