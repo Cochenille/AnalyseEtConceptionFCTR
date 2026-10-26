@@ -21,6 +21,8 @@ import GrillePrix from "./components/GrillePrix.vue"
 import ConstatOuRecommandation from "./components/ConstatOuRecommandation.vue"
 import CoutTroisAns from "./components/CoutTroisAns.vue"
 import NotesCinqQuestions from "./components/NotesCinqQuestions.vue"
+import EcrirePourMelanie from "./components/EcrirePourMelanie.vue"
+import ChoisirResume from "./components/ChoisirResume.vue"
 import VersionImprimable from "./components/VersionImprimable.vue"
 
 
@@ -52,6 +54,8 @@ export default {
     app.component("ConstatOuRecommandation", ConstatOuRecommandation);
     app.component("CoutTroisAns", CoutTroisAns);
     app.component("NotesCinqQuestions", NotesCinqQuestions);
+    app.component("EcrirePourMelanie", EcrirePourMelanie);
+    app.component("ChoisirResume", ChoisirResume);
   }
 }
 

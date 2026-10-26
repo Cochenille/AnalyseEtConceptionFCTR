@@ -67,6 +67,10 @@ export default withMermaid(defineConfig({
 								text: "Séance 4 — Essayer et comparer des outils",
 								link: "/modules/01-faisabilite/04-essayer-et-comparer",
 							},
+							{
+								text: "Séance 5 — Écrire pour le client",
+								link: "/modules/01-faisabilite/05-ecrire-pour-le-client",
+							},
 						],
 					},
 				],
@@ -79,6 +83,7 @@ export default withMermaid(defineConfig({
 					{ text: "Lab 02 — Radiographie du mandat", link: "/labs/lab02-radiographie-mandat" },
 					{ text: "Lab 03 — Le plan d'essai", link: "/labs/lab03-plan-essai" },
 					{ text: "Lab 04 — Les essais", link: "/labs/lab04-essais" },
+					{ text: "Lab 05 — Écrire pour Mélanie", link: "/labs/lab05-ecrire-pour-melanie" },
 				],
 			},
 			{

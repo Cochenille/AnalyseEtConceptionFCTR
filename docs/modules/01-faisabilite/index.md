@@ -14,8 +14,8 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
   <li><span class="frise-date">30 sept.</span><strong>Séance 2</strong><span class="frise-sous">Mandat, contraintes et risques · Lab 02</span></li>
   <li><span class="frise-date">7 oct.</span><strong>Séance 3</strong><span class="frise-sous">Veille technologique · Lab 03</span><span class="frise-badge">Énoncé éval. 1</span></li>
   <li class="is-pause"><span class="frise-date">14 oct.</span><strong>—</strong><span class="frise-sous">Pas de cours</span></li>
-  <li class="is-actuelle"><span class="frise-date">21 oct.</span><strong>Séance 4</strong><span class="frise-sous">Essayer et comparer · Lab 04</span></li>
-  <li><span class="frise-date">28 oct.</span><strong>Séance 5</strong></li>
+  <li><span class="frise-date">21 oct.</span><strong>Séance 4</strong><span class="frise-sous">Essayer et comparer · Lab 04</span></li>
+  <li class="is-actuelle"><span class="frise-date">28 oct.</span><strong>Séance 5</strong><span class="frise-sous">Écrire pour le client · Lab 05</span></li>
   <li><span class="frise-date">4 nov.</span><strong>Séance 6</strong></li>
   <li class="is-remise"><span class="frise-date">11 nov.</span><strong>Séance 7</strong><span class="frise-badge">Remise éval. 1 · 20&nbsp;%</span></li>
   <li><span class="frise-date">18 nov.</span><strong>Séance 8</strong><span class="frise-sous">Transition vers la partie 2</span></li>
@@ -40,3 +40,5 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
   - [Lab 03 — Le plan d'essai](./../../labs/lab03-plan-essai)
 - [Séance 4 — Essayer et comparer des outils](./04-essayer-et-comparer)
   - [Lab 04 — Les essais](./../../labs/lab04-essais)
+- [Séance 5 — Organiser le rapport et écrire pour le client](./05-ecrire-pour-le-client)
+  - [Lab 05 — Écrire pour Mélanie](./../../labs/lab05-ecrire-pour-melanie)

@@ -28,7 +28,7 @@ const notes = reactive(
 
 function texteNotes() {
   return [
-    "Séance 4 — Retour en grand groupe : notes sur les cinq questions",
+    "Séance 5 — Retour en grand groupe : notes sur les cinq questions",
     ...QUESTIONS.map((q) =>
       [`${q.cle} — ${q.titre}`, ...CHAMPS.map((c) => `   ${c.titre} : ${notes[q.cle][c.cle].trim() || "—"}`)].join("\n"),
     ),

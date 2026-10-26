@@ -17,6 +17,79 @@ hero:
       text: Calendrier
       link: /plan-cours/calendrier
 ---
+<section id="seance-5">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 5 — mercredi 28 octobre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Retour sur le Lab 04 : les cinq questions',
+        description: 'Deux minutes par question. Prenez des notes sur les quatre questions que vous n’avez pas essayées.',
+        links: [
+          { text: 'Séance 5', href: '/modules/01-faisabilite/05-ecrire-pour-le-client', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Organiser le rapport et écrire pour Mélanie',
+        description: 'Le plus important d’abord, des tableaux qui ne parlent pas seuls, et la chasse au jargon.',
+        links: [
+          { text: 'Activité 1', href: '/modules/01-faisabilite/05-ecrire-pour-le-client#activite-1', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Le résumé',
+        description: 'Ce qui va dans le résumé, et ce qui reste dans le rapport.',
+        links: [
+          { text: 'Activité 2', href: '/modules/01-faisabilite/05-ecrire-pour-le-client#activite-2', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Lab 05 — Écrire pour Mélanie',
+        badge: 'En équipe',
+        description: 'Après la matière, en équipe, directement dans le rapport de l’évaluation 1.',
+        links: [
+          { text: 'Lab 05', href: '/labs/lab05-ecrire-pour-melanie', variant: 'primary' },
+          { text: 'Gabarit (Word)', href: '/fiches/eval1-gabarit-rapport.docx', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="Prochaine séance le 4 novembre. Remise de l’évaluation 1 le 11 novembre."
+    :steps="[
+      {
+        title: 'Déposer le brouillon et le résumé dans Teams',
+        description: 'Travail formatif. Le résumé, sans vos noms, sera lu au début de la séance 6.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab05-ecrire-pour-melanie#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Terminer le survol des quatre autres questions',
+        description: 'Deux outils par question, page de prix datée, coût sur trois ans. Vos propres sources.',
+        links: [
+          { text: 'À faire à la maison', href: '/modules/01-faisabilite/05-ecrire-pour-le-client#a-faire-a-la-maison', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Avoir un rapport complet pour la séance 6',
+        description: 'Sections 3, 4, 5 et 7 au propre, annexe A faite. La séance 6 est un atelier de révision et de français.',
+        links: [
+          { text: 'Évaluation 1', href: '/evaluations/evaluation-1', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
 <section id="seance-4">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>
