@@ -1,0 +1,80 @@
+# Modèle de description de fiche. Copier ce fichier dans outils/fiches/labs/labNN.yaml,
+# puis : python outils/fiches/generer_fiche.py outils/fiches/labs/labNN.yaml
+# Les exemples ci-dessous reprennent le plan d'essai du Lab 03 pour montrer chaque type de bloc.
+
+numero: 0                      # donne le nom de remise : lab00-equipeN.docx
+fichier: lab00-fiche-modele.docx
+titre: "Modèle de fiche"
+contexte: "Mandat Aventure Saint-Maurice · Travail formatif en équipe"
+objectif: "préparer les essais que vous ferez à la séance suivante sur trois outils."
+regle: "on compare, on ne choisit pas. Le choix viendra à l'évaluation 2."
+identification:                # champs ajoutés après « Membres » et « Numéro d'équipe »
+  - "Question (Q1 à Q5)"
+
+parties:
+  - titre: "Les besoins"
+    duree: "5 min"
+    a_faire: "écrivez 6 besoins que l'outil devra couvrir, dont 2 non fonctionnels."
+    besoin: "votre fiche du Lab 02 (contraintes et exigences)."
+    blocs:
+      - type: liste
+        prefixe: B
+        rangees: 6
+        colonnes:
+          - { titre: "Que doit permettre l'outil ?", aide: "dans vos mots", largeur: 4 }
+          - { titre: "Où est-ce dans le mandat ?", aide: "document + court extrait", largeur: 4 }
+          - { titre: "E ou S ?", aide: "E : le projet échoue sans ça", largeur: 1.2 }
+        exemple:
+          - "Le client voit les places qui restent"
+          - "Doc. 3 : « on a vendu deux fois les mêmes places »"
+          - "E"
+    cochez:
+      - "Au moins 2 besoins non fonctionnels (vitesse, sécurité, accessibilité, Loi 25, appareils)"
+      - "Chaque besoin a sa source"
+
+  - titre: "Les prix"
+    duree: "10 min"
+    a_faire: "pour chacun de vos 3 outils, remplissez une colonne à partir de sa page de prix officielle."
+    blocs:
+      - type: grille
+        colonnes: ["Outil 1 :", "Outil 2 :", "Outil 3 :"]
+        lignes:
+          - { titre: "Modèle de prix", aide: "au mois, à l'utilisateur, à la transaction…", exemple: "À la transaction : 6 % par réservation" }
+          - { titre: "Estimation pour un an ($ CA)", aide: "montrez le calcul", exemple: "1 800 × 120 $ × 6 % = 12 960 $" }
+          - { titre: "Page consultée", aide: "lien et date", exemple: "exemple.com/prix, 7 oct. 2026" }
+    cochez:
+      - "Chaque prix est en dollars canadiens, pour un an"
+
+  - titre: "Le plan d'essai"
+    duree: "15 min"
+    a_faire: "écrivez 6 essais que vous ferez sur chacun de vos 3 outils."
+    besoin: "vos besoins B1 à B6 (partie 1 de cette fiche)."
+    blocs:
+      - type: liste
+        prefixe: E
+        rangees: 6
+        colonnes:
+          - { titre: "Quel besoin ?", aide: "un n° de la partie 1", largeur: 1.5 }
+          - { titre: "Que fait-on, exactement ?", aide: "qui, sur quel appareil, avec quelles données", largeur: 4 }
+          - { titre: "Que mesure-t-on ?", aide: "temps, clics, poids…", largeur: 2 }
+          - { titre: "Réussi si…", aide: "un chiffre ou un oui/non", largeur: 2.5 }
+        exemple:
+          - "B1"
+          - "Client, sur téléphone : réserver 5 des 8 places du départ de via ferrata samedi 10 h. Un 2e client regarde le même départ."
+          - "Temps de réservation; places affichées"
+          - "Moins de 3 min sans aide, et 3 places affichées"
+      - type: texte
+        consigne: "Lequel de vos outils fonctionne autrement des deux autres ? En une phrase."
+        lignes: 2
+    cochez:
+      - "Un essai côté client, sur téléphone, et un essai côté Mélanie"
+      - "Un essai de vitesse, de clavier ou de langue"
+      - "Chaque « Réussi si… » : deux personnes qui observent le même essai arriveraient au même verdict"
+
+aide:
+  - titre: "Des outils pour mesurer"
+    points:
+      - "Le temps : le chronomètre d'un téléphone. Une personne manipule, l'autre chronomètre."
+      - "Un réseau lent : Chrome, F12, onglet Réseau, « 3G lente »."
+  - titre: "Pas de prix affiché ?"
+    texte: "« Contactez-nous » est un constat : notez-le. Ne communiquez pas avec le vendeur."
