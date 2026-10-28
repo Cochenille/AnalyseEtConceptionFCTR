@@ -7,7 +7,7 @@ aside: false
 
 ## Objectifs
 - Mettre en commun les résultats des essais sur les **cinq questions** et repérer ce qu'il reste à chercher pour le survol.
-- **Organiser** une section du rapport pour qu'une lectrice pressée trouve l'essentiel : le plus important d'abord, des tableaux qui résument, un texte qui explique.
+- **Organiser** une section du rapport pour qu'une lectrice pressée trouve l'essentiel : le plus important d'abord, un tableau qui résume, un texte qui explique ce qu'il veut dire pour l'entreprise.
 - **Écrire pour Mélanie** : éviter le jargon, ou l'expliquer la première fois.
 - Choisir ce qui va dans le **résumé** et en écrire une première version.
 
@@ -67,22 +67,24 @@ Un rapport n'est pas un roman : on ne garde pas le dénouement pour la fin. Chaq
 | « Dans cette section, nous allons présenter les outils de réservation que nous avons étudiés. » | « Deux outils de réservation ont été essayés. Les deux gèrent les départs à places limitées; un seul échange les réservations avec Viator. » |
 | La phrase annonce le sujet. Le lecteur ne sait toujours rien. | La phrase donne déjà l'essentiel. Le lecteur pressé peut s'arrêter là. |
 
-### Un tableau ne parle pas seul
+### Le tableau de comparaison ne parle pas seul
 
-Un tableau sans texte oblige Mélanie à faire l'analyse elle-même. Chaque tableau du rapport a donc :
+Un tableau de comparaison sans texte oblige Mélanie à faire l'analyse elle-même. Le gabarit prévoit donc, pour chaque question de la section 6 :
 
-1. **Un numéro et un titre** : « Tableau 6 — Les outils de réservation comparés ». On peut y renvoyer : « (tableau 6) ».
-2. **Ses sources et ses hypothèses, juste en dessous** : la date de lecture des prix, le taux de change, le nombre de participants.
-3. **Un court paragraphe après**, qui dit ce que le tableau veut dire **pour l'entreprise** : deux ou trois constats, sans recommander.
+1. **Le tableau**, avec la ligne « Source(s) ou essai » remplie.
+2. **Les hypothèses du coût sur trois ans, en note** sous le tableau : la date de lecture des prix, le taux de change, le nombre de participants.
+3. **La sous-section « Avantages, limites et points à vérifier »**, qui dit ce que le tableau veut dire **pour l'entreprise** : deux ou trois constats, sans recommander.
 
 <div class="bg-slate-50 border border-slate-200 text-slate-800 rounded-lg p-4 mb-5">
-<strong>Exemple de paragraphe après un tableau</strong> (outils fictifs)<br>
-« Les deux outils gèrent les départs à places limitées, comme ceux de la via ferrata (essai E1, annexe A). Ils se distinguent surtout sur deux points. Réservio reçoit les réservations de Viator sans qu'on les recopie, ce qui touche directement les doubles réservations de l'été 2026; PagayePro ne le fait pas. En revanche, Réservio coûterait environ 2 000 $ de plus sur trois ans (tableau 6), et ses tutoriels sont offerts en anglais seulement. »
+<strong>Exemple d'avantages et de limites</strong> (outils fictifs)<br>
+« Les deux outils gèrent les départs à places limitées, comme ceux de la via ferrata (essai E1, annexe A). Ils se distinguent surtout sur deux points. Réservio reçoit les réservations de Viator sans qu'on les recopie, ce qui touche directement les doubles réservations de l'été 2026; PagayePro ne le fait pas. En revanche, Réservio coûterait environ 2 000 $ de plus sur trois ans, et ses tutoriels sont offerts en anglais seulement. »
 </div>
+
+Les autres tableaux du rapport (exigences, contraintes, risques) n'ont pas besoin d'un paragraphe chacun : le gabarit dit où va le texte, par exemple la section 4.3 pour les contraintes déterminantes.
 
 ### Les renvois
 
-Le détail va en annexe; le texte y renvoie. Un constat se termine par l'endroit où on peut le vérifier : « (essai E2, annexe A) », « (tableau 4) », « (Réservio, 2026) ». Le lecteur qui veut la preuve la trouve; celui qui est pressé continue.
+Le détail va en annexe; le texte y renvoie. Un constat se termine par l'endroit où on peut le vérifier : « (essai E2, annexe A) », « (section 4.1) », « (Réservio, 2026) ». Le lecteur qui veut la preuve la trouve; celui qui est pressé continue.
 
 ---
 
@@ -165,7 +167,7 @@ La séance 6 est un <strong>atelier de révision</strong>. Pour qu'elle vous ser
 </div>
 
 - **Terminer le survol des quatre autres questions** : pour chacune, le besoin en quelques lignes, deux outils dans un tableau court avec la page de prix datée et le coût sur trois ans, et les points qu'un essai devrait vérifier. Vos notes du retour en grand groupe donnent des pistes; les sources doivent être les vôtres.
-- **Mettre au propre les sections 3, 4 et 5** à partir de la fiche du Lab 02, en appliquant ce qu'on a vu ce soir : une phrase d'ouverture qui dit l'essentiel, des tableaux numérotés, un texte qui les explique.
+- **Mettre au propre les sections 3, 4 et 5** à partir de la fiche du Lab 02, en appliquant ce qu'on a vu ce soir : une phrase d'ouverture qui dit l'essentiel, sans jargon, et les trois contraintes déterminantes expliquées en 4.3.
 - **Écrire la section 7** : les problèmes à prévoir (vos « non vérifiables » du Lab 04 en font partie) et au moins huit questions au client, sans jargon.
 - **Reprendre le résumé** une fois le reste écrit.
 

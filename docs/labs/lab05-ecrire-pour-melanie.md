@@ -8,7 +8,7 @@ aside: false
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Objectifs du laboratoire</strong><br>
 <ul class="list-disc pl-5">
-  <li>Mettre au propre la section 6 de votre question : une phrase d'ouverture, un tableau numéroté, un texte qui l'explique pour l'entreprise.</li>
+  <li>Mettre au propre la section 6 de votre question : une phrase d'ouverture, le tableau de comparaison, les avantages et les limites pour l'entreprise.</li>
   <li>Écrire la mise en contexte et la portée du rapport.</li>
   <li>Relire le texte d'un autre membre de l'équipe comme le ferait Mélanie.</li>
   <li>Écrire une première version du résumé.</li>
@@ -53,9 +53,8 @@ Dans la **section 6**, sous votre question, mettez au propre ce que vous avez ti
   <li><label><input type="checkbox"><span class="check-text">Une <strong>phrase d'ouverture</strong> qui donne déjà l'essentiel (pas « dans cette section, nous présentons… »)</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le <strong>besoin</strong>, en rappel des sections 3 et 4, en quelques lignes</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les <strong>familles de solutions</strong>, y compris celles que vous n'avez pas essayées</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Le <strong>tableau de comparaison</strong>, avec un numéro et un titre (« Tableau 6 — … »)</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Sous le tableau : les <strong>sources datées et les hypothèses</strong> du coût sur trois ans</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Après le tableau : un <strong>paragraphe</strong> qui dit ce qu'il veut dire pour l'entreprise, avec les avantages et les limites de chaque outil <strong>pour ce client-ci</strong></span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Le <strong>tableau de comparaison</strong> du gabarit, avec la ligne « Source(s) ou essai » remplie et les <strong>hypothèses</strong> du coût sur trois ans en note</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">La sous-section <strong>« Avantages, limites et points à vérifier »</strong> : ce que le tableau veut dire pour l'entreprise, outil par outil, <strong>pour ce client-ci</strong></span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les <strong>résultats des essais</strong> résumés, chacun avec son renvoi : « (essai E2, annexe A) »</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les <strong>points qui restent à vérifier</strong> (vos « non vérifiables »)</span></label></li>
 </ul>
@@ -97,7 +96,7 @@ Chaque membre relit une section **qu'il n'a pas écrite**, en se mettant dans la
 | Un terme que Mélanie ne comprendrait pas | « Jargon : à éviter ou à expliquer » |
 | Une phrase qu'il faut lire deux fois | « Trop long : couper en deux » |
 | Une affirmation sans mesure ni source | « D'où vient ce fait ? » |
-| Un tableau sans paragraphe après | « Qu'est-ce que ça veut dire pour l'entreprise ? » |
+| Des avantages et des limites qui répètent le tableau | « Qu'est-ce que ça veut dire pour l'entreprise ? » |
 | Une recommandation, même déguisée | « Recommandation : garder le fait, retirer le choix » |
 
 Pour finir, faites une recherche (<kbd>Ctrl</kbd>+<kbd>F</kbd>) dans tout le rapport : `recommand`, `il faudrait`, `devrait`, `meilleur`, `idéal`, `privilégier`. Chaque résultat se règle avant la remise.
@@ -135,7 +134,7 @@ Au début de la **séance 6**, l'enseignant lira quelques résumés **sans nomme
 ## Remise
 
 <ul class="checklist">
-  <li><label><input type="checkbox"><span class="check-text">La section 6 de votre question est mise au propre : phrase d'ouverture, tableau numéroté avec ses hypothèses, paragraphe d'explication, renvois à l'annexe A</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">La section 6 de votre question est mise au propre : phrase d'ouverture, tableau de comparaison avec ses hypothèses, avantages et limites, renvois à l'annexe A</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">La section 2 contient la portée du rapport</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Chaque section a été relue par un autre membre de l'équipe; les commentaires sont réglés ou notés pour plus tard</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le brouillon est nommé <code>lab05-equipeN-brouillon.docx</code> et le résumé seul, sans vos noms, <code>lab05-equipeN-resume.docx</code></span></label></li>
