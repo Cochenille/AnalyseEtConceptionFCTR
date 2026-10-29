@@ -75,6 +75,11 @@ Le problème : sur le Web, une bonne partie de l'information sur les outils est 
 | **Comparatifs** | Articles « les 10 meilleurs… », vidéos « j'ai testé… » | Trouver des noms d'outils… et c'est tout, tant qu'on n'a pas vérifié qui paie |
 | **Assistants d'IA** | ChatGPT, Copilot, Claude | Trouver des pistes et du vocabulaire. Jamais une source en soi : tout est à vérifier |
 
+<div class="hors-rapport">
+<strong>Comme source citée dans le rapport</strong><br>
+Un comparatif « les 10 meilleurs… » qu'on n'a pas vérifié, ou une réponse d'un assistant d'IA. Ils servent à <strong>trouver</strong> des noms d'outils; dans le rapport, on cite la source qu'on a ensuite vérifiée : la page de prix, la documentation, votre essai.
+</div>
+
 #### Exemples réels : des sources fiables
 
 Ouvrez chaque lien et cherchez **qui parle**, **la date** et **l'absence de produit à vendre**.
@@ -99,7 +104,7 @@ Un piège vécu en préparant ce cours : la page de l'OQLF sur les sites Web sor
 
 ### Reconnaître une publicité déguisée en comparatif
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <strong>Les indices qui doivent allumer une lumière</strong><br>
 <ul class="list-disc pl-5">
   <li>Le comparatif est publié <strong>par l'un des outils comparés</strong>… qui arrive premier.</li>
@@ -157,7 +162,7 @@ Les outils Web se paient rarement « une fois ». Presque tous sont des **abonne
 
 ### Les pièges d'une grille de prix
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <ul class="list-disc pl-5">
   <li><strong>Le prix en dollars américains.</strong> 100 $ US, ce n'est pas 100 $ CA.</li>
   <li><strong>« Facturé annuellement ».</strong> Le prix affiché au mois suppose souvent un engagement de 12 mois payé d'avance. Au mois, c'est plus cher.</li>
@@ -218,7 +223,7 @@ Lire la documentation d'un outil, c'est savoir ce qu'il **prétend** faire. L'es
 |:--|:--|
 | **Les mêmes manipulations sur chaque outil**, dans le même ordre | Sinon, on compare des pommes et des oranges. |
 | **Des scénarios tirés du mandat**, pas de la démonstration du vendeur | « Une famille de 4 réserve la via ferrata pour samedi 10 h », pas « créer un produit test ». |
-| **On note le temps** que prend chaque manipulation | « Facile » ne veut rien dire. « 4 minutes, sans aide » veut dire quelque chose. |
+| **On note le temps** que prend chaque manipulation | <span class="non">« Facile »</span> ne veut rien dire. <span class="oui">« 4 minutes, sans aide »</span> veut dire quelque chose. |
 | **On prend des captures d'écran** | Elles serviront de preuves dans le rapport. |
 | **On note ce qui ne fonctionne pas** ou ce qui est bloqué dans la version d'essai | Un échec est un résultat aussi important qu'un succès. |
 | **On essaie des deux côtés** : le client qui réserve, et Mélanie qui gère | Un outil peut être agréable pour l'un et pénible pour l'autre. |

@@ -100,7 +100,7 @@ Lisez-le en équipe : le courriel du client, les notes de la première rencontre
 | **Personnel** | Qui fera le travail, **avant** et **après** le lancement ? Avec quelles compétences ? Quand est-il disponible ? | Mélanie seule l'hiver, débordée l'été. Des guides différents chaque année. |
 | **Technologie** | Qu'est-ce qui **existe déjà** et qu'il faut garder, remplacer ou relier ? | Wix, Square, Viator, Google Workspace, le nom de domaine, l'Excel. |
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <strong>Pièges fréquents</strong><br>
 <ul class="list-disc pl-5">
   <li><strong>Prendre le budget annoncé pour le budget réel.</strong> Le client a donné un chiffre pour la construction. Il n'a pas pensé aux abonnements, aux frais par transaction ni à l'entretien.</li>

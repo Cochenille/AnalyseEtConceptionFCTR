@@ -101,7 +101,7 @@ Même un site « gratuit » a des **limites techniques** qui décident de ce qu'
 | **Services externes** | Réservation, paiement, livraison, infolettre | Libro, OpenTable, Stripe… | Abonnement ou frais par transaction |
 | **Navigateurs et appareils** | Afficher le site | Le visiteur | — mais il faut **tester** sur plusieurs |
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <strong>Pièges fréquents</strong><br>
 <ul class="list-disc pl-5">
   <li><strong>Confondre nom de domaine et hébergement.</strong> On peut louer le nom chez une entreprise et héberger le site chez une autre.</li>

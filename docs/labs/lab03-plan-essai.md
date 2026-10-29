@@ -107,7 +107,7 @@ Pour chacun de vos trois outils, ouvrez la **page de prix officielle** et rempli
 | **Estimation pour un an, en $ CA** | Votre calcul, avec les hypothèses de l'activité 2 |
 | **Essai gratuit** | Durée, carte de crédit exigée ?, fonctions bloquées pendant l'essai |
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <strong>Pas de prix affiché ?</strong><br>
 « Contactez-nous pour une soumission » est un constat en soi : notez-le. Ne communiquez pas avec le vendeur au nom d'Aventure Saint-Maurice. Si vous trouvez un prix ailleurs (un témoignage, un comparatif), indiquez la source et son classement.
 </div>

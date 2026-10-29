@@ -87,7 +87,7 @@ Ce soir, remplissez les lignes que vos essais permettent de remplir. La ligne ma
 | **Temps pour apprendre** | Le temps mesuré pour la personne qui jouait Mélanie, et l'aide en français | Vos essais |
 | **Points à vérifier** | Ce qui est resté non vérifiable, et comment le vérifier | Vos essais |
 
-<div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
+<div class="hors-rapport">
 <strong>Aucune case ne juge</strong><br>
 Pas de « bon », « excellent », « ★★★★ » ni de note sur 10. Chaque case contient un fait : une mesure, un prix, un format, une date. Pas de colonne « gagnant » non plus.
 </div>

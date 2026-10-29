@@ -36,9 +36,14 @@ Le **retour en grand groupe** sur le Lab 05 aura lieu **au début de la séance 
 
 Une équipe par question présente en **2 minutes** : les outils essayés et leur famille, deux constats dont une limite, et ce qui est resté non vérifiable. L'enseignant désigne les équipes au début du retour.
 
-Pendant les présentations, prenez des notes sur les **quatre questions que vous n'avez pas essayées**. Elles vous donnent des pistes pour votre survol, rien de plus : dans le rapport, chaque information sur ces questions doit venir de **votre propre recherche**, avec vos sources.
+Pendant les présentations, prenez des notes sur les **quatre questions que vous n'avez pas essayées**. Elles vous donnent des pistes pour votre survol, rien de plus.
 
 <NotesCinqQuestions />
+
+<div class="hors-rapport">
+<strong>Les notes prises pendant les présentations des autres équipes</strong><br>
+Ni copiées, ni reformulées : ce sont leurs essais, pas les vôtres. Elles vous disent <strong>où chercher</strong>. Dans le rapport, chaque information sur ces quatre questions vient de <strong>votre propre recherche</strong>, avec vos sources : la page de prix datée, la documentation de l'outil.
+</div>
 
 ---
 
@@ -62,17 +67,21 @@ Mélanie ne lira pas votre rapport du début à la fin, d'un seul trait. Elle va
 
 Un rapport n'est pas un roman : on ne garde pas le dénouement pour la fin. Chaque section commence par une phrase qui dit **ce qu'elle montre**, puis donne les détails.
 
+<div class="col-non-1 col-oui-2">
+
 | Ce qu'on écrit souvent | Ce qu'on écrit plutôt |
 |:--|:--|
 | « Dans cette section, nous allons présenter les outils de réservation que nous avons étudiés. » | « Deux outils de réservation ont été essayés. Les deux gèrent les départs à places limitées; un seul échange les réservations avec Viator. » |
 | La phrase annonce le sujet. Le lecteur ne sait toujours rien. | La phrase donne déjà l'essentiel. Le lecteur pressé peut s'arrêter là. |
+
+</div>
 
 ### Le tableau de comparaison ne parle pas seul
 
 Un tableau de comparaison sans texte oblige Mélanie à faire l'analyse elle-même. Le gabarit prévoit donc, pour chaque question de la section 6 :
 
 1. **Le tableau**, avec la ligne « Source(s) ou essai » remplie.
-2. **Les hypothèses du coût sur trois ans, en note** sous le tableau : la date de lecture des prix, le taux de change, le nombre de participants.
+2. **Les hypothèses du coût sur trois ans**, écrites dans le rapport, juste sous le tableau : la date de lecture des prix, le taux de change, le nombre de participants.
 3. **La sous-section « Avantages, limites et points à vérifier »**, qui dit ce que le tableau veut dire **pour l'entreprise** : deux ou trois constats, sans recommander.
 
 <div class="bg-slate-50 border border-slate-200 text-slate-800 rounded-lg p-4 mb-5">
@@ -101,7 +110,7 @@ Mélanie est « correcte avec Facebook et Excel, pas plus ». Un rapport qu'elle
 
 <div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
 <strong>Simplifier, ce n'est pas devenir vague</strong><br>
-« La page est lente » est simple, mais ce n'est plus un constat. Gardez la mesure et la source; changez seulement les mots qui l'entourent : « Sur téléphone, la page met 4,1 secondes à afficher son contenu principal (PageSpeed Insights, 20 octobre 2026). »
+<span class="non">« La page est lente »</span> est simple, mais ce n'est plus un constat. Gardez la mesure et la source; changez seulement les mots qui l'entourent : <span class="oui">« Sur téléphone, la page met 4,1 secondes à afficher son contenu principal (PageSpeed Insights, 20 octobre 2026). »</span>
 </div>
 
 ### Activité 1 — Écrire pour Mélanie {#activite-1}
@@ -125,6 +134,8 @@ Six phrases tirées du brouillon d'une équipe fictive. Les outils sont inventé
 
 Le résumé est la **première chose** que Mélanie lira, et peut-être la seule. Il tient en une **demi-page** et se lit sans le reste du rapport.
 
+<div class="col-oui-1 col-non-2">
+
 | Il contient | Il ne contient pas |
 |:--|:--|
 | Ce que le projet demande, en deux ou trois phrases | La table des matières en phrases (« ce rapport présente le contexte, les exigences… ») |
@@ -132,8 +143,10 @@ Le résumé est la **première chose** que Mélanie lira, et peut-être la seule
 | Ce qui suivra : la proposition technique (évaluation 2), et les points qui restent à vérifier avec le client | Une recommandation, ni même un « nous verrons que la meilleure solution… » |
 | | Un terme technique qui n'est expliqué que plus loin |
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
-<strong>Un résumé qui ne résume pas</strong><br>
+</div>
+
+<div class="hors-rapport">
+<strong>Exemple à ne pas suivre : un résumé qui ne résume pas</strong><br>
 « Ce rapport présente l'évaluation technique du projet d'Aventure Saint-Maurice. Nous y décrivons d'abord le contexte, puis les exigences, les contraintes et les risques. Nous présentons ensuite les possibilités techniques pour les cinq questions. »<br>
 Après trois phrases, Mélanie ne sait <strong>rien</strong> de plus sur son projet.
 </div>
@@ -166,7 +179,7 @@ Une équipe fictive a terminé son rapport. Voici dix phrases tirées de ses sec
 La séance 6 est un <strong>atelier de révision</strong>. Pour qu'elle vous serve, le rapport doit être <strong>complet</strong>, même imparfait : chaque section a du contenu, et il ne reste que la relecture à faire.
 </div>
 
-- **Terminer le survol des quatre autres questions** : pour chacune, le besoin en quelques lignes, deux outils dans un tableau court avec la page de prix datée et le coût sur trois ans, et les points qu'un essai devrait vérifier. Vos notes du retour en grand groupe donnent des pistes; les sources doivent être les vôtres.
+- **Terminer le survol des quatre autres questions** : pour chacune, le besoin en quelques lignes, deux outils dans un tableau court avec la page de prix datée et le coût sur trois ans, et les points qu'un essai devrait vérifier. Vos notes du retour en grand groupe donnent des pistes, mais <span class="non">elles ne vont pas dans le rapport</span> : les sources doivent être les vôtres.
 - **Mettre au propre les sections 3, 4 et 5** à partir de la fiche du Lab 02, en appliquant ce qu'on a vu ce soir : une phrase d'ouverture qui dit l'essentiel, sans jargon, et les trois contraintes déterminantes expliquées en 4.3.
 - **Écrire la section 7** : les problèmes à prévoir (vos « non vérifiables » du Lab 04 en font partie) et au moins huit questions au client, sans jargon.
 - **Reprendre le résumé** une fois le reste écrit.

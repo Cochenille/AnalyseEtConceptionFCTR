@@ -44,12 +44,16 @@ Ce soir, vous passez de la lecture à l'essai. Un plan d'essai faible se voit to
 
 **Le test des deux observateurs :** deux personnes regardent le même essai, chacune de son côté. Si elles peuvent arriver à un verdict différent, le critère n'est pas assez précis. Au début du lab, prenez cinq minutes pour corriger vos critères **avant** de commencer les essais.
 
+<div class="col-non-1 col-oui-2">
+
 | Critère faible | Critère mesurable |
 |:--|:--|
 | Réussi si la réservation est rapide | Réussi si la réservation de 5 places prend moins de 3 minutes sur téléphone, sans aide |
 | Réussi si l'outil fonctionne hors ligne | Réussi si, en mode avion, la liste des participants du jour et leurs allergies s'affichent |
 | Réussi si Mélanie peut s'en servir | Réussi si le membre qui n'a jamais vu l'outil change un prix en moins de 5 minutes, sans ouvrir l'aide |
 | Réussi si la vidéo ne ralentit pas le site | Réussi si le LCP mobile de la page reste sous 2,5 secondes dans PageSpeed Insights |
+
+</div>
 
 ---
 
@@ -94,7 +98,7 @@ C'est un résultat honnête, à condition d'écrire <strong>pourquoi</strong> et
 
 ### Ce qu'on note pour chaque essai
 
-- **La mesure brute :** « 2 min 40 s », « 14 clics », « 3,8 Mo », « score de 62 ». Pas « assez vite ».
+- **La mesure brute :** « 2 min 40 s », « 14 clics », « 3,8 Mo », « score de 62 ». Pas <span class="non">« assez vite »</span>.
 - **Le résultat :** réussi, échoué ou non vérifiable.
 - **Ce qu'on a observé :** un message d'erreur, une étape inattendue, une fonction introuvable, une aide demandée.
 - **La preuve :** au moins une capture d'écran, nommée pour qu'on la retrouve : `Q1-Checkfront-E3-01.png` (question, outil, essai, numéro).
@@ -118,9 +122,9 @@ Dans l'évaluation 1, la section 6 décrit les possibilités techniques. Chaque 
 
 | Sorte de phrase | Ce qui la trahit | Ce qu'on en fait |
 |:--|:--|:--|
-| **Constat appuyé** | Une mesure, une date, une source, un renvoi à un essai | On la garde |
-| **Affirmation non appuyée** | *facile*, *rapide*, *complet*, *performant*, *tout le monde*, *risque de*… sans preuve | On la remplace par ce qu'on a mesuré ou lu |
-| **Recommandation** | *nous recommandons*, *il faudrait*, *devrait*, *le meilleur choix*, *à privilégier*, *idéalement* | On la retire de l'évaluation 1 et on garde le fait qui se cache derrière |
+| <span class="oui">**Constat appuyé**</span> | Une mesure, une date, une source, un renvoi à un essai | On la garde |
+| <span class="non">**Affirmation non appuyée**</span> | *facile*, *rapide*, *complet*, *performant*, *tout le monde*, *risque de*… sans preuve | On la remplace par ce qu'on a mesuré ou lu |
+| <span class="non">**Recommandation**</span> | *nous recommandons*, *il faudrait*, *devrait*, *le meilleur choix*, *à privilégier*, *idéalement* | On la retire de l'évaluation 1 et on garde le fait qui se cache derrière |
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Consigne (15 min, en équipe, puis retour en grand groupe)</strong><br>
@@ -140,6 +144,15 @@ Les onze phrases ci-dessous viennent du brouillon d'une équipe fictive. Les out
 ## Comparer sans recommander
 
 À la fin du lab, vous aurez des résultats pour deux ou trois outils. L'évaluation 1 demande de les présenter dans un **tableau de comparaison**, sur les mêmes critères, sans désigner de gagnant.
+
+<div class="hors-rapport">
+<strong>Dans le tableau de comparaison</strong><br>
+<ul class="list-disc pl-5">
+  <li>Une colonne ou une ligne « gagnant », « meilleur choix », « à privilégier ».</li>
+  <li>Des jugements à la place des faits : « bon », « excellent », « ★★★★ », une note sur 10.</li>
+  <li>Une case sans source : chaque case vient de vos essais ou d'une source citée.</li>
+</ul>
+</div>
 
 ### Les familles de solutions
 

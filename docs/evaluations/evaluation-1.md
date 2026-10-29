@@ -26,7 +26,7 @@ Studio Web FC, c'est vous. [Aventure Saint-Maurice](./../mandat/) vous a demand�
 
 Ce rapport est la **première moitié** d'un seul document. L'évaluation 2 (remise le 9 décembre) le complétera avec la **proposition technique** : les choix recommandés, les coûts et l'échéancier.
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="hors-rapport">
 <strong>Ce rapport décrit. Il ne recommande rien.</strong><br>
 Vous présentez les possibilités, leurs avantages, leurs limites et leurs coûts, sans trancher. Des phrases comme « nous recommandons », « le meilleur choix est » ou « il faudrait prendre » n'ont pas leur place ici : elles appartiennent à l'évaluation 2. Un rapport qui recommande perd des points au critère 6.
 </div>

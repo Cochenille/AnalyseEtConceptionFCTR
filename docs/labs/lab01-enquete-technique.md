@@ -111,7 +111,7 @@ Sur la page d'accueil de chaque site, cliquez sur l'icône **Wappalyzer**.
   <li><label><input type="checkbox"><span class="check-text">Les bibliothèques JavaScript et leurs versions (p. ex. jQuery)</span></label></li>
 </ul>
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <strong>Wappalyzer peut se tromper</strong><br>
 Il devine les technologies à partir d'indices. Il en rate parfois, ou en voit qui n'y sont pas. Si un résultat vous surprend, cherchez une preuve dans le code source (partie 5).
 </div>

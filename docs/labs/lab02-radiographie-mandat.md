@@ -67,7 +67,7 @@ Relevez **au moins 15 contraintes** dans le mandat. Pour chacune, remplissez une
 </ul>
 </div>
 
-<div class="bg-red-50 border border-red-300 text-red-900 rounded-lg p-4 mb-5">
+<div class="bg-orange-50 border border-orange-300 text-orange-900 rounded-lg p-4 mb-5">
 <strong>Une contrainte n'est pas un souhait</strong><br>
 « Le client veut une vidéo plein écran » est un souhait. « Le site doit bien s'afficher avec un réseau cellulaire faible » est une contrainte. Si vous hésitez, demandez-vous : <em>est-ce que ça limite nos choix ?</em>
 </div>

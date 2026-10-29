@@ -146,6 +146,66 @@
 }
 .notes-rencontre h3 { margin-top: 1.25rem !important; font-size: 1rem; }
 
+/* Ce qui ne va PAS dans le rapport.
+   Le rouge est réservé à ce sens; les pièges et mises en garde sont en orange. */
+.hors-rapport {
+  position: relative;
+  margin: 1.25rem 0 1.5rem;
+  padding: 1.6rem 1rem 0.9rem;
+  border: 2px solid var(--color-red-500);
+  border-left-width: 6px;
+  border-radius: 0.6rem;
+  background: var(--color-red-50);
+  color: var(--color-red-950);
+}
+.hors-rapport::before {
+  content: "✗ Ne va pas dans le rapport";
+  position: absolute;
+  top: -0.75rem;
+  left: 0.75rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  background: var(--color-red-600);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.dark .hors-rapport { background: rgba(239, 68, 68, 0.12); color: var(--color-red-100); }
+
+/* Dans le texte : ce qu'on n'écrit pas (rouge) et ce qu'on écrit (vert) */
+.vp-doc .non,
+.vp-doc .oui { font-weight: 500; }
+.vp-doc .non { color: var(--color-red-700); }
+.vp-doc .oui { color: var(--color-green-700); }
+.vp-doc .non::before { content: "✗ "; font-weight: 700; }
+.vp-doc .oui::before { content: "✓ "; font-weight: 700; }
+.dark .vp-doc .non { color: var(--color-red-400); }
+.dark .vp-doc .oui { color: var(--color-green-400); }
+
+/* Tableaux de contraste : une rangée qui contient .non ou .oui est teintée */
+.vp-doc tr:has(td:first-child .non) { background: var(--color-red-50); }
+.vp-doc tr:has(td:first-child .oui) { background: var(--color-green-50); }
+.dark .vp-doc tr:has(td:first-child .non) { background: rgba(239, 68, 68, 0.1); }
+.dark .vp-doc tr:has(td:first-child .oui) { background: rgba(34, 197, 94, 0.1); }
+
+/* Tableaux de contraste par colonne : <div class="col-non-1 col-oui-2"> autour du tableau */
+.vp-doc .col-non-1 :is(th, td):nth-child(1),
+.vp-doc .col-non-2 :is(th, td):nth-child(2) { background: var(--color-red-50); color: var(--color-red-900); }
+.vp-doc .col-oui-1 :is(th, td):nth-child(1),
+.vp-doc .col-oui-2 :is(th, td):nth-child(2) { background: var(--color-green-50); color: var(--color-green-900); }
+.vp-doc .col-non-1 th:nth-child(1)::before,
+.vp-doc .col-non-2 th:nth-child(2)::before { content: "✗ "; color: var(--color-red-600); }
+.vp-doc .col-oui-1 th:nth-child(1)::before,
+.vp-doc .col-oui-2 th:nth-child(2)::before { content: "✓ "; color: var(--color-green-600); }
+.vp-doc .col-non-1 th:nth-child(1),
+.vp-doc .col-non-2 th:nth-child(2) { border-top: 3px solid var(--color-red-500); }
+.vp-doc .col-oui-1 th:nth-child(1),
+.vp-doc .col-oui-2 th:nth-child(2) { border-top: 3px solid var(--color-green-500); }
+.dark .vp-doc :is(.col-non-1 :is(th, td):nth-child(1), .col-non-2 :is(th, td):nth-child(2)) { background: rgba(239, 68, 68, 0.1); color: var(--color-red-100); }
+.dark .vp-doc :is(.col-oui-1 :is(th, td):nth-child(1), .col-oui-2 :is(th, td):nth-child(2)) { background: rgba(34, 197, 94, 0.1); color: var(--color-green-100); }
+
 /* Version PDF (impression) des pages de modules
    Marge de droite élargie pour la prise de notes. */
 @media print {
