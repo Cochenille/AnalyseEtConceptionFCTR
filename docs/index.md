@@ -161,7 +161,7 @@ hero:
       },
       {
         title: 'Commencer le survol des quatre autres questions',
-        description: 'Deux outils par question, page de prix datée et coût sur trois ans. Vos propres sources, pas les notes des autres équipes.',
+        description: 'Deux outils par question, page de prix datée et coût sur trois ans. Vos notes du retour en grand groupe et vos propres sources.',
         links: [
           { text: 'Avant la séance 5', href: '/modules/01-faisabilite/04-essayer-et-comparer#avant-la-seance-5-28-octobre', variant: 'secondary' }
         ]

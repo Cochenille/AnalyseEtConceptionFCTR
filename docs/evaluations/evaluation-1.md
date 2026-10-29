@@ -99,7 +99,7 @@ C'est la partie la plus importante, et la plus nouvelle. Elle couvre les **cinq 
 - les **résultats de vos essais**, résumés (le détail va en annexe A);
 - les **avantages et les limites** de chacun **pour ce client-ci**, et les points qui restent à vérifier.
 
-**Les quatre autres questions**, **en survol**, à partir de **votre propre recherche documentaire** (sans essais) :
+**Les quatre autres questions**, **en survol**, à partir de **votre propre recherche documentaire** et de vos **notes du retour en grand groupe** de la séance 5, en indiquant d'où vient l'information (sans essais de votre part) :
 - le **besoin** à combler, en quelques lignes;
 - **deux outils** existants, dans un **tableau court** : ce qu'ils font, leur modèle de prix, une **estimation du coût sur trois ans** et la principale limite pour ce client;
 - les **points qu'un essai devrait vérifier** avant de pouvoir choisir.

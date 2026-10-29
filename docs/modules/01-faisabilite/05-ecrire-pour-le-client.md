@@ -36,14 +36,9 @@ Le **retour en grand groupe** sur le Lab 05 aura lieu **au début de la séance 
 
 Une équipe par question présente en **2 minutes** : les outils essayés et leur famille, deux constats dont une limite, et ce qui est resté non vérifiable. L'enseignant désigne les équipes au début du retour.
 
-Pendant les présentations, prenez des notes sur les **quatre questions que vous n'avez pas essayées**. Elles vous donnent des pistes pour votre survol, rien de plus.
+Pendant les présentations, prenez des notes sur les **quatre questions que vous n'avez pas essayées**. Vous pouvez vous en servir dans le survol de ces questions, en indiquant d'où vient l'information (par exemple : « essai de l'équipe 3, séance 5 »), et les compléter par votre propre recherche.
 
 <NotesCinqQuestions />
-
-<div class="hors-rapport">
-<strong>Les notes prises pendant les présentations des autres équipes</strong><br>
-Ni copiées, ni reformulées : ce sont leurs essais, pas les vôtres. Elles vous disent <strong>où chercher</strong>. Dans le rapport, chaque information sur ces quatre questions vient de <strong>votre propre recherche</strong>, avec vos sources : la page de prix datée, la documentation de l'outil.
-</div>
 
 ---
 
@@ -179,7 +174,7 @@ Une équipe fictive a terminé son rapport. Voici dix phrases tirées de ses sec
 La séance 6 est un <strong>atelier de révision</strong>. Pour qu'elle vous serve, le rapport doit être <strong>complet</strong>, même imparfait : chaque section a du contenu, et il ne reste que la relecture à faire.
 </div>
 
-- **Terminer le survol des quatre autres questions** : pour chacune, le besoin en quelques lignes, deux outils dans un tableau court avec la page de prix datée et le coût sur trois ans, et les points qu'un essai devrait vérifier. Vos notes du retour en grand groupe donnent des pistes, mais <span class="non">elles ne vont pas dans le rapport</span> : les sources doivent être les vôtres.
+- **Terminer le survol des quatre autres questions** : pour chacune, le besoin en quelques lignes, deux outils dans un tableau court avec la page de prix datée et le coût sur trois ans, et les points qu'un essai devrait vérifier. Vous pouvez utiliser vos notes du retour en grand groupe, en indiquant d'où vient l'information, et les compléter par votre propre recherche.
 - **Mettre au propre les sections 3, 4 et 5** à partir de la fiche du Lab 02, en appliquant ce qu'on a vu ce soir : une phrase d'ouverture qui dit l'essentiel, sans jargon, et les trois contraintes déterminantes expliquées en 4.3.
 - **Écrire la section 7** : les problèmes à prévoir (vos « non vérifiables » du Lab 04 en font partie) et au moins huit questions au client, sans jargon.
 - **Reprendre le résumé** une fois le reste écrit.
@@ -191,7 +186,7 @@ La séance 6 est un <strong>atelier de révision</strong>. Pour qu'elle vous ser
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">Copier vos réponses des activités 1 et 2, et vos notes sur les cinq questions, dans vos notes</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Déposer le brouillon du Lab 05 et le résumé dans l'équipe Teams du cours</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Terminer le survol des quatre autres questions, avec vos propres sources</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Terminer le survol des quatre autres questions, avec vos notes du retour et vos propres sources</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Mettre au propre les sections 3, 4 et 5, et écrire la section 7</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Faire l'annexe A (vos essais) et commencer les annexes B et C</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Apporter un rapport complet à la séance 6 : on y fait la révision et le français</span></label></li>
