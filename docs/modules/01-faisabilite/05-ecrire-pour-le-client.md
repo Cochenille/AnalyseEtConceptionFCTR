@@ -73,7 +73,7 @@ Un rapport n'est pas un roman : on ne garde pas le dénouement pour la fin. Chaq
 
 ### Le tableau de comparaison ne parle pas seul
 
-Un tableau de comparaison sans texte oblige Mélanie à faire l'analyse elle-même. Le gabarit prévoit donc, pour chaque question de la section 6 :
+Un tableau de comparaison sans texte oblige Mélanie à faire l'analyse elle-même. Le gabarit prévoit donc, pour votre question (section 6.1, en profondeur) :
 
 1. **Le tableau**, avec la ligne « Source(s) ou essai » remplie.
 2. **Les hypothèses du coût sur trois ans**, écrites dans le rapport, juste sous le tableau : la date de lecture des prix, le taux de change, le nombre de participants.
@@ -83,6 +83,8 @@ Un tableau de comparaison sans texte oblige Mélanie à faire l'analyse elle-mê
 <strong>Exemple d'avantages et de limites</strong> (outils fictifs)<br>
 « Les deux outils gèrent les départs à places limitées, comme ceux de la via ferrata (essai E1, annexe A). Ils se distinguent surtout sur deux points. Réservio reçoit les réservations de Viator sans qu'on les recopie, ce qui touche directement les doubles réservations de l'été 2026; PagayePro ne le fait pas. En revanche, Réservio coûterait environ 2 000 $ de plus sur trois ans, et ses tutoriels sont offerts en anglais seulement. »
 </div>
+
+Les quatre autres questions (section 6.2) ne sont qu'un **survol** : un tableau court de deux outils, sans sous-section d'avantages et de limites.
 
 Les autres tableaux du rapport (exigences, contraintes, risques) n'ont pas besoin d'un paragraphe chacun : le gabarit dit où va le texte, par exemple la section 4.3 pour les contraintes déterminantes.
 

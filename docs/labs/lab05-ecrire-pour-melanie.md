@@ -47,13 +47,13 @@ Vous avez les résultats de vos essais et un premier jet. Ce soir, vous l'écriv
 
 ## Partie 1 — Votre question, pour Mélanie (30 min) {#partie-1}
 
-Dans la **section 6**, sous votre question, mettez au propre ce que vous avez tiré du Lab 04.
+Dans la **section 6.1** (votre question, en profondeur), mettez au propre ce que vous avez tiré du Lab 04.
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">Une <strong>phrase d'ouverture</strong> qui donne déjà l'essentiel (pas « dans cette section, nous présentons… »)</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le <strong>besoin</strong>, en rappel des sections 3 et 4, en quelques lignes</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les <strong>familles de solutions</strong>, y compris celles que vous n'avez pas essayées</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Le <strong>tableau de comparaison</strong> du gabarit, avec la ligne « Source(s) ou essai » remplie et les <strong>hypothèses</strong> du coût sur trois ans en note</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Le <strong>tableau de comparaison</strong> du gabarit, avec la ligne « Source(s) ou essai » remplie et les <strong>hypothèses</strong> du coût sur trois ans écrites sous le tableau</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">La sous-section <strong>« Avantages, limites et points à vérifier »</strong> : ce que le tableau veut dire pour l'entreprise, outil par outil, <strong>pour ce client-ci</strong></span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les <strong>résultats des essais</strong> résumés, chacun avec son renvoi : « (essai E2, annexe A) »</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les <strong>points qui restent à vérifier</strong> (vos « non vérifiables »)</span></label></li>
