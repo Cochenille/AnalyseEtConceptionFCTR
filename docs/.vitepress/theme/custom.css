@@ -192,19 +192,25 @@
 
 /* Tableaux de contraste par colonne : <div class="col-non-1 col-oui-2"> autour du tableau */
 .vp-doc .col-non-1 :is(th, td):nth-child(1),
-.vp-doc .col-non-2 :is(th, td):nth-child(2) { background: var(--color-red-50); color: var(--color-red-900); }
+.vp-doc .col-non-2 :is(th, td):nth-child(2),
+.vp-doc .col-non-3 :is(th, td):nth-child(3) { background: var(--color-red-50); color: var(--color-red-900); }
 .vp-doc .col-oui-1 :is(th, td):nth-child(1),
-.vp-doc .col-oui-2 :is(th, td):nth-child(2) { background: var(--color-green-50); color: var(--color-green-900); }
+.vp-doc .col-oui-2 :is(th, td):nth-child(2),
+.vp-doc .col-oui-3 :is(th, td):nth-child(3) { background: var(--color-green-50); color: var(--color-green-900); }
 .vp-doc .col-non-1 th:nth-child(1)::before,
-.vp-doc .col-non-2 th:nth-child(2)::before { content: "✗ "; color: var(--color-red-600); }
+.vp-doc .col-non-2 th:nth-child(2)::before,
+.vp-doc .col-non-3 th:nth-child(3)::before { content: "✗ "; color: var(--color-red-600); }
 .vp-doc .col-oui-1 th:nth-child(1)::before,
-.vp-doc .col-oui-2 th:nth-child(2)::before { content: "✓ "; color: var(--color-green-600); }
+.vp-doc .col-oui-2 th:nth-child(2)::before,
+.vp-doc .col-oui-3 th:nth-child(3)::before { content: "✓ "; color: var(--color-green-600); }
 .vp-doc .col-non-1 th:nth-child(1),
-.vp-doc .col-non-2 th:nth-child(2) { border-top: 3px solid var(--color-red-500); }
+.vp-doc .col-non-2 th:nth-child(2),
+.vp-doc .col-non-3 th:nth-child(3) { border-top: 3px solid var(--color-red-500); }
 .vp-doc .col-oui-1 th:nth-child(1),
-.vp-doc .col-oui-2 th:nth-child(2) { border-top: 3px solid var(--color-green-500); }
-.dark .vp-doc :is(.col-non-1 :is(th, td):nth-child(1), .col-non-2 :is(th, td):nth-child(2)) { background: rgba(239, 68, 68, 0.1); color: var(--color-red-100); }
-.dark .vp-doc :is(.col-oui-1 :is(th, td):nth-child(1), .col-oui-2 :is(th, td):nth-child(2)) { background: rgba(34, 197, 94, 0.1); color: var(--color-green-100); }
+.vp-doc .col-oui-2 th:nth-child(2),
+.vp-doc .col-oui-3 th:nth-child(3) { border-top: 3px solid var(--color-green-500); }
+.dark .vp-doc :is(.col-non-1 :is(th, td):nth-child(1), .col-non-2 :is(th, td):nth-child(2), .col-non-3 :is(th, td):nth-child(3)) { background: rgba(239, 68, 68, 0.1); color: var(--color-red-100); }
+.dark .vp-doc :is(.col-oui-1 :is(th, td):nth-child(1), .col-oui-2 :is(th, td):nth-child(2), .col-oui-3 :is(th, td):nth-child(3)) { background: rgba(34, 197, 94, 0.1); color: var(--color-green-100); }
 
 /* Version PDF (impression) des pages de modules
    Marge de droite élargie pour la prise de notes. */
@@ -231,13 +237,13 @@
   .vp-doc button { display: none !important; }
 
   /* Activités interactives : remplacées par un renvoi au site */
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq) > * { display: none !important; }
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq) {
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf) > * { display: none !important; }
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf) {
     margin: 1rem 0; padding: 0.7rem 0.9rem;
     border: 1px dashed #999; border-radius: 0.5rem; background: #f6f6f7;
     break-inside: avoid;
   }
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq)::before {
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf)::before {
     content: "Activité interactive — à faire en classe sur le site du cours.";
     font-size: 9.5pt; font-style: italic; color: #444;
   }

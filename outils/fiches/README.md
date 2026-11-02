@@ -32,5 +32,5 @@ Les conseils (outils, mots-clés, cas particuliers) vont dans la section `aide`,
 |:--|:--|
 | Fichier remis | `labNN-equipeN.docx`, déposé dans l'équipe Teams du cours |
 | Captures | `labNN-equipeN-E3-01.png` (lab, équipe, élément, numéro) |
-| Numérotation | B (besoins), S (sources), E (essais), C (constats), R (risques) : les mêmes d'un lab à l'autre |
+| Numérotation | B (besoins), S (sources), E (essais), C (constats), R (risques), V (points de révision) : les mêmes d'un lab à l'autre |
 | Enchaînement | Une fiche ne contient jamais un tableau à remplir dans un lab suivant |

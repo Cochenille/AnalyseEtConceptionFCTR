@@ -1,0 +1,124 @@
+# Lab 06 — Réviser le rapport (séance 6, 4 novembre 2026)
+# python outils/fiches/generer_fiche.py outils/fiches/labs/lab06.yaml
+
+numero: 6
+fichier: lab06-fiche-revision.docx
+titre: "Réviser le rapport"
+contexte: "Mandat Aventure Saint-Maurice · Évaluation 1 · Travail formatif en équipe"
+objectif: "relire votre rapport comme le fera le correcteur, critère par critère, puis en corriger le français. Cette fiche est votre liste de révision : les corrections se font dans le rapport."
+regle: "on ne relit pas ce qu'on a écrit. Chaque section est relue par un autre membre de l'équipe."
+
+parties:
+  - titre: "L'état du rapport"
+    duree: "10 min"
+    a_faire: "pour chaque section du rapport, notez qui l'a écrite, qui la relira ce soir et ce qui manque encore."
+    besoin: "votre rapport de l'évaluation 1, ouvert dans le dossier partagé de l'équipe, avec le suivi des modifications activé (onglet Révision)."
+    blocs:
+      - type: grille
+        titre_critere: "Section"
+        colonnes: ["Qui l'a écrite ?", "Qui la relit ce soir ?", "Ce qui manque encore"]
+        lignes:
+          - { titre: "1. Résumé" }
+          - { titre: "2. Mise en contexte" }
+          - { titre: "3. Les exigences" }
+          - { titre: "4. Les contraintes" }
+          - { titre: "5. Les risques" }
+          - { titre: "6.1 Notre question" }
+          - { titre: "6.2 Les quatre autres" }
+          - { titre: "7. Problèmes et questions" }
+          - { titre: "8. Références" }
+          - { titre: "Annexes A, B et C" }
+    cochez:
+      - "Chaque section a une personne qui la relit, et ce n'est pas celle qui l'a écrite"
+      - "Ce qui manque encore est noté, avec qui s'en occupe"
+
+  - titre: "La relecture avec la grille"
+    duree: "35 min"
+    a_faire: "relisez vos sections avec la grille de l'évaluation 1 et notez au moins 8 points de révision, dont au moins 3 au critère 6."
+    besoin: "la grille d'évaluation et la liste « Ce qui fait perdre des points rapidement » (page de l'évaluation 1), et vos réponses de l'activité 1 de ce soir."
+    blocs:
+      - type: liste
+        prefixe: V
+        rangees: 10
+        colonnes:
+          - { titre: "Où ?", aide: "section, page", largeur: 1.3 }
+          - { titre: "Quel critère ?", aide: "1 à 7", largeur: 1 }
+          - { titre: "Quel est le problème ?", aide: "en quelques mots", largeur: 3.5 }
+          - { titre: "Que fait-on ?", aide: "la correction, en quelques mots", largeur: 3.5 }
+          - { titre: "Qui ? Réglé ?", aide: "prénom; ✓ quand c'est fait", largeur: 1.4 }
+        exemple:
+          - "6.1, p. 9"
+          - "6"
+          - "Le tableau donne 49 $ par mois, mais la page de prix est en dollars américains"
+          - "49 $ US par mois, soit environ 2 434 $ CA sur trois ans; le taux et la date sous le tableau"
+          - "Samuel ✓"
+    cochez:
+      - "Au moins 3 points de révision au critère 6"
+      - "Chaque tableau du rapport est suivi d'un texte qui dit ce qu'il veut dire pour l'entreprise, ou le gabarit dit où va ce texte"
+      - "Chaque risque de la zone rouge a une mesure concrète : qui, quand, et quoi faire si elle échoue"
+
+  - titre: "La chasse aux mots"
+    duree: "10 min"
+    a_faire: "cherchez chaque mot ci-dessous dans tout le rapport (Ctrl+F) et réglez chaque résultat qui pose problème."
+    blocs:
+      - type: grille
+        titre_critere: "On cherche…"
+        colonnes: ["Combien de résultats ?", "Combien à corriger ?", "Tous réglés ?"]
+        lignes:
+          - { titre: "recommand", aide: "recommandation" }
+          - { titre: "il faudrait, devrait", aide: "recommandation déguisée; dans une exigence, « doit »" }
+          - { titre: "meilleur, idéal, privilégier", aide: "recommandation déguisée" }
+          - { titre: "facile, rapide, performant", aide: "affirmation sans mesure" }
+          - { titre: "$", aide: "$ CA ou $ US ? Une espace avant $ ?" }
+          - { titre: "nous verrons, plus loin", aide: "promesse d'un choix à venir" }
+    cochez:
+      - "Aucune recommandation, même déguisée, ne reste dans le rapport"
+      - "Chaque montant dit s'il est en dollars canadiens ou américains"
+
+  - titre: "Le français"
+    duree: "30 min"
+    a_faire: "chaque membre choisit un paragraphe d'environ 150 mots qu'il n'a pas écrit, le relit en trois passes et note au moins 4 fautes."
+    besoin: "un paragraphe de texte suivi (pas un tableau ni une liste), de préférence dans les sections 1, 2 ou 6, et le tableau « Les erreurs qui reviennent » de la séance 6."
+    blocs:
+      - type: liste
+        rangees: 12
+        colonnes:
+          - { titre: "Où ?", aide: "section, page", largeur: 1.2 }
+          - { titre: "Ce qui était écrit", aide: "le mot ou le groupe de mots", largeur: 2.3 }
+          - { titre: "La correction", largeur: 2.3 }
+          - { titre: "Quelle sorte ?", aide: "accord, homophone, typographie, anglicisme, ponctuation, registre…", largeur: 1.8 }
+          - { titre: "Trouvée par…", aide: "correcteur, voix haute ou relecteur", largeur: 1.6 }
+        exemple:
+          - "6.1, p. 10"
+          - "les outils qu'on a essayé"
+          - "les outils que nous avons essayés"
+          - "Accord du participe passé; registre"
+          - "Relecteur"
+      - type: texte
+        consigne: "Les deux sortes de fautes qui reviennent le plus dans notre rapport, et ce que nous ferons pour les trouver partout :"
+        lignes: 3
+    cochez:
+      - "Chaque paragraphe relu a passé les trois passes : correcteur, voix haute, relecteur"
+      - "Les nombres, les symboles et les dates ont été vérifiés dans tout le rapport"
+
+  - titre: "Préparer le retour"
+    duree: "5 min"
+    a_faire: "écrivez la faute de français la plus fréquente de votre équipe et la question qui vous reste sur l'évaluation 1. On en parlera au début de la séance 7."
+    blocs:
+      - type: texte
+        lignes: 3
+    cochez:
+      - "La fiche est déposée dans l'équipe Teams du cours"
+
+aide:
+  - titre: "Les trois passes de relecture"
+    points:
+      - "Le correcteur (Antidote ou celui de Word) : il trouve vite les accords, mais laisse passer les homophones bien orthographiés et les anglicismes."
+      - "La voix haute, lentement : les phrases trop longues et les virgules mal placées s'entendent."
+      - "Une autre personne : on ne voit pas ses propres fautes, parce qu'on lit ce qu'on voulait écrire."
+  - titre: "Un doute sur une règle ?"
+    texte: "La Banque de dépannage linguistique de l'Office québécois de la langue française (vitrinelinguistique.oqlf.gouv.qc.ca) donne la règle, avec des exemples."
+  - titre: "Commenter, pas réécrire"
+    texte: "Le relecteur laisse un commentaire (onglet Révision, « Nouveau commentaire ») ou une modification suivie; c'est l'auteur qui accepte ou refuse. Pour le français, une modification suivie suffit."
+  - titre: "Mettre à jour la table des matières"
+    texte: "Clic droit sur la table des matières, « Mettre à jour les champs », puis « Mettre à jour toute la table ». À refaire juste avant la remise."

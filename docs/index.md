@@ -17,6 +17,80 @@ hero:
       text: Calendrier
       link: /plan-cours/calendrier
 ---
+<section id="seance-6">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 6 — mercredi 4 novembre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Retour sur le Lab 05 : trois résumés',
+        description: 'Trois résumés lus sans nommer les équipes. Pour chacun : qu’avez-vous appris sur le projet ?',
+        links: [
+          { text: 'Séance 6', href: '/modules/01-faisabilite/06-reviser-le-rapport', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Relire avec la grille',
+        description: 'Huit extraits d’un rapport fictif : quel critère perdrait des points, et comment corriger.',
+        links: [
+          { text: 'Activité 1', href: '/modules/01-faisabilite/06-reviser-le-rapport#activite-1', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Le français dans le rapport',
+        description: 'L’extrait de 150 mots du critère 8, les erreurs qui reviennent et la relecture en trois passes.',
+        links: [
+          { text: 'Activité 2', href: '/modules/01-faisabilite/06-reviser-le-rapport#activite-2', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Lab 06 — Réviser le rapport',
+        badge: 'En équipe',
+        description: 'Après la matière, en équipe. La fiche est votre liste de révision; on corrige dans le rapport.',
+        links: [
+          { text: 'Lab 06', href: '/labs/lab06-reviser-le-rapport', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab06-fiche-revision.docx', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="Remise de l’évaluation 1 le 11 novembre, avant 18 h 30."
+    :steps="[
+      {
+        title: 'Déposer la fiche du Lab 06 dans Teams',
+        description: 'Travail formatif, une fiche par équipe.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab06-reviser-le-rapport#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Régler les points de révision',
+        description: 'En commençant par le critère 6. Chaque section passe au correcteur et chez un relecteur.',
+        links: [
+          { text: 'À faire à la maison', href: '/modules/01-faisabilite/06-reviser-le-rapport#a-faire-a-la-maison', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Remettre l’évaluation 1 sur LÉA',
+        badge: '20 % · 11 nov., 18 h 30',
+        description: 'Un seul fichier .docx, avec les annexes A, B et C. Passez d’abord la liste de vérification.',
+        links: [
+          { text: 'Liste de vérification', href: '/evaluations/evaluation-1#la-liste-de-verification-avant-la-remise', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
 <section id="seance-5">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>
