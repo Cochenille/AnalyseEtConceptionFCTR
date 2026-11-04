@@ -19,7 +19,7 @@ La séance se fait en deux temps : **le retour sur le Lab 05 et toute la matièr
 |:--|:--|
 | 18 h 30 | Retour en grand groupe sur le Lab 05 : trois résumés |
 | 18 h 45 | Ce qui est évalué dans le rapport |
-| 18 h 50 | Activité 1 — Où ça perd des points ? |
+| 18 h 50 | Activité 1 — Où vous perdez des points ? |
 | 19 h 10 | Le français dans le rapport |
 | 19 h 20 | Activité 2 — La chasse aux fautes |
 | 19 h 40 | Vos questions sur l'évaluation 1 |
@@ -51,7 +51,7 @@ Le rapport est corrigé avec la [grille de l'évaluation 1](./../../evaluations/
 
 La liste [« Ce qui fait perdre des points rapidement »](./../../evaluations/evaluation-1#la-grille-d-evaluation), sous la grille, est votre meilleur outil de relecture. L'activité 1 la met en pratique.
 
-### Activité 1 — Où ça perd des points ? {#activite-1}
+### Activité 1 — Où vous perdez des points ? {#activite-1}
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Consigne (10 min, en équipe, puis retour en grand groupe)</strong><br>

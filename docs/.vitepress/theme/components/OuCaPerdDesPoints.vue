@@ -90,7 +90,7 @@ const nom = (c: number | null) => {
 
 function texteReponses() {
   return [
-    "Séance 6 — Activité 1 : où ça perd des points ?",
+    "Séance 6 — Activité 1 : où vous perdez des points ?",
     "",
     ...EXTRAITS.map((x, n) => {
       const e = etat[n];
