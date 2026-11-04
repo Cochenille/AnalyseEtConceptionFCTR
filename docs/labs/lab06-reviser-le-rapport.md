@@ -10,7 +10,7 @@ aside: false
 <ul class="list-disc pl-5">
   <li>Relire le rapport de l'évaluation 1 avec la grille, critère par critère, et noter ce qu'il reste à corriger.</li>
   <li>Éliminer les recommandations, les affirmations sans mesure et les montants sans devise.</li>
-  <li>Relire le français d'un paragraphe qu'on n'a pas écrit, en trois passes.</li>
+  <li>Passer le rapport au correcteur et vérifier ce qu'il laisse passer.</li>
 </ul>
 </div>
 
@@ -31,10 +31,10 @@ aside: false
 | Partie | Durée | Ce que vous faites |
 |:--|:-:|:--|
 | 1 — L'état du rapport | 10 min | Qui a écrit chaque section, qui la relit, ce qui manque |
-| 2 — La relecture avec la grille | 35 min | Au moins 8 points de révision, dont 3 au critère 6 |
+| 2 — La relecture avec la grille | 40 min | Au moins 8 points de révision, dont 3 dans la section 6 |
 | 3 — La chasse aux mots | 10 min | Recommandations, affirmations sans mesure, devises |
-| 4 — Le français | 30 min | Un paragraphe de 150 mots par membre, en trois passes |
-| 5 — Préparer le retour | 5 min | Votre faute la plus fréquente, votre dernière question |
+| 4 — Le français | 25 min | Le correcteur, puis les montants, les dates et les homophones |
+| 5 — Préparer le retour | 5 min | Votre dernière question sur l'évaluation 1 |
 
 Toutes les consignes sont dans la fiche. Gardez ouvertes la [grille de l'évaluation 1](./../evaluations/evaluation-1#la-grille-d-evaluation) et la [séance 6](./../modules/01-faisabilite/06-reviser-le-rapport).
 
@@ -51,4 +51,4 @@ Toutes les consignes sont dans la fiche. Gardez ouvertes la [grille de l'évalua
 
 ## Et ensuite ?
 
-À la **séance 7 (11 novembre)**, vous remettez l'évaluation 1 avant 18 h 30. On commence par un court retour sur vos fautes les plus fréquentes, puis on présente l'**évaluation 2 : la proposition technique**, qui complétera ce rapport.
+À la **séance 7 (11 novembre)**, vous remettez l'évaluation 1 avant 18 h 30. On commence par répondre à vos dernières questions, puis on présente l'**évaluation 2 : la proposition technique**, qui complétera ce rapport.

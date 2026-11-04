@@ -15,8 +15,8 @@ import yaml
 from docx import Document
 from docx.enum.section import WD_ORIENT
 from docx.enum.table import WD_ROW_HEIGHT_RULE
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
+from docx.oxml import OxmlElement, parse_xml
+from docx.oxml.ns import nsdecls, qn
 from docx.shared import Inches, Pt, RGBColor
 
 RACINE = Path(__file__).resolve().parents[2]
@@ -188,12 +188,25 @@ def zone_texte(doc, bloc):
 BLOCS = {"liste": tableau_liste, "grille": tableau_grille, "texte": zone_texte}
 
 
+def case_word(paragraphe):
+    """Ajoute une vraie case à cocher Word (contrôle de contenu) au début du paragraphe."""
+    police = '<w:rPr><w:rFonts w:ascii="MS Gothic" w:eastAsia="MS Gothic" w:hAnsi="MS Gothic"/></w:rPr>'
+    sdt = parse_xml(
+        f"<w:sdt {nsdecls('w', 'w14')}><w:sdtPr>{police}<w14:checkbox>"
+        '<w14:checked w14:val="0"/>'
+        '<w14:checkedState w14:val="2612" w14:font="MS Gothic"/>'
+        '<w14:uncheckedState w14:val="2610" w14:font="MS Gothic"/>'
+        f"</w14:checkbox></w:sdtPr><w:sdtContent><w:r>{police}<w:t>{CASE}</w:t></w:r></w:sdtContent></w:sdt>"
+    )
+    paragraphe._p.insert(1 if paragraphe._p.pPr is not None else 0, sdt)
+
+
 def cases_a_cocher(doc, cases):
     tableau, pouces = nouveau_tableau(doc, [1])
     cellule = ajouter_rangee(tableau, pouces).cells[0]
     ecrire(cellule, "Avant de passer à la suite, cochez :", gras=True)
     for texte in cases:
-        cellule.add_paragraph(f"{CASE}  {texte}")
+        case_word(cellule.add_paragraph(f"  {texte}"))
 
 
 def partie(doc, numero, desc):

@@ -74,7 +74,7 @@ hero:
       },
       {
         title: 'Régler les points de révision',
-        description: 'En commençant par le critère 6. Chaque section passe au correcteur et chez un relecteur.',
+        description: 'En commençant par la section 6. Chaque section passe au correcteur et chez un relecteur.',
         links: [
           { text: 'À faire à la maison', href: '/modules/01-faisabilite/06-reviser-le-rapport#a-faire-a-la-maison', variant: 'primary' }
         ]

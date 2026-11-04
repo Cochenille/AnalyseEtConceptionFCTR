@@ -33,8 +33,8 @@ parties:
       - "Ce qui manque encore est noté, avec qui s'en occupe"
 
   - titre: "La relecture avec la grille"
-    duree: "35 min"
-    a_faire: "relisez vos sections avec la grille de l'évaluation 1 et notez au moins 8 points de révision, dont au moins 3 au critère 6."
+    duree: "40 min"
+    a_faire: "relisez vos sections avec la grille de l'évaluation 1 et notez au moins 8 points de révision, dont au moins 3 dans la section 6."
     besoin: "la grille d'évaluation et la liste « Ce qui fait perdre des points rapidement » (page de l'évaluation 1), et vos réponses de l'activité 1 de ce soir."
     blocs:
       - type: liste
@@ -42,18 +42,16 @@ parties:
         rangees: 10
         colonnes:
           - { titre: "Où ?", aide: "section, page", largeur: 1.3 }
-          - { titre: "Quel critère ?", aide: "1 à 7", largeur: 1 }
           - { titre: "Quel est le problème ?", aide: "en quelques mots", largeur: 3.5 }
           - { titre: "Que fait-on ?", aide: "la correction, en quelques mots", largeur: 3.5 }
           - { titre: "Qui ? Réglé ?", aide: "prénom; ✓ quand c'est fait", largeur: 1.4 }
         exemple:
           - "6.1, p. 9"
-          - "6"
           - "Le tableau donne 49 $ par mois, mais la page de prix est en dollars américains"
           - "49 $ US par mois, soit environ 2 434 $ CA sur trois ans; le taux et la date sous le tableau"
           - "Samuel ✓"
     cochez:
-      - "Au moins 3 points de révision au critère 6"
+      - "Au moins 3 points de révision dans la section 6"
       - "Chaque tableau du rapport est suivi d'un texte qui dit ce qu'il veut dire pour l'entreprise, ou le gabarit dit où va ce texte"
       - "Chaque risque de la zone rouge a une mesure concrète : qui, quand, et quoi faire si elle échoue"
 
@@ -65,7 +63,7 @@ parties:
         titre_critere: "On cherche…"
         colonnes: ["Combien de résultats ?", "Combien à corriger ?", "Tous réglés ?"]
         lignes:
-          - { titre: "recommand", aide: "recommandation" }
+          - { titre: "recommander, recommandation", aide: "cherchez « recommand » : trouve aussi recommande, recommandons…" }
           - { titre: "il faudrait, devrait", aide: "recommandation déguisée; dans une exigence, « doit »" }
           - { titre: "meilleur, idéal, privilégier", aide: "recommandation déguisée" }
           - { titre: "facile, rapide, performant", aide: "affirmation sans mesure" }
@@ -76,34 +74,26 @@ parties:
       - "Chaque montant dit s'il est en dollars canadiens ou américains"
 
   - titre: "Le français"
-    duree: "30 min"
-    a_faire: "chaque membre choisit un paragraphe d'environ 150 mots qu'il n'a pas écrit, le relit en trois passes et note au moins 4 fautes."
-    besoin: "un paragraphe de texte suivi (pas un tableau ni une liste), de préférence dans les sections 1, 2 ou 6, et le tableau « Les erreurs qui reviennent » de la séance 6."
+    duree: "25 min"
+    a_faire: "passez chaque section au correcteur, puis vérifiez dans tout le rapport ce qu'un correcteur laisse souvent passer."
+    besoin: "Antidote ou le correcteur de Word, et le tableau « Les erreurs qui reviennent » de la séance 6."
     blocs:
-      - type: liste
-        rangees: 12
-        colonnes:
-          - { titre: "Où ?", aide: "section, page", largeur: 1.2 }
-          - { titre: "Ce qui était écrit", aide: "le mot ou le groupe de mots", largeur: 2.3 }
-          - { titre: "La correction", largeur: 2.3 }
-          - { titre: "Quelle sorte ?", aide: "accord, homophone, typographie, anglicisme, ponctuation, registre…", largeur: 1.8 }
-          - { titre: "Trouvée par…", aide: "correcteur, voix haute ou relecteur", largeur: 1.6 }
-        exemple:
-          - "6.1, p. 10"
-          - "les outils qu'on a essayé"
-          - "les outils que nous avons essayés"
-          - "Accord du participe passé; registre"
-          - "Relecteur"
-      - type: texte
-        consigne: "Les deux sortes de fautes qui reviennent le plus dans notre rapport, et ce que nous ferons pour les trouver partout :"
-        lignes: 3
+      - type: grille
+        titre_critere: "À vérifier"
+        colonnes: ["Qui s'en occupe ?", "Fait ?"]
+        lignes:
+          - { titre: "Chaque section passée au correcteur", aide: "Antidote ou Word; une section à la fois" }
+          - { titre: "Les montants et les symboles", aide: "2 600 $ · 55 % · 2 min 40 s : une espace avant $, % et les unités" }
+          - { titre: "Les dates et les heures", aide: "le 1er mars · le 11 novembre · 18 h 30" }
+          - { titre: "a ou à, ou ou où, ces ou ses", aide: "le correcteur ne les voit pas toujours" }
+          - { titre: "Le résumé et la section 6, relus par une autre personne", aide: "on ne voit pas ses propres fautes" }
     cochez:
-      - "Chaque paragraphe relu a passé les trois passes : correcteur, voix haute, relecteur"
-      - "Les nombres, les symboles et les dates ont été vérifiés dans tout le rapport"
+      - "Tout le rapport a été passé au correcteur"
+      - "Le résumé et la section 6 ont été relus par quelqu'un qui ne les a pas écrits"
 
   - titre: "Préparer le retour"
     duree: "5 min"
-    a_faire: "écrivez la faute de français la plus fréquente de votre équipe et la question qui vous reste sur l'évaluation 1. On en parlera au début de la séance 7."
+    a_faire: "écrivez la question qui vous reste sur l'évaluation 1. On y répondra au début de la séance 7."
     blocs:
       - type: texte
         lignes: 3
@@ -111,11 +101,11 @@ parties:
       - "La fiche est déposée dans l'équipe Teams du cours"
 
 aide:
-  - titre: "Les trois passes de relecture"
+  - titre: "Ce qu'un correcteur laisse passer"
     points:
-      - "Le correcteur (Antidote ou celui de Word) : il trouve vite les accords, mais laisse passer les homophones bien orthographiés et les anglicismes."
-      - "La voix haute, lentement : les phrases trop longues et les virgules mal placées s'entendent."
-      - "Une autre personne : on ne voit pas ses propres fautes, parce qu'on lit ce qu'on voulait écrire."
+      - "Un mot bien orthographié mais mal choisi : « a » pour « à », « ses » pour « ces »."
+      - "Les anglicismes : « supporter » pour « prendre en charge », « à date » pour « jusqu'à maintenant »."
+      - "Les espaces avant $ et %, selon les réglages du correcteur."
   - titre: "Un doute sur une règle ?"
     texte: "La Banque de dépannage linguistique de l'Office québécois de la langue française (vitrinelinguistique.oqlf.gouv.qc.ca) donne la règle, avec des exemples."
   - titre: "Commenter, pas réécrire"

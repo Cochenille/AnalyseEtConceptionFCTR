@@ -174,7 +174,7 @@ Celui du jour où vous avez lu les prix, avec sa date et sa source, écrit sous 
 Un seul fichier <code>.docx</code>, nommé <code>eval1-equipeN-nom1-nom2-nom3.docx</code>, avec les annexes A, B et C. Retard : 10 % par jour.
 </div>
 
-- **Régler les points de révision** notés dans la fiche du Lab 06 (partie 2), en commençant par le critère 6.
+- **Régler les points de révision** notés dans la fiche du Lab 06 (partie 2), en commençant par la section 6.
 - **Passer chaque section au correcteur**, puis la faire relire par une autre personne de l'équipe.
 - **Reprendre le résumé** une dernière fois, quand tout le reste est terminé.
 - **Remplir les annexes B et C**, et faire signer l'annexe C par tous les membres.
@@ -188,6 +188,6 @@ Un seul fichier <code>.docx</code>, nommé <code>eval1-equipeN-nom1-nom2-nom3.do
   <li><label><input type="checkbox"><span class="check-text">Copier vos réponses des activités 1 et 2 dans vos notes</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Déposer la fiche du Lab 06 dans l'équipe Teams du cours</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Régler les points de révision de la fiche, et relire chaque section une dernière fois</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Faire la recherche <code>recommand</code>, <code>il faudrait</code>, <code>devrait</code>, <code>meilleur</code>, <code>idéal</code>, <code>privilégier</code> dans le rapport final</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Chercher dans le rapport final les mots qui recommandent : <code>recommander</code>, <code>recommandation</code>, <code>il faudrait</code>, <code>devrait</code>, <code>meilleur</code>, <code>idéal</code>, <code>privilégier</code></span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Remettre le rapport sur LÉA avant 18 h 30 le 11 novembre</span></label></li>
 </ul>
