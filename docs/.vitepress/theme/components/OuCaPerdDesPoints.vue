@@ -41,8 +41,8 @@ const EXTRAITS: Extrait[] = [
     ou: "Section 6.1 — Tableau de comparaison",
     texte: "Coût : 49 $ par mois.",
     critere: 6,
-    probleme: "La page de prix de l'outil est en dollars américains. Le montant est présenté comme s'il était en dollars canadiens, au mois plutôt que sur trois ans, sans date ni source.",
-    correction: "49 $ US par mois, soit environ 811 $ CA par année au taux de 1,38 $ (page de prix consultée le 20 octobre 2026). Coût sur trois ans : environ 2 434 $ CA (hypothèses sous le tableau).",
+    probleme: "La page de l'outil est peut-être en dollars américains : la case ne dit pas la devise. Le montant est aussi donné au mois plutôt que sur trois ans, sans date ni source.",
+    correction: "(Si la page de prix est en dollars américains.) 49 $ US par mois, soit environ 811 $ CA par année au taux de 1,38 $ (page de prix consultée le 20 octobre 2026). Coût sur trois ans : environ 2 434 $ CA (hypothèses sous le tableau).",
   },
   {
     ou: "Section 6.1 — Avantages, limites et points à vérifier",
