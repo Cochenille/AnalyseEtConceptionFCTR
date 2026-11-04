@@ -13,12 +13,12 @@ aside: false
 
 ## Déroulement de la séance
 
-La séance se fait en deux temps : **le retour sur le Lab 05 et toute la matière d'abord**, en grand groupe, puis **le reste de la soirée pour le Lab 06**, en équipe, dans votre rapport. L'enseignant reste disponible dans la réunion du cours pendant le lab.
+La séance se fait en deux temps : **le retour sur le Lab 05 et toute la matière d'abord**, en grand groupe, puis **le reste de la soirée pour le Lab 06**, en équipe, dans votre rapport.
 
 | Heure | Activité |
 |:--|:--|
 | 18 h 30 | Retour en grand groupe sur le Lab 05 : trois résumés |
-| 18 h 45 | Ce que la correction regarde |
+| 18 h 45 | Ce qui est évalué dans le rapport |
 | 18 h 50 | Activité 1 — Où ça perd des points ? |
 | 19 h 10 | Le français dans le rapport |
 | 19 h 20 | Activité 2 — La chasse aux fautes |
@@ -34,15 +34,15 @@ Le **retour en grand groupe** sur le Lab 06 aura lieu **au début de la séance 
 
 ## Retour sur le Lab 05 : trois résumés {#retour-lab-05}
 
-L'enseignant lit à voix haute trois résumés déposés au Lab 05, **sans nommer les équipes**. Vous les entendez une seule fois, comme Mélanie qui lit vite.
+Nous réviserons ensemble trois résumés déposés au Lab 05, **sans nommer les équipes**. Vous les entendrez une seule fois, comme Mélanie qui lit vite.
 
-Après chaque résumé, écrivez dans le clavardage **une chose que vous avez apprise sur le projet**. Si vous ne trouvez rien à écrire, ce n'est pas votre faute : c'est que le résumé ne résume pas.
+Après chaque résumé, écrivez dans le chat **une chose que vous avez apprise sur le projet**. Si vous ne trouvez rien à écrire, ce n'est pas votre faute : c'est que le résumé ne résume pas.
 
 Comparez ensuite avec le [résumé proposé à l'activité 2 de la séance 5](./05-ecrire-pour-le-client#activite-2) : ce qu'il dit d'abord, ce qu'il garde pour la fin, et ce qu'il laisse dans le rapport.
 
 ---
 
-## Ce que la correction regarde
+## Ce qui est évalué dans le rapport
 
 Le rapport est corrigé avec la [grille de l'évaluation 1](./../../evaluations/evaluation-1#la-grille-d-evaluation), **critère par critère**. Deux choses à savoir avant de relire le vôtre :
 
@@ -121,7 +121,7 @@ Trois passages du brouillon d'une équipe fictive, environ 150 mots en tout : la
 
 ## Vos questions sur l'évaluation 1 {#questions}
 
-Écrivez vos questions dans le clavardage au fil de la soirée; on y répond en grand groupe. Voici celles qui reviennent le plus souvent.
+Écrivez vos questions dans le chat au fil de la soirée; on y répond en grand groupe. Voici celles qui reviennent le plus souvent.
 
 <details class="details custom-block">
 <summary>Les annexes comptent-elles dans les 15 pages ?</summary>
