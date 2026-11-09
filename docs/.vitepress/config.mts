@@ -20,7 +20,13 @@ export default withMermaid(defineConfig({
 			{ text: "Plan de cours", link: "/plan-cours/plan-de-cours" },
 			{ text: "Calendrier", link: "/plan-cours/calendrier" },
 			{ text: "Mandat", link: "/mandat/" },
-			{ text: "Évaluation 1", link: "/evaluations/evaluation-1" },
+			{
+				text: "Évaluations",
+				items: [
+					{ text: "Évaluation 1 — Évaluation technique", link: "/evaluations/evaluation-1" },
+					{ text: "Évaluation 2 — Proposition technique", link: "/evaluations/evaluation-2" },
+				],
+			},
 			{
 				text: "Modules",
 				items: [
@@ -75,6 +81,10 @@ export default withMermaid(defineConfig({
 								text: "Séance 6 — Réviser le rapport",
 								link: "/modules/01-faisabilite/06-reviser-le-rapport",
 							},
+							{
+								text: "Séance 7 — Les formats de fichiers",
+								link: "/modules/01-faisabilite/07-formats-de-fichiers",
+							},
 						],
 					},
 				],
@@ -89,6 +99,7 @@ export default withMermaid(defineConfig({
 					{ text: "Lab 04 — Les essais", link: "/labs/lab04-essais" },
 					{ text: "Lab 05 — Écrire pour Mélanie", link: "/labs/lab05-ecrire-pour-melanie" },
 					{ text: "Lab 06 — Réviser le rapport", link: "/labs/lab06-reviser-le-rapport" },
+					{ text: "Lab 07 — Alléger les médias", link: "/labs/lab07-alleger-les-medias" },
 				],
 			},
 			{
@@ -96,6 +107,7 @@ export default withMermaid(defineConfig({
 				collapsed: false,
 				items: [
 					{ text: "Évaluation 1 — Évaluation technique", link: "/evaluations/evaluation-1" },
+					{ text: "Évaluation 2 — Proposition technique", link: "/evaluations/evaluation-2" },
 				],
 			},
 		],

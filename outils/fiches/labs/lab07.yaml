@@ -1,0 +1,155 @@
+# Lab 07 — Alléger les médias de Patrick (séance 7, 11 novembre 2026)
+# python outils/fiches/generer_fiche.py outils/fiches/labs/lab07.yaml
+# Le dossier de médias : python outils/medias/generer_envoi_patrick.py
+
+numero: 7
+fichier: lab07-fiche-medias.docx
+titre: "Alléger les médias de Patrick"
+contexte: "Mandat Aventure Saint-Maurice · Prépare la section 9 de l'évaluation 2 · Travail formatif en équipe"
+objectif: "rendre les fichiers envoyés par Patrick prêts pour le Web : choisir le bon format, réduire chaque fichier, vérifier que la qualité tient, et noter ce qu'il faudra écrire à côté de chacun."
+regle: "on ne livre jamais un fichier sans l'avoir regardé à 100 % de zoom."
+remise: "cette fiche remplie, nommée {nom}, et vos fichiers allégés dans un dossier compressé nommé lab07-equipeN-medias.zip, déposés dans l'équipe Teams du cours."
+
+parties:
+  - titre: "Le plan"
+    duree: "20 min"
+    a_faire: "pour chacun des 7 fichiers de Patrick, notez ce que vous avez reçu, puis le format, la largeur et le poids que vous visez, avant d'ouvrir le moindre outil."
+    besoin: "le dossier lab07-envoi-patrick.zip (décompressé) et le « Message de Patrick », qui dit où va chaque fichier; les repères de poids et de largeur de la séance 7 (rappelés dans l'aide, à la fin de cette fiche)."
+    blocs:
+      - type: liste
+        prefixe: M
+        rangees:
+          - "IMG_4521.JPG"
+          - "IMG_4540.HEIC"
+          - "via ferrata FALAISE final(2).png"
+          - "logo-ASM-final.png et logo-ASM.svg"
+          - "carte-parcours.png"
+          - "DJI_0042.MOV"
+          - "Tarifs 2027 SCAN.pdf"
+        hauteur: 0.55
+        colonnes:
+          - { titre: "Le fichier reçu", aide: "et où Patrick le veut", largeur: 2 }
+          - { titre: "Qu'avez-vous reçu ?", aide: "photo, dessin, vidéo, document · format · dimensions · poids", largeur: 2.2 }
+          - { titre: "Quel format visez-vous ?", aide: "un seul, ou deux avec le repli", largeur: 1.3 }
+          - { titre: "Quelle largeur et quel poids ?", aide: "les repères de la séance 7", largeur: 1.5 }
+          - { titre: "Pourquoi ce format ?", aide: "ce que contient le fichier, où il va", largeur: 2.8 }
+        exemple:
+          - "IMG_4400.JPG\nVignette de l'activité Rabaska"
+          - "Photo · JPEG · 4000 × 3000 px · 5,2 Mo"
+          - "WebP"
+          - "600 px · moins de 60 Ko"
+          - "Une photo : compression avec perte. WebP est lu par tous les navigateurs et plus léger qu'un JPEG."
+    cochez:
+      - "Chaque fichier a un format visé, une largeur et un poids visés, avant tout essai"
+      - "Pour le logo, l'équipe a choisi lequel des deux fichiers garder, et pourquoi"
+
+  - titre: "L'allègement"
+    duree: "35 min"
+    a_faire: "allégez chaque fichier avec Squoosh, TinyPNG ou CloudConvert, regardez le résultat à 100 % de zoom, et notez ce que vous obtenez."
+    besoin: "votre plan de la partie 1. Partagez-vous les fichiers dans l'équipe : CloudConvert n'offre que 10 conversions gratuites par jour."
+    blocs:
+      - type: liste
+        prefixe: M
+        rangees:
+          - "IMG_4521.JPG"
+          - "IMG_4540.HEIC"
+          - "via ferrata FALAISE…"
+          - "Le logo"
+          - "carte-parcours.png"
+          - "DJI_0042.MOV"
+          - "Tarifs 2027 SCAN.pdf"
+        hauteur: 0.55
+        colonnes:
+          - { titre: "Le fichier", largeur: 1.6 }
+          - { titre: "Quel outil, quels réglages ?", aide: "largeur, format, qualité, son", largeur: 2.6 }
+          - { titre: "Quel poids obtenu ?", aide: "et le gain, en %", largeur: 1.3 }
+          - { titre: "La qualité tient-elle ?", aide: "à 100 % : bavures, flou, couleurs, texte lisible", largeur: 2.4 }
+          - { titre: "Le nom du fichier livré", aide: "minuscules, sans espace ni accent", largeur: 1.9 }
+        exemple:
+          - "IMG_4400.JPG"
+          - "Squoosh : redimensionné à 600 px, WebP, qualité 75"
+          - "48 Ko (−99 %)"
+          - "Oui. Aucune différence visible à 100 %; un léger flou dans l'eau à 200 %."
+          - "rabaska-vignette.webp"
+    cochez:
+      - "Chaque fichier livré atteint le poids visé à la partie 1, ou la fiche explique pourquoi pas"
+      - "La vidéo livrée n'a plus de son, et une image d'affiche l'accompagne"
+      - "Pour la grille des tarifs, la fiche dit ce qu'on met en ligne à la place du PDF numérisé"
+
+  - titre: "Ce que le fichier ne dit pas"
+    duree: "10 min"
+    a_faire: "pour chaque fichier, écrivez le texte de remplacement (ou « alt vide »), et ce qu'il faut prévoir d'autre pour qu'il soit accessible et utilisable."
+    besoin: "vos réponses de l'activité 2 de ce soir (le texte de remplacement) et le tableau « L'accessibilité des médias » de la séance 7."
+    blocs:
+      - type: liste
+        prefixe: M
+        rangees:
+          - "Bannière de l'accueil"
+          - "Kayak adapté"
+          - "Falaise du parcours 2"
+          - "Logo (lien vers l'accueil)"
+          - "Carte des parcours"
+          - "Vidéo de drone"
+          - "Tarifs 2027"
+        colonnes:
+          - { titre: "Le fichier", largeur: 1.8 }
+          - { titre: "Quel texte de remplacement ?", aide: "ou « alt vide » si l'image est décorative", largeur: 4 }
+          - { titre: "Que faut-il prévoir d'autre ?", aide: "texte dans la page, pause, contraste, sous-titres, autorisation…", largeur: 3.6 }
+        exemple:
+          - "Vignette Rabaska"
+          - "alt vide : le titre de la carte, juste dessous, dit déjà « Rabaska, 2 h »"
+          - "Rien d'autre : personne n'est reconnaissable sur la photo"
+    cochez:
+      - "Chaque image qui informe a un texte de remplacement qui dit ce qu'elle apporte à cet endroit"
+      - "La vidéo de drone et la carte ont chacune au moins une chose « à prévoir d'autre »"
+
+  - titre: "Pour la proposition technique"
+    duree: "10 min"
+    a_faire: "écrivez 3 constats chiffrés, que vous pourrez reprendre dans la section 9 de l'évaluation 2, puis répondez à la question sous le tableau."
+    besoin: "vos résultats de la partie 2."
+    blocs:
+      - type: liste
+        prefixe: C
+        rangees: 3
+        colonnes:
+          - { titre: "Le constat", aide: "en une phrase, pour Mélanie", largeur: 5 }
+          - { titre: "Le chiffre qui l'appuie", aide: "avant → après", largeur: 2.5 }
+          - { titre: "D'où vient-il ?", aide: "M1 à M7", largeur: 1.2 }
+        exemple:
+          - "Les vignettes des activités pèsent cent fois moins une fois réduites à la taille où elles s'affichent, sans différence visible."
+          - "5,2 Mo → 48 Ko"
+          - "Exemple"
+      - type: texte
+        consigne: "Une fois l'outil maîtrisé, combien de temps vous a pris une photo ? Chez le client, qui fera ce travail chaque fois qu'il ajoute une photo au site, et quand ?"
+        lignes: 3
+    cochez:
+      - "Chaque constat a un chiffre mesuré ce soir, pas un chiffre trouvé sur le Web"
+      - "La réponse tient compte du temps dont Mélanie dispose l'été (mandat, notes de la rencontre)"
+
+  - titre: "Préparer le retour"
+    duree: "5 min"
+    a_faire: "écrivez quel fichier vous a donné le plus de mal, et ce que vous avez fait. On en parlera au début de la séance 8."
+    blocs:
+      - type: texte
+        lignes: 3
+    cochez:
+      - "La fiche et le dossier lab07-equipeN-medias.zip sont déposés dans l'équipe Teams du cours"
+
+aide:
+  - titre: "Les trois outils (gratuits, dans le navigateur)"
+    points:
+      - "Squoosh (squoosh.app) : une image à la fois. Réglez la taille (Resize), le format et la qualité, puis comparez avant et après avec le curseur au milieu de l'image. Squoosh retire les métadonnées (dont l'endroit où la photo a été prise). Dans Chrome, il n'ouvre pas les fichiers HEIC."
+      - "TinyPNG (tinypng.com) : glissez jusqu'à 20 images d'au plus 5 Mo chacune. Il réduit surtout le nombre de couleurs des PNG. On y règle peu de choses : si l'image est trop grande, réduisez-la d'abord dans Squoosh."
+      - "CloudConvert (cloudconvert.com) : convertit ce que les deux autres ne lisent pas (HEIC, MOV, PDF). La clé à molette, à côté du format choisi, donne les réglages : largeur, qualité, son. 10 conversions gratuites par jour et par personne."
+  - titre: "Les repères de la séance 7"
+    points:
+      - "Bannière ou photo pleine largeur : 1920 px (2560 au plus), moins de 300 Ko."
+      - "Photo dans le texte : 1200 px, moins de 150 Ko. Vignette : 600 px, moins de 60 Ko."
+      - "Logo et icônes : SVG; sinon deux fois la taille affichée, moins de 10 Ko."
+      - "Vidéo d'arrière-plan : 1280 à 1920 px, sans son, moins de 4 Mo, avec une image d'affiche."
+  - titre: "La vidéo de drone"
+    texte: "Dans CloudConvert : MOV vers MP4, puis, avec la clé à molette, une largeur de 1920 (ou 1280), le son retiré et une qualité réduite (pour le codec x264, une valeur CRF autour de 28). Pour l'image d'affiche : convertissez la vidéo en JPG dans CloudConvert, ou faites une capture d'écran de la vidéo, puis passez l'image dans Squoosh."
+  - titre: "Regarder à 100 %"
+    texte: "Ouvrez le fichier livré dans le navigateur et zoomez à 100 % (Ctrl+0). Cherchez les bavures autour du texte et des contours, les aplats qui se tachent, les dégradés du ciel qui font des marches. Si ça se voit à 100 %, remontez la qualité d'un cran."
+  - titre: "De vraies photos de clients ?"
+    texte: "Les fichiers de ce lab sont fictifs. Avec de vraies photos, rappelez-vous que TinyPNG et CloudConvert envoient les fichiers sur leurs serveurs; Squoosh, lui, travaille dans le navigateur."

@@ -147,3 +147,6 @@ vite.config.ts.timestamp-*
 
 # Documents enseignant privés (corrigés) — jamais versionnés
 /prive/
+
+# Médias générés pour le Lab 07 (le zip publié est dans docs/public/fiches)
+outils/medias/sortie/

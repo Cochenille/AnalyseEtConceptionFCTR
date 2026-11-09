@@ -121,7 +121,8 @@ def identification(doc, desc):
     doc.add_paragraph()
 
     nom = f"lab{desc['numero']:02d}-equipeN.docx"
-    phrase(doc, "Remise :", f"cette fiche remplie, nommée {nom}, déposée dans l'équipe Teams du cours.")
+    remise = desc.get("remise", "cette fiche remplie, nommée {nom}, déposée dans l'équipe Teams du cours.")
+    phrase(doc, "Remise :", remise.format(nom=nom))
     if desc.get("regle"):
         phrase(doc, "Règle d'or :", desc["regle"])
 
@@ -147,11 +148,17 @@ def tableau_liste(doc, bloc):
         for cellule, valeur in zip(rangee.cells, valeurs):
             ombrer(ecrire(cellule, valeur, italique=True, gris=True), GRIS_EXEMPLE)
 
-    for i in range(1, bloc.get("rangees", 5) + 1):
+    # « rangees » : un nombre de rangées vides, ou une liste de textes qui remplissent
+    # la première colonne (par exemple les fichiers à traiter, un par rangée).
+    rangees = bloc.get("rangees", 5)
+    textes = rangees if isinstance(rangees, list) else [None] * rangees
+    for i, texte in enumerate(textes, start=1):
         rangee = ajouter_rangee(tableau, pouces)
         hauteur_min(rangee, bloc.get("hauteur", 0.45))
         if prefixe:
             ecrire(rangee.cells[0], f"{prefixe}{i}", gras=True)
+        if texte is not None:
+            ecrire(rangee.cells[1 if prefixe else 0], texte, gras=True)
 
 
 def tableau_grille(doc, bloc):

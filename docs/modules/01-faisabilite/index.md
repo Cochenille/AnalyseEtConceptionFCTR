@@ -16,8 +16,8 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
   <li class="is-pause"><span class="frise-date">14 oct.</span><strong>—</strong><span class="frise-sous">Pas de cours</span></li>
   <li><span class="frise-date">21 oct.</span><strong>Séance 4</strong><span class="frise-sous">Essayer et comparer · Lab 04</span></li>
   <li><span class="frise-date">28 oct.</span><strong>Séance 5</strong><span class="frise-sous">Écrire pour le client · Lab 05</span></li>
-  <li class="is-actuelle"><span class="frise-date">4 nov.</span><strong>Séance 6</strong><span class="frise-sous">Réviser le rapport · Lab 06</span></li>
-  <li class="is-remise"><span class="frise-date">11 nov.</span><strong>Séance 7</strong><span class="frise-badge">Remise éval. 1 · 20&nbsp;%</span></li>
+  <li><span class="frise-date">4 nov.</span><strong>Séance 6</strong><span class="frise-sous">Réviser le rapport · Lab 06</span></li>
+  <li class="is-actuelle"><span class="frise-date">11 nov.</span><strong>Séance 7</strong><span class="frise-sous">Formats de fichiers · Lab 07</span><span class="frise-badge">Remise éval. 1 · 20&nbsp;% · Énoncé éval. 2</span></li>
   <li><span class="frise-date">18 nov.</span><strong>Séance 8</strong><span class="frise-sous">Transition vers la partie 2</span></li>
 </ol>
 
@@ -44,3 +44,6 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
   - [Lab 05 — Écrire pour Mélanie](./../../labs/lab05-ecrire-pour-melanie)
 - [Séance 6 — Réviser le rapport](./06-reviser-le-rapport)
   - [Lab 06 — Réviser le rapport](./../../labs/lab06-reviser-le-rapport)
+- [Séance 7 — Les formats de fichiers du Web](./07-formats-de-fichiers)
+  - [Lab 07 — Alléger les médias de Patrick](./../../labs/lab07-alleger-les-medias)
+  - [Évaluation 2 — Rapport de faisabilité technique : proposition technique](./../../evaluations/evaluation-2)

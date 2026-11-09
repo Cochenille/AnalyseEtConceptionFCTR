@@ -25,6 +25,8 @@ import EcrirePourMelanie from "./components/EcrirePourMelanie.vue"
 import ChoisirResume from "./components/ChoisirResume.vue"
 import OuCaPerdDesPoints from "./components/OuCaPerdDesPoints.vue"
 import ChasseFautes from "./components/ChasseFautes.vue"
+import QuelFormat from "./components/QuelFormat.vue"
+import TexteRemplacement from "./components/TexteRemplacement.vue"
 import VersionImprimable from "./components/VersionImprimable.vue"
 
 
@@ -60,6 +62,8 @@ export default {
     app.component("ChoisirResume", ChoisirResume);
     app.component("OuCaPerdDesPoints", OuCaPerdDesPoints);
     app.component("ChasseFautes", ChasseFautes);
+    app.component("QuelFormat", QuelFormat);
+    app.component("TexteRemplacement", TexteRemplacement);
   }
 }
 

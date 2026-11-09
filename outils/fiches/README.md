@@ -19,7 +19,7 @@ Pour un nouveau lab : copier [`modele.yaml`](modele.yaml) dans `outils/fiches/la
 2. **À faire :** une phrase, avec le nombre attendu (« 6 essais »)
 3. **Vous aurez besoin de :** ce qui vient d'une autre partie ou d'un lab précédent, nommé précisément (facultatif)
 4. **Les blocs :**
-   - `liste` : une rangée par élément (B1, E1…). Les en-têtes sont des questions, avec une précision dessous. Une rangée d'exemple grisée, puis exactement le nombre de rangées attendues.
+   - `liste` : une rangée par élément (B1, E1…). Les en-têtes sont des questions, avec une précision dessous. Une rangée d'exemple grisée, puis exactement le nombre de rangées attendues. `rangees` peut aussi être une liste de textes : chaque rangée commence alors déjà remplie (par exemple le fichier à traiter).
    - `grille` : une rangée par critère, une colonne par objet comparé (Outil 1, Outil 2…). Colonne d'exemple grisée si un critère a un `exemple`.
    - `texte` : une case libre pour un court paragraphe.
 5. **Avant de passer à la suite, cochez :** 2 à 4 cases au plus. Elles remplacent la liste de remise.
@@ -30,7 +30,7 @@ Les conseils (outils, mots-clés, cas particuliers) vont dans la section `aide`,
 
 | Quoi | Convention |
 |:--|:--|
-| Fichier remis | `labNN-equipeN.docx`, déposé dans l'équipe Teams du cours |
+| Fichier remis | `labNN-equipeN.docx`, déposé dans l'équipe Teams du cours (la clé `remise` du YAML remplace la phrase de remise quand il y a autre chose à déposer, `{nom}` y donne le nom de la fiche) |
 | Captures | `labNN-equipeN-E3-01.png` (lab, équipe, élément, numéro) |
-| Numérotation | B (besoins), S (sources), E (essais), C (constats), R (risques), V (points de révision) : les mêmes d'un lab à l'autre |
+| Numérotation | B (besoins), S (sources), E (essais), C (constats), R (risques), V (points de révision), M (médias) : les mêmes d'un lab à l'autre |
 | Enchaînement | Une fiche ne contient jamais un tableau à remplir dans un lab suivant |
