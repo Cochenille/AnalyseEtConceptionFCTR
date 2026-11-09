@@ -46,7 +46,11 @@ Avez-vous des **questions de dernière minute** sur l'évaluation 1 ? Posez-les 
 
 ## Un fichier, trois questions
 
-Patrick a envoyé ses photos, son logo, un extrait de drone et la grille des tarifs. Avant de choisir un format, posez trois questions sur chaque fichier :
+Patrick a envoyé ses photos, son logo, un extrait de drone et la grille des tarifs :
+
+<DossierPatrick />
+
+Avant de choisir un format, posez trois questions sur chaque fichier :
 
 1. **Qu'est-ce que c'est ?** Une photo, un dessin (logo, icône, carte), une vidéo, un document, une police de caractères.
 2. **Où va-t-il, et à quelle taille ?** Une bannière sur toute la largeur de l'écran, une photo dans le texte, une petite icône dans le menu.
@@ -61,7 +65,11 @@ Patrick a envoyé ses photos, son logo, un extrait de drone et la grille des tar
 | **Si on l'agrandit** | Elle devient floue, puis pixelisée | Elle reste nette à toutes les tailles |
 | **Formats** | JPEG, PNG, WebP, AVIF | SVG |
 
+<MatricielVectoriel />
+
 Une image matricielle se compresse **avec perte** (on retire des détails que l'œil ne voit presque pas : idéal pour une photo) ou **sans perte** (on ne retire rien : nécessaire pour du texte et des aplats, où la moindre bavure se voit).
+
+<PerteSansPerte />
 
 ### Les formats d'image
 
@@ -118,6 +126,8 @@ Huit fichiers, tirés de l'envoi de Patrick et des besoins du mandat.
 
 Le plus gros gain ne vient pas du format : il vient des **dimensions**. La photo du coucher de soleil fait 6000 px de large; la bannière de l'accueil en affiche au plus 1920. Les 24 millions de pixels de la photo, contre 2,5 millions affichés : le visiteur télécharge **dix fois trop d'image**.
 
+<EchelleDimensions />
+
 **La règle du double :** une image n'a pas besoin de faire plus de **deux fois la largeur à laquelle elle s'affiche** (les écrans haute densité affichent deux pixels pour un). Un logo affiché à 200 px : 400 px au plus.
 
 | Où va le fichier | Largeur visée | Poids visé |
@@ -131,6 +141,12 @@ Le plus gros gain ne vient pas du format : il vient des **dimensions**. La photo
 
 Ces repères ne sont pas des normes officielles. Ce sont des cibles raisonnables, qui aident à respecter l'exigence du rapport : **la page d'accueil s'affiche en moins de 2,5 secondes sur un téléphone**. Avec l'extrait de drone de Patrick tel quel (16 Mo pour 8 secondes), c'est impossible au quai, et difficile même à Trois-Rivières.
 
+### Jusqu'où compresser ?
+
+Une fois la photo à la bonne largeur, le réglage de **qualité** décide du reste. Comparez :
+
+<ComparerQualite />
+
 ### L'accessibilité des médias
 
 Le programme d'aide qui a financé les kayaks adaptés exige que l'information sur l'offre adaptée soit « accessible à tous ». La référence, pour le Web, ce sont les règles **WCAG** (*Web Content Accessibility Guidelines*). Quatre d'entre elles touchent directement les médias :
@@ -141,6 +157,8 @@ Le programme d'aide qui a financé les kayaks adaptés exige que l'information s
 | **Sous-titres** (WCAG 1.2.2) | Une vidéo où l'on parle a des sous-titres (un fichier `.vtt`, à côté de la vidéo). | La vidéo de sécurité où Patrick explique comment pagayer, en français et en anglais. |
 | **Pause** (WCAG 2.2.2) | Ce qui bouge seul plus de 5 secondes peut être mis en pause. | La vidéo de drone en boucle a un bouton pause visible. |
 | **Contraste** (WCAG 1.4.3) | Le texte se détache du fond : un rapport d'au moins 4,5 pour 1 (3 pour 1 pour un grand titre). | Le titre blanc posé sur la vidéo de drone a besoin d'un voile sombre derrière lui. |
+
+<VoileContraste />
 
 ### Ce qu'on vérifie aussi avant de mettre une photo en ligne
 

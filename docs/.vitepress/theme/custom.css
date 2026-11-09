@@ -237,14 +237,43 @@
   .vp-doc button { display: none !important; }
 
   /* Activités interactives : remplacées par un renvoi au site */
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf) > * { display: none !important; }
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf) {
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf, .qf, .tr) > * { display: none !important; }
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf, .qf, .tr) {
     margin: 1rem 0; padding: 0.7rem 0.9rem;
     border: 1px dashed #999; border-radius: 0.5rem; background: #f6f6f7;
     break-inside: avoid;
   }
-  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf)::before {
+  .vp-doc :is(.tq, .te, .ts, .pc, .gp, .rl, .tc, .mr, .cr, .ct, .nq, .op, .cf, .qf, .tr)::before {
     content: "Activité interactive — à faire en classe sur le site du cours.";
     font-size: 9.5pt; font-style: italic; color: #444;
   }
+}
+
+/* Figures de la séance 7 (images et médias) */
+.vp-doc .fig7 {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.9rem;
+  background: var(--vp-c-bg-soft);
+}
+.vp-doc .fig7 figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+.vp-doc .fig7 figcaption strong { color: var(--vp-c-text-1); }
+.vp-doc .fig7-duo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.vp-doc .fig7-panneau { display: grid; gap: 0.4rem; align-content: start; }
+.vp-doc .fig7-titre { font-weight: 700; font-size: 0.9rem; }
+.vp-doc .fig7-sous { font-size: 0.8rem; color: var(--vp-c-text-2); }
+.vp-doc .fig7 img { display: block; max-width: 100%; height: auto; margin: 0; border-radius: 0.4rem; }
+.vp-doc .fig7 .pixels { image-rendering: pixelated; }
+@media print {
+  .vp-doc .fig7 { background: none; break-inside: avoid; }
 }

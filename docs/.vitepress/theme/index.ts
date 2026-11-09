@@ -27,6 +27,12 @@ import OuCaPerdDesPoints from "./components/OuCaPerdDesPoints.vue"
 import ChasseFautes from "./components/ChasseFautes.vue"
 import QuelFormat from "./components/QuelFormat.vue"
 import TexteRemplacement from "./components/TexteRemplacement.vue"
+import DossierPatrick from "./components/DossierPatrick.vue"
+import MatricielVectoriel from "./components/MatricielVectoriel.vue"
+import PerteSansPerte from "./components/PerteSansPerte.vue"
+import ComparerQualite from "./components/ComparerQualite.vue"
+import EchelleDimensions from "./components/EchelleDimensions.vue"
+import VoileContraste from "./components/VoileContraste.vue"
 import VersionImprimable from "./components/VersionImprimable.vue"
 
 
@@ -64,6 +70,12 @@ export default {
     app.component("ChasseFautes", ChasseFautes);
     app.component("QuelFormat", QuelFormat);
     app.component("TexteRemplacement", TexteRemplacement);
+    app.component("DossierPatrick", DossierPatrick);
+    app.component("MatricielVectoriel", MatricielVectoriel);
+    app.component("PerteSansPerte", PerteSansPerte);
+    app.component("ComparerQualite", ComparerQualite);
+    app.component("EchelleDimensions", EchelleDimensions);
+    app.component("VoileContraste", VoileContraste);
   }
 }
 
