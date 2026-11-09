@@ -95,13 +95,16 @@ def generer():
     doc.add_heading("8. Les choix techniques", level=1)
     doc.add_heading("8.1 Les critères de choix", level=2)
     consigne(doc, "Ce qui compte le plus pour ce client, tiré de vos exigences (section 3) et de vos contraintes (section 4). "
-                  "Poids : 3 = indispensable, 2 = important, 1 = souhaitable. Cinq à huit critères.")
+                  "Poids : 3 = indispensable, 2 = important, 1 = souhaitable. Cinq à huit critères. Un outil qui échoue à un "
+                  "critère de poids 3 est écarté; entre les outils qui restent, les critères de poids 2 tranchent (voir "
+                  "l'exemple de l'énoncé).")
     tableau(doc, ["Critère", "D'où il vient (exigence ou contrainte)", "Poids (1 à 3)"], rangees=6)
 
     doc.add_heading("8.2 Les choix pour les cinq questions", level=2)
     consigne(doc, "Pour chaque question : l'outil ou la solution retenu, pourquoi (les critères de 8.1, vos essais, vos sources), "
                   "ce que vous écartez et pourquoi, et ce qui reste à vérifier. Pour les questions que vous n'avez pas essayées, "
-                  "dites sur quoi repose le choix et ce qu'un essai devra confirmer avant de s'engager.")
+                  "dites sur quoi repose le choix et ce qu'un essai devra confirmer avant de s'engager. Pour Q4, on choisit où "
+                  "héberger et comment diffuser les vidéos; la préparation des fichiers va à la section 9.")
     for q in QUESTIONS:
         doc.add_heading(q, level=3)
         tableau(doc, ["", "Notre choix"], premiere_colonne=[
@@ -141,7 +144,8 @@ def generer():
     doc.add_heading("10. Les adaptations proposées", level=1)
     doc.add_heading("10.1 Les contraintes déterminantes et les risques de la zone rouge", level=2)
     consigne(doc, "Une rangée pour chaque contrainte déterminante (section 4.3) et chaque risque de la zone rouge (section 5.3), "
-                  "avec son numéro.")
+                  "avec son numéro. Ne recopiez pas la mesure de la section 5.3 : l'adaptation est la décision concrète de votre "
+                  "proposition (l'outil retenu, la fonction à activer, la façon de faire) qui obtient le résultat visé par la mesure.")
     tableau(doc, ["Contrainte ou risque (n°)", "L'adaptation que nous proposons", "Ce que ça change pour le client"], rangees=6)
     doc.add_heading("10.2 Ce que nous ne proposons pas", level=2)
     consigne(doc, "Les demandes du mandat que vous ne retenez pas, ou pas tout de suite (l'application mobile, le niveau de la "
@@ -158,29 +162,41 @@ def generer():
             premiere_colonne=[""] * 10 + ["Total"], gras_premiere=True)
     consigne(doc, "Sous le tableau : comment l'estimation retenue est calculée, et à quoi vous l'avez comparée.")
     doc.add_heading("11.2 L'échéancier", level=2)
-    consigne(doc, "Les étapes de maintenant au 1er mars 2027, avec le coussin prévu pour les imprévus. Pour chaque étape, ce que "
-                  "le client doit fournir et à quelle date (accès au domaine, textes, photos, décharge traduite…).")
+    consigne(doc, "Un échéancier simple, par étapes, de maintenant au 1er mars 2027, avec le coussin prévu pour les imprévus "
+                  "(vu à la séance 8). Pour chaque étape, ce que le client doit fournir et à quelle date (accès au domaine, textes, "
+                  "photos, décharge traduite…). Les cycles de travail agiles ne sont pas demandés ici.")
     tableau(doc, ["Étape", "Début", "Fin", "Ce qui est livré", "Ce que le client doit fournir, et quand"], rangees=6)
     saut(doc)
 
     # 12 ----------------------------------------------------------------------
     doc.add_heading("12. L'argent", level=1)
-    consigne(doc, "Hypothèses communes : Studio Web FC facture 75 $ de l'heure, taxes en sus. Tous les montants en dollars "
-                  "canadiens. Écrivez sous chaque tableau la date de lecture des prix, le taux de change et le volume utilisé "
-                  "(réservations, participants).")
+    consigne(doc, "Hypothèses communes : Studio Web FC facture 75 $ de l'heure. Tous les montants sont en dollars canadiens et "
+                  "avant taxes, le budget de Mélanie compris. Un seul taux de change pour tout le rapport. Écrivez sous chaque "
+                  "tableau la date de lecture des prix, le taux de change et le volume utilisé (réservations, participants).")
     doc.add_heading("12.1 Les coûts uniques", level=2)
     tableau(doc, ["Élément", "Calcul", "Montant ($ CA)"], premiere_colonne=["Construction du site (heures de 11.1 × 75 $)", "", "", "Total"], gras_premiere=False)
     doc.add_heading("12.2 Les coûts annuels", level=2)
     tableau(doc, ["Élément", "Année 1", "Année 2", "Année 3"], premiere_colonne=["", "", "", "", "Total"])
     doc.add_heading("12.3 Le total sur trois ans, comparé au budget", level=2)
+    consigne(doc, "Le total sur trois ans, à titre d'information : c'est ce que le projet coûtera vraiment.")
     tableau(doc, ["", "Année 1", "Année 2", "Année 3", "Total"], premiere_colonne=[
         "Coûts uniques",
         "Coûts annuels",
         "Total",
-        "Écart avec un budget de 8 000 $",
-        "Écart avec un budget de 13 000 $ (subvention accordée)",
     ], gras_premiere=True)
-    consigne(doc, "Quelques lignes pour Mélanie : ce que ces chiffres veulent dire pour l'entreprise, la première année et les suivantes.")
+    consigne(doc, "La comparaison au budget. Le budget de Mélanie sert à la construction : on y compare les coûts uniques. "
+                  "Elle n'a pas prévu de coûts annuels : on les compare à ce que l'entreprise paie aujourd'hui pour son site "
+                  "(environ 300 $ par année pour Wix, selon elle).")
+    tableau(doc, ["", "Nos coûts", "Budget ou repère", "Écart"], premiere_colonne=[
+        "Coûts uniques, budget de base",
+        "Coûts uniques, subvention accordée",
+        "Coûts annuels (par année)",
+    ], gras_premiere=True)
+    t = doc.tables[-1]
+    for rangee, repere in zip(t.rows[1:], ["8 000 $", "13 000 $", "environ 300 $"]):
+        rangee.cells[2].paragraphs[0].add_run(repere)
+    consigne(doc, "Quelques lignes pour Mélanie : ce que ces chiffres veulent dire pour l'entreprise, et combien elle devra prévoir "
+                  "chaque année.")
     doc.add_heading("12.4 Trois façons d'entrer dans le budget", level=2)
     tableau(doc, ["Option", "Ce que nous changeons", "Économie ($ CA)", "Ce que le client perd ou reporte"], premiere_colonne=[
         "A. Enlever des fonctionnalités",
@@ -204,8 +220,9 @@ def generer():
     # Annexes -----------------------------------------------------------------
     doc.add_heading("Annexe D — Le détail de l'estimation", level=1)
     consigne(doc, "Seulement si la liste des tâches dépasse 15 lignes dans la section 11.1 : toutes les tâches, avec leurs trois "
-                  "chiffres. Les annexes B (IA générative) et C (contribution des membres) sont refaites pour l'évaluation 2, "
-                  "dans votre rapport, à la suite des annexes de l'évaluation 1.")
+                  "chiffres. Dans les annexes B (IA générative) et C (contribution des membres) de votre rapport, gardez la "
+                  "partie de l'évaluation 1 (B.1, C.1) et ajoutez à la suite une partie B.2 et une partie C.2 pour "
+                  "l'évaluation 2.")
     tableau(doc, ["Tâche", "Optimiste (h)", "Probable (h)", "Pessimiste (h)", "Estimation retenue (h)"], rangees=8)
 
     doc.save(SORTIE)
