@@ -38,7 +38,7 @@ Le **retour en grand groupe** sur le Lab 07 aura lieu **au début de la séance 
 Ouvrez LÉA et vérifiez que le fichier déposé est le bon : <code>eval1-equipeN-nom1-nom2-nom3.docx</code>, avec les annexes A, B et C. Un fichier vide ou une ancienne version, ça arrive : c'est maintenant qu'on le voit, pas dans deux semaines.
 </div>
 
-On commence par les **questions notées à la fin de vos fiches du Lab 06** : celles qui touchent encore la suite du rapport ont leur réponse ce soir.
+Avez-vous des **questions de dernière minute** sur l'évaluation 1 ? Posez-les dans le chat.
 
 Écrivez ensuite dans le chat **le défaut que vous avez corrigé le plus souvent** dans votre rapport, en quelques mots. On regarde ensemble ceux qui reviennent : ce sont les mêmes pièges qui vous attendent dans la proposition technique, où il faudra cette fois **choisir**, chiffrer et justifier.
 
