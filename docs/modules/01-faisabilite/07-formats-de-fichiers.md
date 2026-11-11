@@ -202,12 +202,12 @@ Ce que chaque séance vous apporte pour la proposition :
 | Séance | Pour la proposition |
 |:-:|:--|
 | 7 (ce soir) | Lab 07 : les **formats** et les règles de mise en ligne (section 9) |
-| 8 (18 nov.) | **Choisir** avec des critères, estimer le **temps** et monter le **devis** (sections 8, 11 et 12). Votre rapport de l'évaluation 1 vous est rendu corrigé |
+| 8 (18 nov.) | **Choisir** avec des critères, estimer le **temps** et monter le **devis** (sections 8, 11 et 12). Votre rapport de l'évaluation 1 vous est rendu corrigé, avec des tableaux de comparaison communs |
 | 9 (25 nov.) | La **rencontre avec le client** : apportez dix questions; les réponses confirment ou ajustent vos choix |
 | 10 (2 déc.) | 15 minutes de questions sur l'évaluation 2, au début de la séance |
 | 11 (9 déc.) | **Remise** avant 18 h 30 |
 
-Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 novembre**, avec les commentaires à appliquer. D'ici là, commencez par ce qui n'en dépend pas : le choix des outils, à partir de vos essais et de vos tableaux de l'évaluation 1.
+Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 novembre**, avec les commentaires à appliquer. Vous recevrez en même temps des **tableaux de comparaison communs** pour les cinq questions : toutes les équipes partiront des mêmes outils pour faire leurs choix. D'ici là, commencez par ce qui n'en dépend pas : les critères de choix (section 8.1), tirés de vos exigences et de vos contraintes.
 
 ---
 
@@ -221,7 +221,7 @@ Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 n
 
 - **Lire l'[énoncé de l'évaluation 2](./../../evaluations/evaluation-2)** en équipe et noter vos questions : on y répond au début de la séance 8.
 - **Terminer le Lab 07** si vous n'avez pas eu le temps d'alléger tous les fichiers. La fiche sert directement à la section 9 de la proposition.
-- **Rassembler vos tableaux de comparaison** de l'évaluation 1, pour votre question et les quatre autres : la section 8 de la proposition part de là.
+- **Commencer les critères de choix** (section 8.1) à partir de vos exigences et de vos contraintes. Les outils à comparer viendront des tableaux communs remis le 18 novembre.
 
 ---
 

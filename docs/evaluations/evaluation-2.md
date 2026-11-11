@@ -67,7 +67,7 @@ Le gabarit de la partie 2 contient ces sections, avec des consignes dans chacune
 
 #### 8. Les choix techniques
 - **8.1 Les critères de choix** : ce qui compte le plus pour ce client, tiré de vos exigences et de vos contraintes, avec un poids pour chacun (par exemple : Mélanie peut modifier les prix seule, le coût annuel, la gestion des départs à 8 places).
-- **8.2 Les choix pour les cinq questions** : pour chacune des questions Q1 à Q5, l'outil ou la solution retenu, **pourquoi** (les critères, vos essais, vos sources), ce que vous écartez et pourquoi, et ce qui reste à vérifier. Votre question peut s'appuyer sur vos essais; pour les quatre autres, dites sur quoi repose le choix, et ce qu'un essai devra confirmer avant de s'engager. Pour Q4, on choisit **où héberger et comment diffuser** les vidéos; la préparation des fichiers va à la section 9.
+- **8.2 Les choix pour les cinq questions** : pour chacune des questions Q1 à Q5, l'outil ou la solution retenu, **pourquoi** (les critères, vos essais, vos sources), ce que vous écartez et pourquoi, et ce qui reste à vérifier. Partez des **tableaux de comparaison communs**, remis avec la correction de l'évaluation 1 : ce sont les mêmes pour toutes les équipes. Vous pouvez y ajouter un outil, à condition de dire pourquoi. Votre question peut s'appuyer sur vos essais; pour les quatre autres, dites sur quoi repose le choix, et ce qu'un essai devra confirmer avant de s'engager. Pour Q4, on choisit **où héberger et comment diffuser** les vidéos; la préparation des fichiers va à la section 9.
 - **8.3 Comment les outils fonctionnent ensemble** : un schéma simple qui montre le site, la réservation, la décharge, Square, Viator, les courriels et le nom de domaine, et ce qui passe de l'un à l'autre. Les liens qui ne fonctionnent pas, ou qui demandent une manipulation à la main, y sont indiqués.
 
 ::: info Un exemple, sur un autre client
@@ -218,8 +218,8 @@ Les mêmes règles qu'à l'[évaluation 1](./evaluation-1#l-intelligence-artific
 
 | Séance | Date | Ce que vous y faites pour la proposition |
 |:-:|:--|:--|
-| 7 | 11 nov. | Le Lab 07 porte sur les formats et les règles de mise en ligne : ce que vous y produisez devient votre **section 9**. Commencez aussi la **section 8** (les choix techniques) en partant des tableaux de comparaison d'outils de votre évaluation 1 |
-| 8 | 18 nov. | La séance porte sur les critères de choix, l'estimation du temps et le devis : avancez les **sections 8** (choix techniques), **11** (temps) et **12** (argent). Le rapport de l'évaluation 1 vous est rendu corrigé |
+| 7 | 11 nov. | Le Lab 07 porte sur les formats et les règles de mise en ligne : ce que vous y produisez devient votre **section 9**. Commencez aussi la **section 8.1** (les critères de choix), à partir de vos exigences et de vos contraintes |
+| 8 | 18 nov. | Le rapport de l'évaluation 1 vous est rendu corrigé, avec des **tableaux de comparaison communs** pour les cinq questions. La séance porte sur les critères de choix, l'estimation du temps et le devis : avancez les **sections 8** (choix techniques), **11** (temps) et **12** (argent) |
 | 9 | 25 nov. | Rencontre avec le client : apportez **dix questions** (celles de votre section 7, complétées au besoin). Ses réponses confirment ou ajustent vos choix : mettez à jour les **sections 7, 8 et 10**. N'attendez pas la rencontre pour écrire la section 8 |
 | 10 | 2 déc. | 15 minutes de questions sur l'évaluation 2 au début de la séance. À la maison : appliquer les commentaires de l'évaluation 1, écrire la section 13 et le résumé |
 | 11 | 9 déc. | **Remise** avant 18 h 30 |
