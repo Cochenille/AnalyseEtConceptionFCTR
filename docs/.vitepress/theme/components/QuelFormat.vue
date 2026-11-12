@@ -34,8 +34,8 @@ const CAS: Cas[] = [
     quoi: "La carte des deux parcours de via ferrata : des aplats de couleur, des lignes et du texte. Exportée de PowerPoint en PNG de 3600 × 2400 px.",
     ou: "Sur la page Via ferrata.",
     bons: ["PNG", "WebP"],
-    acceptables: ["SVG"],
-    pourquoi: "Des aplats et du texte : la compression avec perte d'un JPEG ferait des bavures autour des lettres. On garde un PNG réduit en couleurs (TinyPNG le fait) ou un WebP sans perte. Un SVG serait parfait si on redessinait la carte, mais on ne reçoit qu'une image. Et le texte de la carte doit aussi se trouver dans la page.",
+    acceptables: ["SVG", "AVIF"],
+    pourquoi: "Des aplats et du texte : la compression avec perte d'un JPEG ferait des bavures autour des lettres. On garde un PNG réduit en couleurs (TinyPNG le fait) ou un WebP sans perte. Un AVIF sans perte fonctionne aussi, mais pour ce genre d'image il pèse souvent plus qu'un WebP, et il demande un repli. Un SVG serait parfait si on redessinait la carte, mais on ne reçoit qu'une image. Et le texte de la carte doit aussi se trouver dans la page.",
   },
   {
     quoi: "L'extrait de drone de Patrick : un fichier .MOV en 4K, avec le bruit du vent.",
