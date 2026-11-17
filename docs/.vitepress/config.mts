@@ -85,6 +85,10 @@ export default withMermaid(defineConfig({
 								text: "Séance 7 — Les formats de fichiers",
 								link: "/modules/01-faisabilite/07-formats-de-fichiers",
 							},
+							{
+								text: "Séance 8 — Estimer et chiffrer",
+								link: "/modules/01-faisabilite/08-estimer-et-chiffrer",
+							},
 						],
 					},
 				],
@@ -100,6 +104,7 @@ export default withMermaid(defineConfig({
 					{ text: "Lab 05 — Écrire pour Mélanie", link: "/labs/lab05-ecrire-pour-melanie" },
 					{ text: "Lab 06 — Réviser le rapport", link: "/labs/lab06-reviser-le-rapport" },
 					{ text: "Lab 07 — Alléger les médias", link: "/labs/lab07-alleger-les-medias" },
+					{ text: "Lab 08 — Estimer et chiffrer", link: "/labs/lab08-estimer-et-chiffrer" },
 				],
 			},
 			{

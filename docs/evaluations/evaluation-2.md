@@ -83,7 +83,7 @@ Une boulangerie veut prendre les commandes du samedi en ligne. Voici à quoi res
 </tbody>
 </table>
 
-<strong>Comment les poids servent.</strong> Un outil qui échoue à un critère de poids 3 est écarté, même s'il gagne partout ailleurs. Entre les outils qui restent, les critères de poids 2 tranchent; ceux de poids 1 départagent seulement les égalités. Dans la section 8.2, nommez les critères qui ont décidé.
+<strong>Comment les poids servent.</strong> Un outil qui échoue à un critère de poids 3 est écarté, même s'il gagne partout ailleurs. Entre les outils qui restent, les critères de poids 2 tranchent; ceux de poids 1 servent seulement quand deux outils sont à égalité. Dans la section 8.2, nommez les critères qui ont décidé.
 
 <div style="overflow-x:auto">
 <svg class="schema-exemple" style="min-width:540px;display:block" viewBox="0 0 700 230" role="img" aria-label="Schéma : le site envoie la commande à l'outil de commande, qui envoie le paiement au terminal et le courriel de confirmation au client. La liste de production est imprimée à la main.">

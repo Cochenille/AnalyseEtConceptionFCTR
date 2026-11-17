@@ -17,6 +17,139 @@ hero:
       text: Calendrier
       link: /plan-cours/calendrier
 ---
+<section id="seance-8">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 8 — mercredi 18 novembre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Retour sur le Lab 07',
+        description: 'Le fichier qui vous a donné le plus de mal, et ce que vous avez fait.',
+        links: [
+          { text: 'Séance 8', href: '/modules/01-faisabilite/08-estimer-et-chiffrer', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Estimer le travail en trois chiffres',
+        description: 'Découper en tâches, optimiste, probable, pessimiste, et comparer à un projet semblable.',
+        links: [
+          { text: 'Activité 1', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#activite-1', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Le devis et les trois façons d’entrer dans le budget',
+        description: 'Coûts uniques, coûts annuels, total sur trois ans. Et ce que le client perd quand on coupe.',
+        links: [
+          { text: 'Activité 2', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#activite-2', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Lab 08 — Estimer et chiffrer la proposition',
+        badge: 'En équipe',
+        description: 'Après la matière, en équipe. La fiche devient les sections 11 et 12 de l’évaluation 2.',
+        links: [
+          { text: 'Lab 08', href: '/labs/lab08-estimer-et-chiffrer', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab08-fiche-estimation.docx', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="Prochaine séance le 25 novembre : rencontre avec le client."
+    :steps="[
+      {
+        title: 'Déposer la fiche du Lab 08 dans Teams',
+        description: 'Travail formatif, une fiche par équipe.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab08-estimer-et-chiffrer#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Préparer dix questions pour Mélanie',
+        description: 'Une question, une décision, dans ses mots à elle. À déposer dans Teams avant la séance 9.',
+        links: [
+          { text: 'La rencontre avec le client', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#la-suite', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Écrire vos choix (section 8.2)',
+        description: 'À partir de vos critères (section 8.1). N’attendez pas la rencontre.',
+        links: [
+          { text: 'À faire à la maison', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#a-faire-a-la-maison', variant: 'secondary' },
+          { text: 'Évaluation 2', href: '/evaluations/evaluation-2', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
+<section id="seance-7">
+<div class="relative flex py-5 items-center mt-10">
+   <div class="grow border-t border-gray-400"></div>
+   <span class="shrink mx-4 text-gray-400">Séance 7 — mercredi 11 novembre</span>
+  <div class="grow border-t border-gray-400"></div>
+</div>
+<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+  <WeeklyTodo
+    title="À faire cette semaine — En classe"
+    subtitle="Activités réalisées pendant la séance."
+    :steps="[
+      {
+        title: 'Les formats de fichiers du Web',
+        description: 'Quel format pour quel fichier, les règles de qualité et le texte de remplacement.',
+        links: [
+          { text: 'Séance 7', href: '/modules/01-faisabilite/07-formats-de-fichiers', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'L’énoncé de l’évaluation 2',
+        badge: '20 % · remise le 9 déc.',
+        links: [
+          { text: 'Évaluation 2', href: '/evaluations/evaluation-2', variant: 'primary' },
+          { text: 'Gabarit (Word)', href: '/fiches/eval2-gabarit-proposition.docx', variant: 'secondary' }
+        ]
+      },
+      {
+        title: 'Lab 07 — Alléger les médias de Patrick',
+        badge: 'En équipe',
+        links: [
+          { text: 'Lab 07', href: '/labs/lab07-alleger-les-medias', variant: 'primary' },
+          { text: 'Fiche (Word)', href: '/fiches/lab07-fiche-medias.docx', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+
+  <WeeklyTodo
+    title="À préparer / compléter"
+    subtitle="Prochaine séance le 18 novembre."
+    :steps="[
+      {
+        title: 'Déposer la fiche et les médias du Lab 07 dans Teams',
+        description: 'Travail formatif, une fiche et un zip par équipe.',
+        links: [
+          { text: 'Consignes de remise', href: '/labs/lab07-alleger-les-medias#remise', variant: 'primary' }
+        ]
+      },
+      {
+        title: 'Lire l’énoncé de l’évaluation 2',
+        description: 'Notez vos questions : on y répond au début de la séance 8. Commencez les critères de choix (section 8.1).',
+        links: [
+          { text: 'À faire à la maison', href: '/modules/01-faisabilite/07-formats-de-fichiers#a-faire-a-la-maison', variant: 'secondary' }
+        ]
+      }
+    ]"
+  />
+</div>
+</section>
 <section id="seance-6">
 <div class="relative flex py-5 items-center mt-10">
    <div class="grow border-t border-gray-400"></div>

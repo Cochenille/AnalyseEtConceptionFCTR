@@ -34,6 +34,14 @@ import ComparerQualite from "./components/ComparerQualite.vue"
 import EchelleDimensions from "./components/EchelleDimensions.vue"
 import VoileContraste from "./components/VoileContraste.vue"
 import VersionImprimable from "./components/VersionImprimable.vue"
+import EstimationTroisChiffres from "./components/EstimationTroisChiffres.vue"
+import EntrerDansLeBudget from "./components/EntrerDansLeBudget.vue"
+import FigurePoids from "./components/FigurePoids.vue"
+import FigureTroisChiffres from "./components/FigureTroisChiffres.vue"
+import FigureOublis from "./components/FigureOublis.vue"
+import FigureEcheancier from "./components/FigureEcheancier.vue"
+import FigureDevis from "./components/FigureDevis.vue"
+import FigureTroisFacons from "./components/FigureTroisFacons.vue"
 
 
 export default {
@@ -76,6 +84,14 @@ export default {
     app.component("ComparerQualite", ComparerQualite);
     app.component("EchelleDimensions", EchelleDimensions);
     app.component("VoileContraste", VoileContraste);
+    app.component("EstimationTroisChiffres", EstimationTroisChiffres);
+    app.component("EntrerDansLeBudget", EntrerDansLeBudget);
+    app.component("FigurePoids", FigurePoids);
+    app.component("FigureTroisChiffres", FigureTroisChiffres);
+    app.component("FigureOublis", FigureOublis);
+    app.component("FigureEcheancier", FigureEcheancier);
+    app.component("FigureDevis", FigureDevis);
+    app.component("FigureTroisFacons", FigureTroisFacons);
   }
 }
 
