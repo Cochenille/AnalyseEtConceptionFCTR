@@ -43,11 +43,59 @@ Dans le chat, maintenant, pour tout le groupe.
 
 ---
 
-## Choisir avec des critères
+## Choisir avec des critères {#choisir-avec-des-criteres}
+
+Un critère vient toujours d'une exigence ou d'une contrainte déjà écrite dans le rapport. Pour la boulangerie, qui veut prendre les commandes du samedi en ligne :
+
+<table>
+<thead><tr><th>Critère</th><th>D'où il vient</th><th>Poids</th></tr></thead>
+<tbody>
+<tr><td>La propriétaire change le menu seule, chaque vendredi</td><td>Exigence : « le menu change toutes les semaines »</td><td>3</td></tr>
+<tr><td>Le paiement passe par son terminal actuel</td><td>Contrainte technologique : elle garde son terminal</td><td>2</td></tr>
+<tr><td>Moins de 40 $ par mois</td><td>Contrainte de budget</td><td>2</td></tr>
+<tr><td>Un rappel par texto la veille</td><td>Exigence souhaitée : « les clients oublient »</td><td>1</td></tr>
+</tbody>
+</table>
 
 <FigurePoids />
 
-Un exemple complet est dans [l'énoncé de l'évaluation 2](./../../evaluations/evaluation-2#_8-les-choix-techniques).
+### Montrer comment les outils fonctionnent ensemble {#schema}
+
+Une fois les outils choisis, un schéma montre ce qui passe de l'un à l'autre (section 8.3 de l'évaluation 2).
+
+<div style="overflow-x:auto">
+<svg class="schema-exemple" style="min-width:540px;display:block" viewBox="0 0 700 230" role="img" aria-label="Schéma : le site envoie la commande à l'outil de commande, qui envoie le paiement au terminal et le courriel de confirmation au client. La liste de production est imprimée à la main.">
+  <defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+  <g fill="none" stroke="currentColor" stroke-width="1.5">
+    <rect x="5" y="20" width="170" height="50" rx="8"/>
+    <rect x="265" y="20" width="170" height="50" rx="8"/>
+    <rect x="525" y="20" width="170" height="50" rx="8"/>
+    <rect x="265" y="170" width="170" height="50" rx="8"/>
+    <rect x="525" y="170" width="170" height="50" rx="8"/>
+    <path d="M175,45 H261" marker-end="url(#fl)"/>
+    <path d="M435,45 H521" marker-end="url(#fl)"/>
+    <path d="M435,66 L560,166" marker-end="url(#fl)"/>
+    <path d="M350,70 V166" stroke-dasharray="6 5" marker-end="url(#fl)"/>
+  </g>
+  <g fill="currentColor" font-size="14" text-anchor="middle">
+    <text x="90" y="50">Site de la boulangerie</text>
+    <text x="350" y="50">Outil de commande</text>
+    <text x="610" y="50">Terminal de paiement</text>
+    <text x="350" y="200">Liste de production</text>
+    <text x="610" y="200">Client</text>
+    <g font-size="12">
+      <text x="218" y="36">la commande</text>
+      <text x="478" y="36">le paiement</text>
+      <text x="508" y="112" text-anchor="start">courriel de</text>
+      <text x="508" y="127" text-anchor="start">confirmation</text>
+      <text x="340" y="112" text-anchor="end">imprimée à la main,</text>
+      <text x="340" y="127" text-anchor="end">le vendredi soir</text>
+    </g>
+  </g>
+</svg>
+</div>
+
+Une boîte par outil, une flèche par chose qui passe d'un outil à l'autre, nommée sur la flèche. La flèche en pointillé est une **manipulation à la main** : quelqu'un devra la faire chaque semaine. C'est souvent là que se cachent les erreurs et le temps perdu.
 
 ---
 
