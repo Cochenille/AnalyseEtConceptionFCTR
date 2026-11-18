@@ -73,11 +73,11 @@ const fauxOublis = computed(() => OUBLIS.filter((o) => !o.oublie && coches[o.cle
 function texteReponses() {
   const l = [
     "Séance 8 — Activité 1 : l'estimation de la boulangerie",
-    "Estimation retenue = (O + 4 × P + Pe) ÷ 6",
+    "Estimation retenue = (optimiste + 4 × probable + pessimiste) ÷ 6",
     "",
     ...lignes.value.map(
       (x) =>
-        `${x.t.nom}\n   O : ${saisies[x.t.cle].o || "—"} · P : ${x.t.probable} · Pe : ${saisies[x.t.cle].pe || "—"} · retenue : ${x.retenue !== null ? fmtH(x.retenue) : "—"}${x.grandEcart ? " (grand écart)" : ""}`,
+        `${x.t.nom}\n   optimiste : ${saisies[x.t.cle].o || "—"} · probable : ${x.t.probable} · pessimiste : ${saisies[x.t.cle].pe || "—"} · retenue : ${x.retenue !== null ? fmtH(x.retenue) : "—"}${x.grandEcart ? " (grand écart)" : ""}`,
     ),
     "",
     `Total à un chiffre (la collègue) : ${fmtH(totalProbable)}`,

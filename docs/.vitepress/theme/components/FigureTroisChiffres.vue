@@ -1,51 +1,94 @@
 <script setup lang="ts">
-// Séance 8 : trois chiffres par tâche; l'écart entre O et Pe montre le risque.
+// Séance 8 : trois chiffres par tâche, chacun avec ce qui le justifie; l'écart entre l'optimiste
+// et le pessimiste montre le risque. Aucune abréviation : les étudiants lisaient mal « O, P, Pe ».
 const MAX = 12;
+type Chiffre = { h: number; pourquoi: string };
 const TACHES = [
-  { nom: "Relier la réservation à Square", o: 2, p: 4, pe: 10, note: "Grand écart : un risque. À essayer en premier." },
-  { nom: "Mettre en page la page Contact", o: 1.5, p: 2, pe: 3, note: "Petit écart : rien à craindre." },
+  {
+    nom: "Relier la réservation à Square",
+    optimiste: { h: 2, pourquoi: "La documentation est claire, le premier paiement d'essai passe." },
+    probable: { h: 4, pourquoi: "Deux ou trois essais ratés avant que le paiement passe." },
+    pessimiste: { h: 10, pourquoi: "Les deux outils ne se parlent pas bien : on écrit au soutien et on attend." },
+    note: "Grand écart entre l'optimiste et le pessimiste : c'est un risque. On l'essaie en premier.",
+  },
+  {
+    nom: "Mettre en page la page Contact",
+    optimiste: { h: 1.5, pourquoi: "Le gabarit convient tel quel." },
+    probable: { h: 2, pourquoi: "Quelques retouches pour le téléphone." },
+    pessimiste: { h: 3, pourquoi: "La carte intégrée s'affiche mal et il faut la remplacer." },
+    note: "Petit écart : rien à craindre.",
+  },
 ];
-const retenue = (t: { o: number; p: number; pe: number }) => (t.o + 4 * t.p + t.pe) / 6;
+const COLONNES = [
+  { cle: "optimiste", titre: "Optimiste", sens: "tout va bien du premier coup" },
+  { cle: "probable", titre: "Probable", sens: "ce qui arrive d'habitude" },
+  { cle: "pessimiste", titre: "Pessimiste", sens: "ce qui peut raisonnablement mal tourner" },
+] as const;
+const retenue = (t: (typeof TACHES)[number]) => (t.optimiste.h + 4 * t.probable.h + t.pessimiste.h) / 6;
 const pc = (h: number) => `${(h / MAX) * 100}%`;
 const fmt = (n: number) => n.toLocaleString("fr-CA", { maximumFractionDigits: 1 });
 const GRAD = Array.from({ length: MAX / 2 + 1 }, (_, i) => i * 2);
+const chiffre = (t: (typeof TACHES)[number], cle: (typeof COLONNES)[number]["cle"]): Chiffre => t[cle];
 </script>
 
 <template>
   <figure class="fig7 ft">
-    <div v-for="t in TACHES" :key="t.nom" class="ft-ligne">
-      <p class="ft-nom">
-        <strong>{{ t.nom }}</strong>
-        <span class="ft-vals">O {{ fmt(t.o) }} h · P {{ fmt(t.p) }} h · Pe {{ fmt(t.pe) }} h</span>
-        <span>{{ t.note }}</span>
-      </p>
-      <div class="ft-piste">
-        <span class="ft-bande" :style="{ left: pc(t.o), width: pc(t.pe - t.o) }" />
-        <span class="ft-pt" :style="{ left: pc(t.o) }">O</span>
-        <span class="ft-pt is-p" :style="{ left: pc(t.p) }">P</span>
-        <span class="ft-pt" :style="{ left: pc(t.pe) }">Pe</span>
-        <span class="ft-ret" :style="{ left: pc(retenue(t)) }">retenue {{ fmt(retenue(t)) }} h</span>
+    <div v-for="t in TACHES" :key="t.nom" class="ft-tache">
+      <p class="ft-nom"><strong>{{ t.nom }}</strong></p>
+      <div class="ft-trois">
+        <div v-for="c in COLONNES" :key="c.cle" class="ft-case" :class="'is-' + c.cle">
+          <span class="ft-titre">{{ c.titre }}</span>
+          <span class="ft-h">{{ fmt(chiffre(t, c.cle).h) }} h</span>
+          <span class="ft-pourquoi">{{ chiffre(t, c.cle).pourquoi }}</span>
+        </div>
       </div>
-    </div>
-    <div class="ft-axe">
-      <span v-for="g in GRAD" :key="g" :style="{ left: pc(g) }">{{ g }} h</span>
+      <div class="ft-piste" aria-hidden="true">
+        <span class="ft-bande" :style="{ left: pc(t.optimiste.h), width: pc(t.pessimiste.h - t.optimiste.h) }" />
+        <span class="ft-ret" :style="{ left: pc(retenue(t)) }">{{ fmt(retenue(t)) }} h</span>
+      </div>
+      <div class="ft-axe" aria-hidden="true">
+        <span v-for="g in GRAD" :key="g" :style="{ left: pc(g) }">{{ g }} h</span>
+      </div>
+      <p class="ft-calcul">
+        Estimation retenue : ({{ fmt(t.optimiste.h) }} + 4 × {{ fmt(t.probable.h) }} + {{ fmt(t.pessimiste.h) }}) ÷ 6
+        ≈ <strong>{{ fmt(retenue(t)) }} h</strong>. {{ t.note }}
+      </p>
     </div>
     <div class="ft-formule">
-      <span>Retenue =</span>
-      <span class="ft-frac"><span>O + 4 × P + Pe</span><span>6</span></span>
-      <span class="ft-ex">(2 + 16 + 10) ÷ 6 ≈ <strong>4,7 h</strong></span>
+      <span>Estimation retenue =</span>
+      <span class="ft-frac"><span>optimiste + 4 × probable + pessimiste</span><span>6</span></span>
     </div>
     <figcaption>
-      <strong>Optimiste</strong> : tout va bien du premier coup. <strong>Probable</strong> : ce qui arrive d'habitude. <strong>Pessimiste</strong> : ce qui peut raisonnablement mal tourner. La retenue penche vers le probable, mais la largeur de la bande dit où est le risque.
+      <strong>La bande jaune va de l'optimiste au pessimiste; la pastille bleue est l'estimation retenue</strong>, le chiffre
+      qu'on met au devis. Le probable compte quatre fois, parce que c'est ce qui arrive le plus souvent; l'optimiste et le
+      pessimiste ne font que tirer un peu le chiffre d'un côté ou de l'autre. Plus la bande est large, plus la tâche est
+      risquée.
     </figcaption>
   </figure>
 </template>
 
 <style scoped>
-.ft-ligne { margin-bottom: 2.4rem; }
-.ft-nom { display: flex; flex-wrap: wrap; gap: 0.2rem 0.6rem; align-items: baseline; margin: 0 0 1.2rem !important; font-size: 0.85rem; }
-.ft-nom span { color: var(--vp-c-text-2); font-size: 0.78rem; }
-.ft-nom .ft-vals { font-family: var(--vp-font-family-mono); font-size: 0.72rem; color: var(--vp-c-text-1); }
+.ft-tache { margin-bottom: 1.8rem; }
+.ft-nom { margin: 0 0 0.5rem !important; font-size: 0.9rem; }
+.ft-trois {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.ft-case {
+  display: grid;
+  gap: 0.15rem;
+  align-content: start;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+}
+.ft-case.is-probable { border-color: var(--vp-c-text-2); }
+.ft-titre { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; color: var(--vp-c-text-2); }
+.ft-h { font-size: 1.1rem; font-weight: 700; }
+.ft-pourquoi { font-size: 0.78rem; line-height: 1.35; color: var(--vp-c-text-2); }
 .ft-piste {
   position: relative;
   height: 0.55rem;
@@ -62,24 +105,11 @@ const GRAD = Array.from({ length: MAX / 2 + 1 }, (_, i) => i * 2);
   background: var(--vp-c-warning-soft);
   border: 1px solid var(--vp-c-warning-2);
 }
-.ft-pt {
-  position: absolute;
-  bottom: -0.2rem;
-  height: 1.5rem;
-  transform: translateX(-1px);
-  padding-left: 3px;
-  border-left: 2px solid var(--vp-c-text-3);
-  font-size: 0.7rem;
-  font-weight: 700;
-  line-height: 0.9rem;
-  color: var(--vp-c-text-2);
-}
-.ft-pt.is-p { border-left-color: var(--vp-c-text-1); color: var(--vp-c-text-1); }
 .ft-ret {
   position: absolute;
-  top: 0.85rem;
+  bottom: 0.95rem;
   transform: translateX(-50%);
-  padding: 0.1rem 0.45rem;
+  padding: 0.05rem 0.45rem;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
   color: var(--vp-c-white);
@@ -87,31 +117,30 @@ const GRAD = Array.from({ length: MAX / 2 + 1 }, (_, i) => i * 2);
   font-weight: 700;
   white-space: nowrap;
 }
-.ft-ret::before {
+.ft-ret::after {
   content: "";
   position: absolute;
   left: 50%;
-  top: -0.4rem;
+  bottom: -0.4rem;
   border: 0.22rem solid transparent;
-  border-bottom-color: var(--vp-c-brand-1);
+  border-top-color: var(--vp-c-brand-1);
   transform: translateX(-50%);
 }
 .ft-axe {
   position: relative;
   height: 1rem;
-  margin: -0.6rem 1.2rem 0;
-  border-top: 1px solid var(--vp-c-divider);
+  margin: 0.2rem 1.2rem 0;
   font-size: 0.65rem;
   color: var(--vp-c-text-3);
 }
-.ft-axe span { position: absolute; top: 0.15rem; transform: translateX(-50%); white-space: nowrap; }
+.ft-axe span { position: absolute; top: 0; transform: translateX(-50%); white-space: nowrap; }
+.ft-calcul { margin: 0.4rem 0 0 !important; font-size: 0.82rem; }
 .ft-formule {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
   padding: 0.6rem;
   border-radius: 0.6rem;
   background: var(--vp-c-bg);
@@ -119,5 +148,7 @@ const GRAD = Array.from({ length: MAX / 2 + 1 }, (_, i) => i * 2);
 }
 .ft-frac { display: inline-grid; text-align: center; }
 .ft-frac span:first-child { border-bottom: 1px solid currentColor; padding: 0 0.3rem; }
-.ft-ex { color: var(--vp-c-text-2); font-size: 0.85rem; }
+@media (max-width: 560px) {
+  .ft-trois { grid-template-columns: 1fr; }
+}
 </style>
