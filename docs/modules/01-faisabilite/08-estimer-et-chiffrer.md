@@ -188,7 +188,7 @@ Quand le devis dépasse, trois familles de solutions :
 
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> Chaque option dit ce qu'elle fait économiser <strong>et ce que le client perd</strong>. Les tests, la formation et l'accessibilité ne se coupent jamais.<br>
-<strong>Où ça va.</strong> Évaluation 2, section 6. Lab 08, parties 3 et 4.
+<strong>Où ça va.</strong> Évaluation 2, section 6. Le devis : Lab 08, partie 3. Les trois façons d'entrer dans le budget (6.4) : à la maison.
 </div>
 
 ### Activité 2 — Faire entrer la boulangerie dans le budget {#activite-2}
@@ -219,7 +219,7 @@ Le devis de la boulangerie dépasse son budget de 6 000 $. Vous avez six idées 
 
 On passe de **HK29** (la faisabilité) à **HK33** (la conception) : ce que la proposition décide sera construit dans la deuxième partie du cours. Le mode agile viendra aux séances 16 et 17.
 
-La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **dix questions**.
+La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **cinq questions**. Vous n'en écrivez pas de nouvelles : vous les choisissez à la fin du Lab 08, parmi celles de votre rapport 1 (section 7.2). Gardez celles dont la réponse peut changer votre estimation, votre échéancier ou votre devis.
 
 | ✕ À éviter | ✓ À poser |
 |:--|:--|
@@ -230,7 +230,7 @@ La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **d
 
 ## À faire maintenant
 
-[Lab 08 — Estimer et chiffrer la proposition](./../../labs/lab08-estimer-et-chiffrer), en équipe. Gardez votre rapport de l'évaluation 1 sous la main. Le lab reprend les étapes 2, 3 et 4, dans le même ordre.
+[Lab 08 — Estimer et chiffrer la proposition](./../../labs/lab08-estimer-et-chiffrer), en équipe. Gardez votre rapport de l'évaluation 1 sous la main. Le lab reprend les étapes 2 et 3, puis le devis de l'étape 4. Les trois façons d'entrer dans le budget se font à la maison.
 
 ---
 
@@ -238,7 +238,7 @@ La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **d
 
 - **Terminer le Lab 08** : la fiche devient vos sections 5 et 6.
 - **Écrire vos choix (section 2.2)** à partir de vos critères (section 2.1). N'attendez pas la rencontre.
-- **Préparer vos dix questions** pour Mélanie et les déposer dans l'équipe Teams avant la séance 9.
+- **Écrire les trois façons d'entrer dans le budget (section 6.4)**, comme dans l'activité 2.
 
 ---
 
@@ -246,7 +246,6 @@ La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **d
 
 <ul class="checklist">
   <li><label><input type="checkbox"><span class="check-text">Copier vos réponses des activités 1 et 2 dans vos notes</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Déposer la fiche du Lab 08 dans l'équipe Teams du cours</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Déposer vos dix questions pour Mélanie au même endroit</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Déposer la fiche du Lab 08, avec vos cinq questions pour Mélanie, dans l'équipe Teams du cours</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Avoir un premier jet de la section 2.2 pour les cinq questions</span></label></li>
 </ul>

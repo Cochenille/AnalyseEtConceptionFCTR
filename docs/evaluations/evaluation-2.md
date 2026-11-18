@@ -170,7 +170,7 @@ Les mêmes règles qu'à l'[évaluation 1](./evaluation-1#l-intelligence-artific
 |:-:|:--|:--|
 | 7 | 11 nov. | Le Lab 07 porte sur les formats et les règles de mise en ligne : ce que vous y produisez devient votre **section 3**. Commencez aussi la **section 2.1** (les critères de choix), à partir de vos exigences et de vos contraintes |
 | 8 | 18 nov. | Le rapport de l'évaluation 1 vous est rendu corrigé, avec des **tableaux de comparaison communs** pour les cinq questions. La séance porte sur les critères de choix, l'estimation du temps et le devis : avancez les **sections 2** (choix techniques), **5** (temps) et **6** (argent) |
-| 9 | 25 nov. | Rencontre avec le client : apportez **dix questions** (celles de la section 7 du rapport 1, complétées au besoin). Notez ses réponses dans la **section 1.3**, puis ajustez les **sections 2 et 4**. N'attendez pas la rencontre pour écrire la section 2 |
+| 9 | 25 nov. | Rencontre avec le client : apportez **cinq questions**, choisies à la fin du Lab 08 parmi celles du rapport 1 (section 7.2). Notez ses réponses dans la **section 1.3**, puis ajustez les **sections 2 et 4**. N'attendez pas la rencontre pour écrire la section 2 |
 | 10 | 2 déc. | 15 minutes de questions sur l'évaluation 2 au début de la séance. À la maison : écrire les sections **1.1**, **1.2** et **7**, puis le résumé |
 | 11 | 9 déc. | **Remise** avant 18 h 30 |
 

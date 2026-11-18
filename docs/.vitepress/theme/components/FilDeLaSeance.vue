@@ -31,7 +31,7 @@ const ETAPES = [
     titre: "Chiffrer",
     question: "Est-ce que ça entre dans le budget ?",
     produit: "Un devis et trois options",
-    rapport: "Section 6 · Lab 08, parties 3 et 4",
+    rapport: "Section 6 · Lab 08, partie 3",
   },
 ];
 </script>

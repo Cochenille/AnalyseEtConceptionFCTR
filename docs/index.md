@@ -67,16 +67,16 @@ hero:
     :steps="[
       {
         title: 'Déposer la fiche du Lab 08 dans Teams',
-        description: 'Travail formatif, une fiche par équipe.',
+        description: 'Travail formatif, une fiche par équipe, avec vos cinq questions pour Mélanie (partie 4).',
         links: [
           { text: 'Consignes de remise', href: '/labs/lab08-estimer-et-chiffrer#remise', variant: 'primary' }
         ]
       },
       {
-        title: 'Préparer dix questions pour Mélanie',
-        description: 'Une question, une décision, dans ses mots à elle. À déposer dans Teams avant la séance 9.',
+        title: 'Écrire les trois façons d’entrer dans le budget',
+        description: 'Section 6.4 de l’évaluation 2, comme dans l’activité 2 de la séance 8.',
         links: [
-          { text: 'La rencontre avec le client', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#la-suite', variant: 'primary' }
+          { text: 'Activité 2', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#activite-2', variant: 'primary' }
         ]
       },
       {

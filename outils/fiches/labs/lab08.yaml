@@ -5,51 +5,61 @@ numero: 8
 fichier: lab08-fiche-estimation.docx
 titre: "Estimer et chiffrer la proposition"
 contexte: "Mandat Aventure Saint-Maurice · Prépare les sections 5 et 6 de l'évaluation 2 · Travail formatif en équipe"
-objectif: "estimer le travail de Studio Web FC en trois chiffres, le placer dans un échéancier qui finit avant le 1er mars, en tirer un devis sur trois ans, et préparer trois façons de le faire entrer dans le budget de Mélanie."
+objectif: "estimer le travail de Studio Web FC en trois chiffres, le placer dans un échéancier qui finit avant le 1er mars, en tirer un devis sur trois ans, et choisir vos cinq questions pour Mélanie."
 regle: "chaque fonctionnalité promise a ses heures dans l'estimation et son coût dans le devis."
 
 parties:
   - titre: "Les tâches et l'estimation"
     duree: "25 min"
-    a_faire: "découpez le travail du studio en 12 tâches au plus, donnez trois chiffres à chacune, puis calculez l'estimation retenue et le total."
-    besoin: "vos exigences (rapport 1, section 3), vos choix provisoires (proposition, section 2.2), et la liste des tâches qu'on oublie (séance 8). Estimation retenue = (optimiste + 4 × probable + pessimiste) ÷ 6."
+    a_faire: "les tâches principales sont déjà nommées. Donnez trois chiffres à chacune, puis calculez l'estimation retenue et le total. Ajoutez une tâche (T9, T10) seulement si une fonctionnalité que vous proposez n'a pas sa place."
+    besoin: "vos choix provisoires (tableaux de comparaison communs) et l'activité 1 de ce soir. Estimation retenue = (optimiste + 4 × probable + pessimiste) ÷ 6."
     blocs:
       - type: liste
         prefixe: T
-        rangees: 12
+        rangees:
+          - "Gestion de projet : courriels, appels, rencontres"
+          - "Plateforme et gabarit du site"
+          - "Réservation et paiement (Q1)"
+          - "Décharge en ligne (Q2)"
+          - "Textes en français et en anglais (Q5)"
+          - "Photos et vidéos (Q4)"
+          - "Tests (téléphone, clavier, deux langues) et corrections"
+          - "Formation de Mélanie et de Karine, puis mise en ligne"
+          - ""
+          - ""
         colonnes:
-          - { titre: "Quelle tâche ?", aide: "une personne, une à deux journées au plus", largeur: 3.6 }
+          - { titre: "Quelle tâche ?", largeur: 3.6 }
           - { titre: "Optimiste", aide: "heures", largeur: 1 }
           - { titre: "Probable", aide: "heures", largeur: 1 }
           - { titre: "Pessimiste", aide: "heures", largeur: 1 }
-          - { titre: "Retenue", aide: "(opt. + 4 × prob. + pess.) ÷ 6", largeur: 1.2 }
-          - { titre: "Pourquoi cet écart ?", aide: "seulement si pessimiste ≥ 3 × optimiste", largeur: 2.2 }
+          - { titre: "Retenue", aide: "(opt. + 4 × prob. + pess.) ÷ 6", largeur: 1.4 }
         exemple:
-          - "Configurer les 4 produits et leurs heures de départ dans l'outil de réservation"
+          - "Réservation : configurer les 4 produits et leurs heures de départ"
           - "4"
           - "6"
           - "12"
           - "6,7"
-          - "Les départs de la via ferrata aux 30 minutes, 8 places : à essayer d'abord"
       - type: texte
-        consigne: "Le total retenu, en heures et en dollars (× 75 $). Comparé au projet semblable de l'activité 1 (82 heures réelles pour la boulangerie, un site bien plus simple), votre total est-il cohérent ? Qu'est-ce qui explique l'écart ?"
-        lignes: 3
+        consigne: "Le total retenu, en heures et en dollars (× 75 $). La boulangerie de l'activité 1, un site bien plus simple, a pris 82 heures : votre total est-il plus grand ?"
+        lignes: 2
     cochez:
-      - "La gestion de projet, l'intégration du contenu, les tests, la formation de Mélanie et la mise en ligne sont dans la liste"
-      - "Chaque fonctionnalité que vous comptez proposer a au moins une tâche"
+      - "Chaque tâche a ses trois chiffres et son estimation retenue"
       - "Le total est calculé et converti en dollars"
 
   - titre: "L'échéancier"
     duree: "15 min"
-    a_faire: "placez votre travail en 4 à 6 étapes, à rebours du 1er mars 2027, avec un coussin visible et ce que le client doit fournir à chaque étape."
-    besoin: "votre total d'heures de la partie 1, et l'exemple de la boulangerie (séance 8)."
+    a_faire: "placez les étapes ci-dessous, à rebours du 1er mars 2027, et écrivez ce que le client doit fournir à chacune."
+    besoin: "votre total d'heures de la partie 1, et l'exemple de la boulangerie (séance 8, étape 3)."
     blocs:
       - type: texte
         consigne: "Votre hypothèse : combien d'heures par semaine l'équipe consacre-t-elle au projet ? Combien de semaines cela donne-t-il ?"
         lignes: 1
       - type: liste
-        prefixe: J
-        rangees: 6
+        rangees:
+          - "Construction"
+          - "Contenu, tests et corrections"
+          - "Coussin (15 à 20 % de la durée)"
+          - "Formation et mise en ligne"
         colonnes:
           - { titre: "Quelle étape ?", largeur: 2 }
           - { titre: "Début", aide: "date", largeur: 1 }
@@ -63,14 +73,13 @@ parties:
           - "Plan du site et liste des produits, approuvés"
           - "L'accès au nom de domaine et au compte Wix, avant le 4 déc."
     cochez:
-      - "Le coussin est une étape à part, d'environ 15 à 20 % de la durée totale"
       - "Les fêtes et la réponse de la MRC (janvier) sont dans le calendrier"
       - "La mise en ligne a lieu avant le 1er mars, pas le 28 février au soir"
 
   - titre: "Le devis d'une page"
-    duree: "15 min"
+    duree: "20 min"
     a_faire: "remplissez le devis sur trois ans, puis comparez-le au budget et à ce que l'entreprise paie aujourd'hui."
-    besoin: "votre total de la partie 1, les prix relevés à l'évaluation 1 (rapport 1, section 6) et les tableaux de comparaison communs, et le volume du mandat : environ 2 600 réservations et 9 000 participants par été. Montants avant taxes, en dollars canadiens, un seul taux de change."
+    besoin: "votre total de la partie 1, les coûts sur trois ans des tableaux de comparaison communs, et le volume du mandat : environ 2 600 réservations et 9 000 participants par été. Montants avant taxes, en dollars canadiens."
     blocs:
       - type: liste
         rangees:
@@ -80,7 +89,6 @@ parties:
           - "Abonnement :"
           - "Commission :"
           - "Nom de domaine et courriel"
-          - "Entretien (heures par année × 75 $)"
           - "Total"
         colonnes:
           - { titre: "Quel élément ?", largeur: 2.6 }
@@ -103,49 +111,29 @@ parties:
           - { titre: "Ce que paie l'entreprise aujourd'hui : environ 300 $ par année", aide: "coûts annuels" }
     cochez:
       - "Chaque calcul est écrit : on peut le refaire sans vous demander d'où vient le chiffre"
-      - "Les coûts uniques sont comparés au budget, les coûts annuels à ce que l'entreprise paie aujourd'hui"
 
-  - titre: "Trois façons d'entrer dans le budget"
+  - titre: "Vos cinq questions pour Mélanie"
     duree: "10 min"
-    a_faire: "proposez une façon par famille de faire entrer le devis dans le budget de 8 000 $, avec ce qu'elle fait économiser et ce que Mélanie perd."
-    besoin: "votre devis de la partie 3, et l'activité 2 de ce soir (la boulangerie)."
+    a_faire: "n'écrivez pas de nouvelles questions : choisissez-en cinq dans la section 7.2 de votre rapport 1, celles dont la réponse peut changer votre estimation, votre échéancier ou votre devis. Reformulez au besoin : une question, une décision, dans ses mots à elle."
+    besoin: "votre rapport 1 (section 7.2) et ce que vous venez de chiffrer."
     blocs:
       - type: liste
-        rangees:
-          - "A. Enlever des fonctionnalités"
-          - "B. Changer d'outil"
-          - "C. Livrer en plusieurs étapes"
-        hauteur: 0.7
+        prefixe: Q
+        rangees: 5
+        hauteur: 0.6
         colonnes:
-          - { titre: "La façon", largeur: 1.6 }
-          - { titre: "Que changez-vous, exactement ?", largeur: 2.6 }
-          - { titre: "Combien la 1re année ?", aide: "$ CA", largeur: 1.2 }
-          - { titre: "Et sur trois ans ?", aide: "$ CA", largeur: 1.2 }
-          - { titre: "Que perd ou reporte Mélanie ?", largeur: 2.6 }
+          - { titre: "La question", largeur: 4.4 }
+          - { titre: "Ce que la réponse peut changer", aide: "une tâche, une étape, un coût, un choix", largeur: 3 }
+        exemple:
+          - "Quelle politique d'annulation voulez-vous offrir ?"
+          - "Le choix de l'outil de réservation (Q1) et une tâche de configuration"
     cochez:
-      - "Aucune option ne coupe les tests, la formation ou l'accessibilité"
-      - "L'option B est vérifiée sur trois ans, pas seulement la première année"
-
-  - titre: "Préparer le retour"
-    duree: "5 min"
-    a_faire: "écrivez le chiffre de ce soir qui vous a le plus surpris, et pourquoi. On en parlera au début de la séance 9."
-    blocs:
-      - type: texte
-        lignes: 3
-    cochez:
-      - "La fiche est déposée dans l'équipe Teams du cours"
+      - "La fiche, avec vos cinq questions, est déposée dans l'équipe Teams du cours avant la séance 9"
 
 aide:
-  - titre: "Les tâches qu'on oublie"
-    points:
-      - "La gestion de projet : courriels, appels, rencontres de suivi. De 10 à 15 % du projet."
-      - "L'intégration du contenu fourni par le client : textes, photos, traductions."
-      - "Les tests sur téléphone, au clavier et dans les deux langues, et les corrections qui suivent."
-      - "La formation de Mélanie (et de Karine) : modifier les prix, les horaires, annuler un départ."
-      - "La mise en ligne : le nom de domaine, les redirections de l'ancien site Wix, les vérifications."
+  - titre: "Trouver les trois chiffres"
+    texte: "Probable : le temps si tout se passe comme d'habitude. Optimiste : rien ne bloque. Pessimiste : le pire réaliste (l'outil résiste, la cliente tarde à répondre). Pour T1, la gestion de projet prend environ 10 à 15 % du total des autres tâches."
   - titre: "Des heures aux semaines"
     texte: "Cent heures, ce n'est pas deux semaines et demie. À 15 heures par semaine, 100 heures donnent environ 7 semaines. Écrivez votre hypothèse : le correcteur doit pouvoir refaire le calcul."
   - titre: "Les commissions"
     texte: "Une commission se calcule avec le volume : nombre de réservations × montant moyen × pourcentage. Écrivez le montant moyen que vous supposez, et d'où il vient. Une commission prise sur chaque participant se calcule avec 9 000, pas 2 600."
-  - titre: "Ce qu'on ne coupe jamais"
-    texte: "Les tests, la formation et l'accessibilité ne sont pas des fonctionnalités : ce sont des conditions pour que le site fonctionne. L'accessibilité est aussi exigée par le programme qui a financé les kayaks adaptés."

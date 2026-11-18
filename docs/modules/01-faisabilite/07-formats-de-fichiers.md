@@ -203,7 +203,7 @@ Ce que chaque séance vous apporte pour la proposition :
 |:-:|:--|
 | 7 (ce soir) | Lab 07 : les **formats** et les règles de mise en ligne (section 3) |
 | 8 (18 nov.) | **Choisir** avec des critères, estimer le **temps** et monter le **devis** (sections 2, 5 et 6). Votre rapport de l'évaluation 1 vous est rendu corrigé, avec des tableaux de comparaison communs |
-| 9 (25 nov.) | La **rencontre avec le client** : apportez dix questions; les réponses confirment ou ajustent vos choix |
+| 9 (25 nov.) | La **rencontre avec le client** : apportez cinq questions, choisies dans votre rapport 1; les réponses confirment ou ajustent vos choix |
 | 10 (2 déc.) | 15 minutes de questions sur l'évaluation 2, au début de la séance |
 | 11 (9 déc.) | **Remise** avant 18 h 30 |
 
