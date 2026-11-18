@@ -56,7 +56,7 @@ const ETAPES = [
       </div>
     </div>
     <figcaption>
-      <strong>Quatre outils de commande en ligne pour la boulangerie (A à D, inventés), trois critères, un choix.</strong> Un outil qui échoue à un critère de poids 3 est écarté, même s'il est excellent ailleurs. Parmi ceux qui restent, les critères de poids 2 font le choix. Les critères de poids 1 servent seulement quand deux outils sont à égalité. Dans la section 8.2, on nomme les critères qui ont décidé.
+      <strong>Quatre outils de commande en ligne pour la boulangerie (A à D, inventés), trois critères, un choix.</strong> Un outil qui échoue à un critère de poids 3 est écarté, même s'il est excellent ailleurs. Parmi ceux qui restent, les critères de poids 2 font le choix. Les critères de poids 1 servent seulement quand deux outils sont à égalité. Dans la section 2.2, on nomme les critères qui ont décidé.
     </figcaption>
   </figure>
 </template>

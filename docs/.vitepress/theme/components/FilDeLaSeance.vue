@@ -7,7 +7,7 @@ const ETAPES = [
     titre: "Choisir",
     question: "Quel outil prendre, et pourquoi ?",
     produit: "Des critères avec un poids",
-    rapport: "Sections 8.1 et 8.2",
+    rapport: "Sections 2.1 et 2.2",
   },
   {
     n: 2,
@@ -15,7 +15,7 @@ const ETAPES = [
     titre: "Estimer",
     question: "Combien d'heures de travail ?",
     produit: "Une liste de tâches, chacune en heures",
-    rapport: "Section 11.1 · Lab 08, partie 1",
+    rapport: "Section 5.1 · Lab 08, partie 1",
   },
   {
     n: 3,
@@ -23,7 +23,7 @@ const ETAPES = [
     titre: "Planifier",
     question: "Est-ce prêt à temps ?",
     produit: "Des étapes datées, avec un coussin",
-    rapport: "Section 11.2 · Lab 08, partie 2",
+    rapport: "Section 5.2 · Lab 08, partie 2",
   },
   {
     n: 4,
@@ -31,7 +31,7 @@ const ETAPES = [
     titre: "Chiffrer",
     question: "Est-ce que ça entre dans le budget ?",
     produit: "Un devis et trois options",
-    rapport: "Section 12 · Lab 08, parties 3 et 4",
+    rapport: "Section 6 · Lab 08, parties 3 et 4",
   },
 ];
 </script>

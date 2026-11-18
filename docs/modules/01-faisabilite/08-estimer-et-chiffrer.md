@@ -89,45 +89,9 @@ Puis le tri, de gauche à droite :
 
 <FigurePoids />
 
-Une fois les outils choisis, un schéma montre ce qui passe de l'un à l'autre :
-
-<div style="overflow-x:auto">
-<svg class="schema-exemple" style="min-width:540px;display:block" viewBox="0 0 700 230" role="img" aria-label="Schéma : le site envoie la commande à l'outil de commande, qui envoie le paiement au terminal et le courriel de confirmation au client. La liste de production est imprimée à la main.">
-  <defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
-  <g fill="none" stroke="currentColor" stroke-width="1.5">
-    <rect x="5" y="20" width="170" height="50" rx="8"/>
-    <rect x="265" y="20" width="170" height="50" rx="8"/>
-    <rect x="525" y="20" width="170" height="50" rx="8"/>
-    <rect x="265" y="170" width="170" height="50" rx="8"/>
-    <rect x="525" y="170" width="170" height="50" rx="8"/>
-    <path d="M175,45 H261" marker-end="url(#fl)"/>
-    <path d="M435,45 H521" marker-end="url(#fl)"/>
-    <path d="M435,66 L560,166" marker-end="url(#fl)"/>
-    <path d="M350,70 V166" stroke-dasharray="6 5" marker-end="url(#fl)"/>
-  </g>
-  <g fill="currentColor" font-size="14" text-anchor="middle">
-    <text x="90" y="50">Site de la boulangerie</text>
-    <text x="350" y="50">Outil de commande</text>
-    <text x="610" y="50">Terminal de paiement</text>
-    <text x="350" y="200">Liste de production</text>
-    <text x="610" y="200">Client</text>
-    <g font-size="12">
-      <text x="218" y="36">la commande</text>
-      <text x="478" y="36">le paiement</text>
-      <text x="508" y="112" text-anchor="start">courriel de</text>
-      <text x="508" y="127" text-anchor="start">confirmation</text>
-      <text x="340" y="112" text-anchor="end">imprimée à la main,</text>
-      <text x="340" y="127" text-anchor="end">le vendredi soir</text>
-    </g>
-  </g>
-</svg>
-</div>
-
-Une boîte par outil, une flèche par chose qui passe d'un outil à l'autre, nommée sur la flèche. La flèche en pointillé est une **manipulation à la main** : quelqu'un devra la faire chaque semaine.
-
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> On ne choisit pas l'outil « le meilleur » : on choisit celui qui passe les critères de poids 3, puis le meilleur sur les critères de poids 2.<br>
-<strong>Où ça va.</strong> Évaluation 2, sections 8.1 (les critères), 8.2 (les choix) et 8.3 (le schéma). À faire à la maison, avec les <a href="./../../fiches/eval2-tableaux-communs.docx" download>tableaux de comparaison communs</a>. Ce n'est pas dans le Lab 08.
+<strong>Où ça va.</strong> Évaluation 2, sections 2.1 (les critères) et 2.2 (les choix). À faire à la maison, avec les <a href="./../../fiches/eval2-tableaux-communs.docx" download>tableaux de comparaison communs</a>. Ce n'est pas dans le Lab 08.
 </div>
 
 ---
@@ -160,7 +124,7 @@ Une boîte par outil, une flèche par chose qui passe d'un outil à l'autre, nom
 
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> Une tâche avec un grand écart entre l'optimiste et le pessimiste est un risque : on l'essaie en premier.<br>
-<strong>Où ça va.</strong> Évaluation 2, section 11.1. Lab 08, partie 1.
+<strong>Où ça va.</strong> Évaluation 2, section 5.1. Lab 08, partie 1.
 </div>
 
 ### Activité 1 — L'estimation de la boulangerie {#activite-1}
@@ -198,7 +162,7 @@ Une collègue pressée a estimé le site de la boulangerie avec un seul chiffre 
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> Un texte du client en retard est la première cause de retard d'un petit projet : sa date est dans l'échéancier.<br>
 <strong>Pour Aventure Saint-Maurice :</strong> la date ferme est le <strong>1<sup>er</sup> mars 2027</strong>. Pensez aux fêtes, et à la réponse de la MRC en <strong>janvier</strong> : qu'est-ce qui en dépend ?<br>
-<strong>Où ça va.</strong> Évaluation 2, section 11.2. Lab 08, partie 2.
+<strong>Où ça va.</strong> Évaluation 2, section 5.2. Lab 08, partie 2.
 </div>
 
 ---
@@ -224,7 +188,7 @@ Quand le devis dépasse, trois familles de solutions :
 
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> Chaque option dit ce qu'elle fait économiser <strong>et ce que le client perd</strong>. Les tests, la formation et l'accessibilité ne se coupent jamais.<br>
-<strong>Où ça va.</strong> Évaluation 2, section 12. Lab 08, parties 3 et 4.
+<strong>Où ça va.</strong> Évaluation 2, section 6. Lab 08, parties 3 et 4.
 </div>
 
 ### Activité 2 — Faire entrer la boulangerie dans le budget {#activite-2}
@@ -267,8 +231,8 @@ La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **d
 
 ## À faire à la maison {#a-faire-a-la-maison}
 
-- **Terminer le Lab 08** : la fiche devient vos sections 11 et 12.
-- **Écrire vos choix (section 8.2)** à partir de vos critères (section 8.1). N'attendez pas la rencontre.
+- **Terminer le Lab 08** : la fiche devient vos sections 5 et 6.
+- **Écrire vos choix (section 2.2)** à partir de vos critères (section 2.1). N'attendez pas la rencontre.
 - **Préparer vos dix questions** pour Mélanie et les déposer dans l'équipe Teams avant la séance 9.
 
 ---
@@ -279,5 +243,5 @@ La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **d
   <li><label><input type="checkbox"><span class="check-text">Copier vos réponses des activités 1 et 2 dans vos notes</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Déposer la fiche du Lab 08 dans l'équipe Teams du cours</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Déposer vos dix questions pour Mélanie au même endroit</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Avoir un premier jet de la section 8.2 pour les cinq questions</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Avoir un premier jet de la section 2.2 pour les cinq questions</span></label></li>
 </ul>

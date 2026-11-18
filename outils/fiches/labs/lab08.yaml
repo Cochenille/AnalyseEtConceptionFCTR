@@ -4,7 +4,7 @@
 numero: 8
 fichier: lab08-fiche-estimation.docx
 titre: "Estimer et chiffrer la proposition"
-contexte: "Mandat Aventure Saint-Maurice · Prépare les sections 11 et 12 de l'évaluation 2 · Travail formatif en équipe"
+contexte: "Mandat Aventure Saint-Maurice · Prépare les sections 5 et 6 de l'évaluation 2 · Travail formatif en équipe"
 objectif: "estimer le travail de Studio Web FC en trois chiffres, le placer dans un échéancier qui finit avant le 1er mars, en tirer un devis sur trois ans, et préparer trois façons de le faire entrer dans le budget de Mélanie."
 regle: "chaque fonctionnalité promise a ses heures dans l'estimation et son coût dans le devis."
 
@@ -12,7 +12,7 @@ parties:
   - titre: "Les tâches et l'estimation"
     duree: "25 min"
     a_faire: "découpez le travail du studio en 12 tâches au plus, donnez trois chiffres à chacune, puis calculez l'estimation retenue et le total."
-    besoin: "vos exigences (section 3 du rapport), vos choix provisoires (section 8.2), et la liste des tâches qu'on oublie (séance 8). Estimation retenue = (O + 4 × P + Pe) ÷ 6."
+    besoin: "vos exigences (rapport 1, section 3), vos choix provisoires (proposition, section 2.2), et la liste des tâches qu'on oublie (séance 8). Estimation retenue = (optimiste + 4 × probable + pessimiste) ÷ 6."
     blocs:
       - type: liste
         prefixe: T
@@ -22,8 +22,8 @@ parties:
           - { titre: "Optimiste", aide: "heures", largeur: 1 }
           - { titre: "Probable", aide: "heures", largeur: 1 }
           - { titre: "Pessimiste", aide: "heures", largeur: 1 }
-          - { titre: "Retenue", aide: "(O + 4P + Pe) ÷ 6", largeur: 1.2 }
-          - { titre: "Pourquoi cet écart ?", aide: "seulement si Pe ≥ 3 × O", largeur: 2.2 }
+          - { titre: "Retenue", aide: "(opt. + 4 × prob. + pess.) ÷ 6", largeur: 1.2 }
+          - { titre: "Pourquoi cet écart ?", aide: "seulement si pessimiste ≥ 3 × optimiste", largeur: 2.2 }
         exemple:
           - "Configurer les 4 produits et leurs heures de départ dans l'outil de réservation"
           - "4"
@@ -70,7 +70,7 @@ parties:
   - titre: "Le devis d'une page"
     duree: "15 min"
     a_faire: "remplissez le devis sur trois ans, puis comparez-le au budget et à ce que l'entreprise paie aujourd'hui."
-    besoin: "votre total de la partie 1, les prix relevés à l'évaluation 1 (section 6 et survol des autres questions), et le volume du mandat : environ 2 600 réservations et 9 000 participants par été. Montants avant taxes, en dollars canadiens, un seul taux de change."
+    besoin: "votre total de la partie 1, les prix relevés à l'évaluation 1 (rapport 1, section 6) et les tableaux de comparaison communs, et le volume du mandat : environ 2 600 réservations et 9 000 participants par été. Montants avant taxes, en dollars canadiens, un seul taux de change."
     blocs:
       - type: liste
         rangees:

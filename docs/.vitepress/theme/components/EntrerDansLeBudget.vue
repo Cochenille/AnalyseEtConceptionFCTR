@@ -232,7 +232,7 @@ watch([choix, pertes, verifie], () => {
 
     <p v-if="verifie" class="eb-note">
       Trois mesures tiennent : une par famille. Aucune ne suffit seule sauf le report des paniers-cadeaux; ensemble, deux d'entre elles suffisent.
-      C'est ce que demande la section 12.4 : <strong>trois options</strong>, chacune avec son économie et ce que le client perd, pour qu'il choisisse.
+      C'est ce que demande la section 6.4 : <strong>trois options</strong>, chacune avec son économie et ce que le client perd, pour qu'il choisisse.
     </p>
 
     <p class="eb-rappel">Vos réponses restent dans ce navigateur, mais elles peuvent disparaître si la cache est vidée. <strong>Copiez-les dans vos notes</strong> avant de quitter la page.</p>

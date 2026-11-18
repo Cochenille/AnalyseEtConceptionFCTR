@@ -2,7 +2,7 @@
 
 Un tableau par question (Q1 à Q5) qui regroupe les essais de toutes les équipes, avec les
 coûts sur trois ans recalculés selon les mêmes hypothèses. Ce document sert de base égale
-à chaque équipe pour la section 8.2 de l'évaluation 2.
+à chaque équipe pour la section 2.2 de l'évaluation 2.
 
     python outils/gabarits/generer_tableaux_communs.py
 
@@ -404,12 +404,12 @@ QUESTIONS = [
         },
         "calculs": [
             "Vimeo : 27 $ × 36 mois = 972 $.",
-            "Google Drive : 0 $. Les vidéos du site, une fois préparées (section 9), pèsent bien moins que les "
+            "Google Drive : 0 $. Les vidéos du site, une fois préparées (section 3), pèsent bien moins que les "
             "90 Go partagés du forfait Business Starter. ◆ Garder les 60 Go de vidéos 4K originales dans Drive "
             "demanderait Business Standard (2 To par compte) : (18,40 $ − 9,20 $) × 3 comptes × 36 mois = 994 $ "
             "de plus.",
             "Les essais ont utilisé une vidéo de 34,1 Mo. Les 60 Go de Patrick doivent d'abord être préparés : "
-            "c'est la section 9 du rapport, pas un choix d'hébergement.",
+            "c'est la section 3 de la proposition, pas un choix d'hébergement.",
             "◆ Chrome, Safari et Firefox ne lancent automatiquement qu'une vidéo sans son : la vidéo d'accueil est "
             "muette, peu importe l'outil.",
         ],
@@ -640,7 +640,7 @@ def generer():
 
     doc.add_paragraph("Tableaux de comparaison communs", style="Title")
     doc.add_paragraph("Les essais de toutes les équipes, question par question")
-    doc.add_paragraph("582-A05-RI — Analyse et conception Web — Base commune pour l'évaluation 2, section 8.2")
+    doc.add_paragraph("582-A05-RI — Analyse et conception Web — Base commune pour l'évaluation 2, section 2.2")
 
     doc.add_heading("À quoi servent ces tableaux", level=1)
     doc.add_paragraph(
@@ -653,7 +653,7 @@ def generer():
         "Pour les quatre autres questions, citez ces tableaux comme source : « Tableaux de comparaison communs, "
         "essais des équipes du groupe, octobre 2026 ».",
         "Vous pouvez ajouter un outil, à condition de dire pourquoi et sur quoi repose l'information.",
-        "Les tableaux décrivent; ils ne choisissent rien. Le choix, c'est votre section 8.2.",
+        "Les tableaux décrivent; ils ne choisissent rien. Le choix, c'est votre section 2.2.",
     ])
 
     doc.add_heading("Comment lire les tableaux", level=1)

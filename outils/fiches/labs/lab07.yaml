@@ -5,7 +5,7 @@
 numero: 7
 fichier: lab07-fiche-medias.docx
 titre: "Alléger les médias de Patrick"
-contexte: "Mandat Aventure Saint-Maurice · Prépare la section 9 de l'évaluation 2 · Travail formatif en équipe"
+contexte: "Mandat Aventure Saint-Maurice · Prépare la section 3 de l'évaluation 2 · Travail formatif en équipe"
 objectif: "rendre les fichiers envoyés par Patrick prêts pour le Web : choisir le bon format, réduire chaque fichier, vérifier que la qualité tient, et noter ce qu'il faudra écrire à côté de chacun."
 regle: "on ne livre jamais un fichier sans l'avoir regardé à 100 % de zoom."
 remise: "cette fiche remplie, nommée {nom}, et vos fichiers allégés dans un dossier compressé nommé lab07-equipeN-medias.zip, déposés dans l'équipe Teams du cours."
@@ -105,7 +105,7 @@ parties:
 
   - titre: "Pour la proposition technique"
     duree: "10 min"
-    a_faire: "écrivez 3 constats chiffrés, que vous pourrez reprendre dans la section 9 de l'évaluation 2, puis répondez à la question sous le tableau."
+    a_faire: "écrivez 3 constats chiffrés, que vous pourrez reprendre dans la section 3 de l'évaluation 2, puis répondez à la question sous le tableau."
     besoin: "vos résultats de la partie 2."
     blocs:
       - type: liste

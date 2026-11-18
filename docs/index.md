@@ -52,7 +52,7 @@ hero:
       {
         title: 'Lab 08 — Estimer et chiffrer la proposition',
         badge: 'En équipe',
-        description: 'Après la matière, en équipe. La fiche devient les sections 11 et 12 de l’évaluation 2.',
+        description: 'Après la matière, en équipe. La fiche devient les sections 5 et 6 de l’évaluation 2.',
         links: [
           { text: 'Lab 08', href: '/labs/lab08-estimer-et-chiffrer', variant: 'primary' },
           { text: 'Fiche (Word)', href: '/fiches/lab08-fiche-estimation.docx', variant: 'secondary' }
@@ -80,8 +80,8 @@ hero:
         ]
       },
       {
-        title: 'Écrire vos choix (section 8.2)',
-        description: 'À partir de vos critères (section 8.1). N’attendez pas la rencontre.',
+        title: 'Écrire vos choix (section 2.2)',
+        description: 'À partir de vos critères (section 2.1). N’attendez pas la rencontre.',
         links: [
           { text: 'À faire à la maison', href: '/modules/01-faisabilite/08-estimer-et-chiffrer#a-faire-a-la-maison', variant: 'secondary' },
           { text: 'Évaluation 2', href: '/evaluations/evaluation-2', variant: 'secondary' }
@@ -141,7 +141,7 @@ hero:
       },
       {
         title: 'Lire l’énoncé de l’évaluation 2',
-        description: 'Notez vos questions : on y répond au début de la séance 8. Commencez les critères de choix (section 8.1).',
+        description: 'Notez vos questions : on y répond au début de la séance 8. Commencez les critères de choix (section 2.1).',
         links: [
           { text: 'À faire à la maison', href: '/modules/01-faisabilite/07-formats-de-fichiers#a-faire-a-la-maison', variant: 'secondary' }
         ]

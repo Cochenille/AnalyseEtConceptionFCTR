@@ -51,4 +51,4 @@ Toutes les consignes sont dans la fiche. Gardez ouverte la [séance 8](./../modu
 
 ## Et ensuite ?
 
-La fiche devient vos **sections 11 et 12** de l'[évaluation 2](./../evaluations/evaluation-2). À la **séance 9 (25 novembre)**, on commence par un court retour sur ce lab, puis vient la **rencontre avec Mélanie** : apportez vos dix questions. Ses réponses peuvent changer une tâche, une étape ou un coût : gardez la fiche à jour.
+La fiche devient vos **sections 5 et 6** de l'[évaluation 2](./../evaluations/evaluation-2). À la **séance 9 (25 novembre)**, on commence par un court retour sur ce lab, puis vient la **rencontre avec Mélanie** : apportez vos dix questions. Ses réponses peuvent changer une tâche, une étape ou un coût : gardez la fiche à jour, et notez-les dans la section 1.3 de la proposition.

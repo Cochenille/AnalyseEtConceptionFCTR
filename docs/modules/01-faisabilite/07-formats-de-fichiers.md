@@ -185,14 +185,14 @@ Six images du futur site, chacune à un endroit précis.
 
 ## L'évaluation 2 : la proposition technique {#evaluation-2}
 
-Le rapport que vous venez de remettre décrivait la situation, sans rien recommander. La **proposition technique** tranche : elle complète le même document.
+Le rapport que vous venez de remettre décrivait la situation, sans rien recommander. La **proposition technique** tranche. Elle se remet dans son propre document : vous ne modifiez pas le rapport de l'évaluation 1, vous y renvoyez.
 
 <div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
 <strong>En bref</strong><br>
 <ul class="list-disc pl-5">
   <li><strong>Remise :</strong> mercredi <strong>9 décembre, 18 h 30</strong>, sur LÉA (séance 11). 20 %, dont 10 % pour le français.</li>
   <li><strong>Ce qui s'ajoute :</strong> les choix techniques, les formats et les règles de mise en ligne, les adaptations aux contraintes, le temps, l'argent et la recommandation finale.</li>
-  <li><strong>Ce qui change dans la partie 1 :</strong> le résumé et la portée sont réécrits, et les commentaires reçus pour l'évaluation 1 sont appliqués.</li>
+  <li><strong>Le rapport 1 ne change pas :</strong> l'introduction de la proposition en résume l'essentiel et y renvoie par numéro de section. Les commentaires reçus pour l'évaluation 1 s'appliquent à votre façon d'écrire la proposition.</li>
 </ul>
 <a href="./../../evaluations/evaluation-2"><strong>Lire l'énoncé complet de l'évaluation 2</strong></a>
 </div>
@@ -201,13 +201,13 @@ Ce que chaque séance vous apporte pour la proposition :
 
 | Séance | Pour la proposition |
 |:-:|:--|
-| 7 (ce soir) | Lab 07 : les **formats** et les règles de mise en ligne (section 9) |
-| 8 (18 nov.) | **Choisir** avec des critères, estimer le **temps** et monter le **devis** (sections 8, 11 et 12). Votre rapport de l'évaluation 1 vous est rendu corrigé, avec des tableaux de comparaison communs |
+| 7 (ce soir) | Lab 07 : les **formats** et les règles de mise en ligne (section 3) |
+| 8 (18 nov.) | **Choisir** avec des critères, estimer le **temps** et monter le **devis** (sections 2, 5 et 6). Votre rapport de l'évaluation 1 vous est rendu corrigé, avec des tableaux de comparaison communs |
 | 9 (25 nov.) | La **rencontre avec le client** : apportez dix questions; les réponses confirment ou ajustent vos choix |
 | 10 (2 déc.) | 15 minutes de questions sur l'évaluation 2, au début de la séance |
 | 11 (9 déc.) | **Remise** avant 18 h 30 |
 
-Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 novembre**, avec les commentaires à appliquer. Vous recevrez en même temps des **tableaux de comparaison communs** pour les cinq questions : toutes les équipes partiront des mêmes outils pour faire leurs choix. D'ici là, commencez par ce qui n'en dépend pas : les critères de choix (section 8.1), tirés de vos exigences et de vos contraintes.
+Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 novembre**, avec les commentaires à appliquer. Vous recevrez en même temps des **tableaux de comparaison communs** pour les cinq questions : toutes les équipes partiront des mêmes outils pour faire leurs choix. D'ici là, commencez par ce qui n'en dépend pas : les critères de choix (section 2.1), tirés de vos exigences et de vos contraintes.
 
 ---
 
@@ -220,8 +220,8 @@ Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 n
 ## À faire à la maison {#a-faire-a-la-maison}
 
 - **Lire l'[énoncé de l'évaluation 2](./../../evaluations/evaluation-2)** en équipe et noter vos questions : on y répond au début de la séance 8.
-- **Terminer le Lab 07** si vous n'avez pas eu le temps d'alléger tous les fichiers. La fiche sert directement à la section 9 de la proposition.
-- **Commencer les critères de choix** (section 8.1) à partir de vos exigences et de vos contraintes. Les outils à comparer viendront des tableaux communs remis le 18 novembre.
+- **Terminer le Lab 07** si vous n'avez pas eu le temps d'alléger tous les fichiers. La fiche sert directement à la section 3 de la proposition.
+- **Commencer les critères de choix** (section 2.1) à partir de vos exigences et de vos contraintes. Les outils à comparer viendront des tableaux communs remis le 18 novembre.
 
 ---
 
