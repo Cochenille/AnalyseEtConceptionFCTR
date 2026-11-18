@@ -208,7 +208,7 @@ Le devis de la boulangerie dépasse son budget de 6 000 $. Vous avez six idées 
   <li><strong>Copiez vos réponses</strong> avec le bouton, pour les garder.</li>
 </ol>
 <strong>Si vous bloquez :</strong> relisez le tableau des critères de la boulangerie (étape 1). Une économie qui fait échouer un critère de poids 3 ne se propose pas.<br>
-<strong>Pour le retour en groupe :</strong> quelle économie avait l'air bonne, mais ne l'était pas sur trois ans ?
+<strong>Pour le retour en groupe :</strong> quelle économie avait l'air bonne, mais ne l'était pas pour la cliente ?
 </div>
 
 <EntrerDansLeBudget />

@@ -54,12 +54,12 @@ const MESURES: Mesure[] = [
   {
     cle: "m3",
     famille: "B",
-    titre: "Remplacer l'outil de commande A par l'outil B",
-    detail: "L'outil B, un autre outil de commande en ligne, est déjà intégré au gabarit du site : 14 heures de configuration en moins. Pas d'abonnement, mais 4 % de commission par commande (environ 2 000 commandes de 22 $ par année).",
-    uniques: -1050,
-    annuels: 1220, // 2 000 × 22 $ × 4 % = 1 760 $, moins l'abonnement de l'outil A de 540 $
+    titre: "Prendre les commandes par Messenger au lieu de l'outil A",
+    detail: "Plus d'outil de commande : les clients écrivent à la boulangerie sur Messenger, et la propriétaire répond et note chaque commande. 20 heures de configuration en moins, et plus d'abonnement (540 $ par année).",
+    uniques: -1500,
+    annuels: -540,
     attendu: "ecarter",
-    explication: "Le piège classique : le devis rentre dans le budget la première année, mais la commission coûte 1 760 $ par année au lieu de 540 $. Sur trois ans, la cliente paie 2 610 $ de plus. Et le critère « moins de 50 $ par mois pour l'outil de commande » (poids 2) n'est plus respecté.",
+    explication: "Le piège classique : c'est gratuit pour le studio, mais pas pour la cliente. Le travail ne disparaît pas, il passe chez elle. Environ 2 000 commandes par année, à 3 minutes chacune pour lire, répondre, noter et confirmer : 100 heures de plus par année, souvent le vendredi soir. Sans paiement à l'avance, certaines commandes ne seront jamais ramassées. Et une commande oubliée dans les messages, c'est un client perdu.",
   },
   {
     cle: "m4",
