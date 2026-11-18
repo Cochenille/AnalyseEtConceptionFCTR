@@ -60,9 +60,8 @@ const chiffre = (t: (typeof TACHES)[number], cle: (typeof COLONNES)[number]["cle
     </div>
     <figcaption>
       <strong>La bande jaune va de l'optimiste au pessimiste; la pastille bleue est l'estimation retenue</strong>, le chiffre
-      qu'on met au devis. Le probable compte quatre fois, parce que c'est ce qui arrive le plus souvent; l'optimiste et le
-      pessimiste ne font que tirer un peu le chiffre d'un côté ou de l'autre. Plus la bande est large, plus la tâche est
-      risquée.
+      qu'on met au devis : la moyenne de six fois la même tâche, une fois bien, une fois mal et quatre fois comme
+      d'habitude. Plus la bande est large, plus la tâche est risquée.
     </figcaption>
   </figure>
 </template>

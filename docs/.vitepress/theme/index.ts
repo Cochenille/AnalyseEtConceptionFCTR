@@ -39,6 +39,7 @@ import EntrerDansLeBudget from "./components/EntrerDansLeBudget.vue"
 import FigurePoids from "./components/FigurePoids.vue"
 import FigureTroisChiffres from "./components/FigureTroisChiffres.vue"
 import FigureOublis from "./components/FigureOublis.vue"
+import FilDeLaSeance from "./components/FilDeLaSeance.vue"
 import FigureEcheancier from "./components/FigureEcheancier.vue"
 import FigureDevis from "./components/FigureDevis.vue"
 import FigureTroisFacons from "./components/FigureTroisFacons.vue"
@@ -89,6 +90,7 @@ export default {
     app.component("FigurePoids", FigurePoids);
     app.component("FigureTroisChiffres", FigureTroisChiffres);
     app.component("FigureOublis", FigureOublis);
+    app.component("FilDeLaSeance", FilDeLaSeance);
     app.component("FigureEcheancier", FigureEcheancier);
     app.component("FigureDevis", FigureDevis);
     app.component("FigureTroisFacons", FigureTroisFacons);

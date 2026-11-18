@@ -18,11 +18,12 @@ La matière d'abord, en grand groupe, puis le **Lab 08** en équipe jusqu'à la 
 |:--|:--|
 | 18 h 30 | Retour sur le Lab 07 |
 | 18 h 45 | Vos questions sur l'évaluation 2 |
-| 18 h 55 | Choisir avec des critères |
-| 19 h 00 | Estimer le travail |
+| 18 h 55 | La mise en situation et le plan de la soirée |
+| 19 h 00 | Étape 1 — Choisir avec des critères |
+| 19 h 05 | Étape 2 — Estimer le travail |
 | 19 h 15 | Activité 1 — L'estimation de la boulangerie |
-| 19 h 35 | L'échéancier et le coussin |
-| 19 h 45 | Le devis et les trois façons d'entrer dans le budget |
+| 19 h 35 | Étape 3 — Placer le travail dans le temps |
+| 19 h 45 | Étape 4 — Chiffrer et entrer dans le budget |
 | 19 h 55 | Activité 2 — Faire entrer la boulangerie dans le budget |
 | 20 h 15 | La suite du cours · consignes du Lab 08 et à faire à la maison |
 | 20 h 25 | Marge pour les questions |
@@ -43,9 +44,36 @@ Dans le chat, maintenant, pour tout le groupe.
 
 ---
 
-## Choisir avec des critères {#choisir-avec-des-criteres}
+## La mise en situation et le plan de la soirée {#mise-en-situation}
 
-Un critère vient toujours d'une exigence ou d'une contrainte déjà écrite dans le rapport. Pour la boulangerie, qui veut prendre les commandes du samedi en ligne :
+<div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
+<strong>Mise en situation, inventée pour le cours : la boulangerie</strong><br>
+Ce soir, on ne travaille pas sur Aventure Saint-Maurice. On s'exerce sur un <strong>petit projet inventé</strong>, plus simple, pour voir chaque méthode une fois au complet. Les outils de la boulangerie sont inventés aussi.
+<ul class="list-disc pl-5">
+  <li>Une boulangerie de quartier veut que ses clients <strong>commandent en ligne pour le samedi</strong>.</li>
+  <li>Le menu <strong>change chaque semaine</strong> et la propriétaire veut le changer seule.</li>
+  <li>Elle garde son <strong>terminal de paiement</strong> actuel.</li>
+  <li>Budget de construction : <strong>6 000 $</strong>. Mise en ligne voulue : le <strong>1<sup>er</sup> décembre</strong>.</li>
+</ul>
+Ensuite, dans le Lab 08, vous refaites les mêmes étapes pour <strong>Aventure Saint-Maurice</strong>.
+</div>
+
+<FilDeLaSeance />
+
+Chaque étape est présentée de la même façon : **la question**, **la méthode** en quelques gestes, **l'exemple** de la boulangerie, puis **à retenir** et **où ça va** dans votre rapport.
+
+---
+
+## Étape 1 sur 4 — Choisir avec des critères {#choisir-avec-des-criteres}
+
+**La question.** Plusieurs outils font l'affaire. Lequel prendre, et comment le justifier au client ?
+
+**La méthode, en trois gestes.**
+1. **Écrire les critères.** Chaque critère vient d'une exigence ou d'une contrainte déjà écrite dans le rapport. On n'en invente pas.
+2. **Donner un poids à chacun.** 3 = indispensable, 2 = important, 1 = souhaitable.
+3. **Trier les outils, du poids le plus fort au plus faible.** Un outil qui échoue à un critère de poids 3 est écarté.
+
+**Dans la boulangerie.** Les critères, et d'où ils viennent :
 
 <table>
 <thead><tr><th>Critère</th><th>D'où il vient</th><th>Poids</th></tr></thead>
@@ -57,11 +85,11 @@ Un critère vient toujours d'une exigence ou d'une contrainte déjà écrite dan
 </tbody>
 </table>
 
+Puis le tri, de gauche à droite :
+
 <FigurePoids />
 
-### Montrer comment les outils fonctionnent ensemble {#schema}
-
-Une fois les outils choisis, un schéma montre ce qui passe de l'un à l'autre (section 8.3 de l'évaluation 2).
+Une fois les outils choisis, un schéma montre ce qui passe de l'un à l'autre :
 
 <div style="overflow-x:auto">
 <svg class="schema-exemple" style="min-width:540px;display:block" viewBox="0 0 700 230" role="img" aria-label="Schéma : le site envoie la commande à l'outil de commande, qui envoie le paiement au terminal et le courriel de confirmation au client. La liste de production est imprimée à la main.">
@@ -95,56 +123,123 @@ Une fois les outils choisis, un schéma montre ce qui passe de l'un à l'autre (
 </svg>
 </div>
 
-Une boîte par outil, une flèche par chose qui passe d'un outil à l'autre, nommée sur la flèche. La flèche en pointillé est une **manipulation à la main** : quelqu'un devra la faire chaque semaine. C'est souvent là que se cachent les erreurs et le temps perdu.
+Une boîte par outil, une flèche par chose qui passe d'un outil à l'autre, nommée sur la flèche. La flèche en pointillé est une **manipulation à la main** : quelqu'un devra la faire chaque semaine.
+
+<div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
+<strong>À retenir.</strong> On ne choisit pas l'outil « le meilleur » : on choisit celui qui passe les critères de poids 3, puis le meilleur sur les critères de poids 2.<br>
+<strong>Où ça va.</strong> Évaluation 2, sections 8.1 (les critères), 8.2 (les choix) et 8.3 (le schéma). À faire à la maison, avec les <a href="./../../fiches/eval2-tableaux-communs.docx" download>tableaux de comparaison communs</a>. Ce n'est pas dans le Lab 08.
+</div>
 
 ---
 
-## Estimer le travail
+## Étape 2 sur 4 — Estimer le travail {#estimer-le-travail}
 
-À 75 $ de l'heure, une heure oubliée est une heure payée par le studio, ou une fonctionnalité non livrée.
+**La question.** Combien d'heures le studio va-t-il travailler ? À 75 $ de l'heure, une heure oubliée est une heure payée par le studio, ou une fonctionnalité non livrée.
 
-**1. Découper.** Une tâche : une personne, une à deux journées au plus. « Faire le site » n'est pas une tâche.
+**La méthode, en trois gestes.**
+1. **Découper en tâches.** Une tâche : une personne, une ou deux journées au plus. « Faire le site » n'est pas une tâche. Puis relire la liste des cinq tâches qu'on oublie :
 
 <FigureOublis />
 
-**2. Donner trois chiffres.** Un seul chiffre, c'est presque toujours l'optimiste.
+2. **Donner trois chiffres par tâche, et en tirer un.** Un seul chiffre, c'est presque toujours le plus optimiste : on imagine la tâche qui se passe bien. Trois chiffres obligent à penser aussi à ce qui peut mal tourner.
+
+   **Comment trouver les trois chiffres, dans cet ordre :**
+   - **Le probable d'abord.** Pensez à la dernière fois que vous avez fait une tâche semblable, dans un lab ou un projet : combien de temps ça a vraiment pris ? Si vous ne l'avez jamais faite, essayez-en un petit bout pendant 15 minutes, ou demandez à quelqu'un qui l'a déjà faite.
+   - **L'optimiste ensuite.** Reprenez le probable et enlevez les embûches : rien à chercher, tout marche du premier coup. Il est plus petit que le probable, souvent de la moitié aux trois quarts.
+   - **Le pessimiste à la fin.** Écrivez ce qui peut mal tourner (un outil qu'on ne connaît pas, le soutien à contacter, un texte du client en retard, un bogue) et ajoutez au probable le temps que chaque problème ferait perdre. On compte ce qui arrive vraiment de temps en temps, pas la catastrophe.
+
+   **Puis on en tire un seul chiffre, l'estimation retenue**, celui qu'on met au devis. On ne prend pas simplement le probable, parce qu'il oublie les mauvais jours. On ne prend pas le pessimiste non plus, parce que le devis serait trop cher.
+
+   **D'où vient le « 4 × » :** imaginez que vous faites la même tâche six fois. Une fois, tout va bien (l'optimiste). Une fois, ça tourne mal (le pessimiste). Les quatre autres fois, ça se passe comme d'habitude (le probable, quatre fois). L'estimation retenue est la moyenne de ces six fois : on additionne les six chiffres, puis on divise par 6.
+
+   Pour relier la réservation à Square : 2 + (4 + 4 + 4 + 4) + 10 = 28 heures pour six fois, donc 28 ÷ 6 ≈ **4,7 h** par fois. C'est la méthode PERT, utilisée en gestion de projet. La fiche du Lab fait le calcul pour vous.
 
 <FigureTroisChiffres />
 
-**3. Comparer à un projet semblable.** Si un site semblable a pris 90 heures et votre estimation en donne 45, il manque des tâches.
+3. **Comparer à un projet semblable.** Si un site semblable a pris 90 heures et que votre total en donne 45, il manque des tâches.
+
+<div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
+<strong>À retenir.</strong> Une tâche avec un grand écart entre l'optimiste et le pessimiste est un risque : on l'essaie en premier.<br>
+<strong>Où ça va.</strong> Évaluation 2, section 11.1. Lab 08, partie 1.
+</div>
 
 ### Activité 1 — L'estimation de la boulangerie {#activite-1}
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
-<strong>Consigne (10 min, en équipe, puis retour en grand groupe)</strong><br>
-Une collègue pressée a estimé le site de la boulangerie avec un seul chiffre par tâche. Ajoutez l'<strong>optimiste</strong> et le <strong>pessimiste</strong>, cochez les <strong>tâches oubliées</strong>, puis comparez avec le projet semblable.
+<strong>Consigne (10 min en équipe, puis 10 min de retour en grand groupe)</strong><br>
+Une collègue pressée a estimé le site de la boulangerie avec un seul chiffre par tâche : le probable.
+<ol class="list-decimal pl-5">
+  <li><strong>Pour chaque tâche</strong>, écrivez l'<strong>optimiste</strong> (plus petit que le probable), puis le <strong>pessimiste</strong> (plus grand). L'estimation retenue se calcule seule.</li>
+  <li><strong>Cochez les tâches oubliées</strong> dans la deuxième liste. Aidez-vous des cinq tâches qu'on oublie, plus haut.</li>
+  <li><strong>Cliquez sur « Comparer avec le projet semblable »</strong> et regardez l'écart.</li>
+  <li><strong>Copiez vos réponses</strong> avec le bouton, pour les garder.</li>
+</ol>
+<strong>Si vous bloquez</strong> sur un chiffre : imaginez la tâche qui se passe bien (optimiste), puis la même tâche un mauvais jour (pessimiste). Un chiffre raisonnable suffit; il n'y a pas de réponse exacte.<br>
+<strong>Pour le retour en groupe :</strong> quelle tâche a le plus grand écart, et pourquoi ?
 </div>
 
 <EstimationTroisChiffres />
 
 ---
 
-## L'échéancier et le coussin
+## Étape 3 sur 4 — Placer le travail dans le temps {#echeancier}
+
+**La question.** Le travail estimé sera-t-il fini à la date voulue ?
+
+**La méthode, en trois gestes.**
+1. **Partir de la date qu'on ne peut pas déplacer**, et remonter vers aujourd'hui.
+2. **Regrouper les tâches en 4 à 6 étapes** (démarrage, maquettes, construction, tests et formation…), puis ajouter un **coussin** : une étape à part, de 15 à 20 % de la durée.
+3. **Dater tout ce que le client doit fournir** : l'accès au domaine, ses commentaires, ses textes et ses photos.
+
+**Dans la boulangerie**, mise en ligne le 1<sup>er</sup> décembre :
 
 <FigureEcheancier />
 
-Pour Aventure Saint-Maurice, la date ferme est le **1<sup>er</sup> mars 2027**. Pensez aussi aux fêtes, et à la réponse de la MRC en **janvier** : qu'est-ce qui en dépend ?
+<div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
+<strong>À retenir.</strong> Un texte du client en retard est la première cause de retard d'un petit projet : sa date est dans l'échéancier.<br>
+<strong>Pour Aventure Saint-Maurice :</strong> la date ferme est le <strong>1<sup>er</sup> mars 2027</strong>. Pensez aux fêtes, et à la réponse de la MRC en <strong>janvier</strong> : qu'est-ce qui en dépend ?<br>
+<strong>Où ça va.</strong> Évaluation 2, section 11.2. Lab 08, partie 2.
+</div>
 
 ---
 
-## Le devis et les trois façons d'entrer dans le budget
+## Étape 4 sur 4 — Chiffrer et entrer dans le budget {#devis}
+
+**La question.** Combien le projet coûte-t-il, et est-ce que ça entre dans le budget ?
+
+**La méthode, en trois gestes.**
+1. **Les coûts uniques** : les heures retenues × 75 $, plus ce qui s'achète une fois. On les compare au **budget de construction**.
+2. **Les coûts annuels** : les abonnements, les commissions, le domaine. On les compare à **ce que le client paie aujourd'hui**.
+3. **Si ça dépasse**, on ne baisse pas les heures : on propose **trois façons d'entrer dans le budget**, et le client choisit.
+
+**Dans la boulangerie**, le devis se lit en trois comparaisons :
 
 <FigureDevis />
 
-Une commission se calcule avec le **volume** : 2 600 réservations × montant moyen × pourcentage. Écrivez le calcul sous le tableau.
+Une commission se calcule avec le **volume**. Pour Aventure Saint-Maurice : 2 600 réservations × montant moyen × pourcentage. Écrivez le calcul sous le tableau.
+
+Quand le devis dépasse, trois familles de solutions :
 
 <FigureTroisFacons />
+
+<div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
+<strong>À retenir.</strong> Chaque option dit ce qu'elle fait économiser <strong>et ce que le client perd</strong>. Les tests, la formation et l'accessibilité ne se coupent jamais.<br>
+<strong>Où ça va.</strong> Évaluation 2, section 12. Lab 08, parties 3 et 4.
+</div>
 
 ### Activité 2 — Faire entrer la boulangerie dans le budget {#activite-2}
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
-<strong>Consigne (10 min, en équipe, puis retour en grand groupe)</strong><br>
-Six mesures sont sur la table. Pour chacune, écrivez <strong>ce que la cliente perd</strong>, puis <strong>proposez</strong> ou <strong>écartez</strong>. Cliquez sur <strong>Vérifier</strong> pour voir l'effet sur trois ans.
+<strong>Consigne (10 min en équipe, puis 10 min de retour en grand groupe)</strong><br>
+Le devis de la boulangerie dépasse son budget de 6 000 $. Six mesures sont proposées.
+<ol class="list-decimal pl-5">
+  <li><strong>Pour chaque mesure</strong>, écrivez en une phrase <strong>ce que la cliente perd</strong>.</li>
+  <li>Choisissez <strong>Proposer</strong> ou <strong>Écarter</strong>.</li>
+  <li><strong>Cliquez sur « Vérifier »</strong> pour voir l'effet sur trois ans, puis lisez l'explication des mesures où vous vous êtes trompés.</li>
+  <li><strong>Copiez vos réponses</strong> avec le bouton, pour les garder.</li>
+</ol>
+<strong>Si vous bloquez :</strong> relisez le tableau des critères de la boulangerie (étape 1). Une mesure qui fait échouer un critère de poids 3 s'écarte.<br>
+<strong>Pour le retour en groupe :</strong> quelle mesure avait l'air bonne, mais ne l'était pas sur trois ans ?
 </div>
 
 <EntrerDansLeBudget />
@@ -166,7 +261,7 @@ La **séance 9 (25 novembre)** est une **rencontre avec Mélanie**. Apportez **d
 
 ## À faire maintenant
 
-[Lab 08 — Estimer et chiffrer la proposition](./../../labs/lab08-estimer-et-chiffrer), en équipe. Gardez votre rapport de l'évaluation 1 sous la main.
+[Lab 08 — Estimer et chiffrer la proposition](./../../labs/lab08-estimer-et-chiffrer), en équipe. Gardez votre rapport de l'évaluation 1 sous la main. Le lab reprend les étapes 2, 3 et 4, dans le même ordre.
 
 ---
 
