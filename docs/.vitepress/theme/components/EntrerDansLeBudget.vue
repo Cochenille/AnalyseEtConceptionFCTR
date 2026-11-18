@@ -55,7 +55,7 @@ const MESURES: Mesure[] = [
     uniques: -1050,
     annuels: 1220, // 2 000 × 22 $ × 4 % = 1 760 $, moins l'abonnement de l'outil A de 540 $
     attendu: "ecarter",
-    explication: "Le piège classique : le devis rentre dans le budget la première année, mais la commission coûte 1 760 $ par année au lieu de 540 $. Sur trois ans, la cliente paie 2 610 $ de plus. Et le critère « moins de 40 $ par mois » (poids 2) n'est plus respecté.",
+    explication: "Le piège classique : le devis rentre dans le budget la première année, mais la commission coûte 1 760 $ par année au lieu de 540 $. Sur trois ans, la cliente paie 2 610 $ de plus. Et le critère « moins de 50 $ par mois pour l'outil de commande » (poids 2) n'est plus respecté.",
   },
   {
     cle: "m4",

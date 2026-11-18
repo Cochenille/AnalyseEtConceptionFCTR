@@ -33,13 +33,29 @@ const SEMAINES = 7;
 
 <template>
   <figure class="fig7 fe">
-    <div class="fe-semaines">
-      <span class="fe-calc"><strong>100 h</strong> ÷ 15 h par semaine ≈</span>
-      <span class="fe-blocs">
-        <span v-for="s in SEMAINES" :key="s" class="fe-bloc">s{{ s }}</span>
-      </span>
-      <span class="fe-calc"><strong>7 semaines</strong>, pas 2 ½</span>
-    </div>
+    <ol class="fe-raison">
+      <li>
+        <strong>Les heures.</strong> L'estimation de la boulangerie (étape 2) donne 96 heures, arrondies à
+        <strong>100 h</strong>.
+      </li>
+      <li>
+        <strong>Les heures par semaine.</strong> Le studio a d'autres clients : il peut donner <strong>15 h par
+        semaine</strong> à ce projet. 100 h ÷ 15 h ≈ <strong>7 semaines de travail</strong>. À temps plein (40 h par
+        semaine), ce serait 2 ½ semaines, mais personne ne travaille sur un seul projet à la fois.
+        <span class="fe-semaines">
+          <span class="fe-blocs">
+            <span v-for="s in SEMAINES" :key="s" class="fe-bloc">s{{ s }}</span>
+          </span>
+          <span class="fe-calc">7 semaines de travail</span>
+        </span>
+      </li>
+      <li>
+        <strong>Le calendrier.</strong> Les quatre étapes s'étalent sur <strong>10 semaines</strong>, pas 7, parce qu'on
+        attend la cliente entre les étapes (ses commentaires, ses textes). On ajoute un <strong>coussin</strong> de
+        20 % : 20 % de 10 semaines = <strong>2 semaines</strong>. Total : 12 semaines, à placer avant le 1<sup>er</sup>
+        décembre.
+      </li>
+    </ol>
 
     <div class="fe-gantt">
       <div class="fe-mois">
@@ -49,7 +65,7 @@ const SEMAINES = 7;
         <span class="fe-nom">{{ e.nom }}</span>
         <span class="fe-piste">
           <span class="fe-barre" :class="{ 'is-coussin': e.coussin }" :style="{ left: pc(e.de), width: larg(e.de, e.a) }">
-            <template v-if="e.coussin">2 semaines</template>
+            <template v-if="e.coussin">2 sem.</template>
           </span>
         </span>
       </div>
@@ -69,20 +85,28 @@ const SEMAINES = 7;
     </ul>
 
     <figcaption>
-      <strong>On part de la date qu'on ne peut pas déplacer, et on remonte.</strong> Le coussin est une étape à part (15 à 20 % de la durée), pas un peu de marge cachée dans chaque tâche. Et chaque chose que le client doit fournir a une date : un texte en retard est la première cause de retard d'un petit projet.
+      <strong>On part de la date qu'on ne peut pas déplacer, et on remonte.</strong> Ici, la mise en ligne du 1<sup>er</sup> décembre : en reculant de 12 semaines, le projet commence début septembre. Le coussin est une étape à part, à la fin (15 à 20 % de la durée des étapes), pas un peu de marge cachée dans chaque tâche. Les losanges sont ce que la cliente doit fournir, chacun avec sa date : un texte en retard est la première cause de retard d'un petit projet.
     </figcaption>
   </figure>
 </template>
 
 <style scoped>
 .fe { --fe-nom: 9.5rem; }
+.fe-raison {
+  margin: 0 0 1.4rem !important;
+  padding-left: 1.3rem !important;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.fe-raison li { margin: 0.35rem 0 !important; }
 .fe-semaines {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   align-items: center;
-  margin-bottom: 1.2rem;
-  font-size: 0.85rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
 }
 .fe-blocs { display: inline-flex; gap: 3px; }
 .fe-bloc {

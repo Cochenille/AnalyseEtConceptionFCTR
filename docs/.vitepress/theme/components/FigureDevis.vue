@@ -14,7 +14,7 @@ const pcT = (n: number) => `${(n / TROIS_ANS) * 100}%`;
 <template>
   <figure class="fig7 fd">
     <div class="fd-bloc">
-      <p class="fd-titre"><strong>Coûts uniques</strong> <span>construction (heures × 75 $) et achats</span></p>
+      <p class="fd-titre"><strong>Coûts uniques</strong> <span>96 h estimées × 75 $ de l'heure = 7 200 $, plus un thème payant de 90 $</span></p>
       <div class="fd-piste">
         <span class="fd-barre is-u" :style="{ width: pcU(BUDGET) }">{{ fmt(UNIQUES) }}</span>
         <span class="fd-barre is-trop" :style="{ left: pcU(BUDGET), width: pcU(UNIQUES - BUDGET) }" />
@@ -24,7 +24,7 @@ const pcT = (n: number) => `${(n / TROIS_ANS) * 100}%`;
     </div>
 
     <div class="fd-bloc">
-      <p class="fd-titre"><strong>Coûts annuels</strong> <span>abonnements, domaine, commissions, entretien</span></p>
+      <p class="fd-titre"><strong>Coûts annuels</strong> <span>outil de commande 540 $ + hébergement et domaine 220 $ + textos 100 $; aujourd'hui, la boulangerie paie 300 $ pour son site actuel</span></p>
       <div class="fd-piste">
         <span class="fd-barre is-a" :style="{ width: pcA(ANNUELS) }">{{ fmt(ANNUELS) }} par année</span>
         <span class="fd-repere" :style="{ left: pcA(AUJOURDHUI) }"><span>aujourd'hui {{ fmt(AUJOURDHUI) }}</span></span>
@@ -33,7 +33,7 @@ const pcT = (n: number) => `${(n / TROIS_ANS) * 100}%`;
     </div>
 
     <div class="fd-bloc">
-      <p class="fd-titre"><strong>Total sur trois ans</strong> <span>pour information : ce que le projet coûte vraiment</span></p>
+      <p class="fd-titre"><strong>Total sur trois ans</strong> <span>7 290 $ + 3 × 860 $ : ce que le projet coûte vraiment</span></p>
       <div class="fd-piste fd-empile">
         <span class="fd-seg is-u" :style="{ width: pcT(UNIQUES) }">uniques</span>
         <span v-for="a in 3" :key="a" class="fd-seg is-a" :style="{ width: pcT(ANNUELS) }">an {{ a }}</span>
@@ -42,7 +42,7 @@ const pcT = (n: number) => `${(n / TROIS_ANS) * 100}%`;
     </div>
 
     <figcaption>
-      <strong>Trois chiffres, trois comparaisons.</strong> Les coûts uniques se comparent au budget de construction (pour Mélanie : 8 000 $, ou 13 000 $ avec la subvention). Les coûts annuels se comparent à ce que l'entreprise paie aujourd'hui (environ 300 $ pour Wix). Le total sur trois ans ne se compare à rien : il informe.
+      <strong>Trois chiffres, trois comparaisons.</strong> Les coûts uniques se comparent au budget de construction : 6 000 $ pour la boulangerie (pour Mélanie : 8 000 $, ou 13 000 $ avec la subvention). Les coûts annuels se comparent à ce que l'entreprise paie aujourd'hui (environ 300 $ pour Wix). Le total sur trois ans ne se compare à rien : il informe.
     </figcaption>
   </figure>
 </template>

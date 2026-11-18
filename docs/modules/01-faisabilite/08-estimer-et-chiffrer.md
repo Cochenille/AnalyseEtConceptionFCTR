@@ -80,7 +80,7 @@ Chaque étape est présentée de la même façon : **la question**, **la méthod
 <tbody>
 <tr><td>La propriétaire change le menu seule, chaque vendredi</td><td>Exigence : « le menu change toutes les semaines »</td><td>3</td></tr>
 <tr><td>Le paiement passe par son terminal actuel</td><td>Contrainte technologique : elle garde son terminal</td><td>2</td></tr>
-<tr><td>Moins de 40 $ par mois</td><td>Contrainte de budget</td><td>2</td></tr>
+<tr><td>Moins de 50 $ par mois pour l'outil de commande</td><td>Contrainte de budget : « pas plus de 50 $ par mois pour les commandes », dit la propriétaire</td><td>2</td></tr>
 <tr><td>Un rappel par texto la veille</td><td>Exigence souhaitée : « les clients oublient »</td><td>1</td></tr>
 </tbody>
 </table>
@@ -134,7 +134,7 @@ Une boîte par outil, une flèche par chose qui passe d'un outil à l'autre, nom
 
 ## Étape 2 sur 4 — Estimer le travail {#estimer-le-travail}
 
-**La question.** Combien d'heures le studio va-t-il travailler ? À 75 $ de l'heure, une heure oubliée est une heure payée par le studio, ou une fonctionnalité non livrée.
+**La question.** Combien d'heures le studio va-t-il travailler ? Studio Web FC facture **75 $ de l'heure** (c'est le taux donné dans l'énoncé de l'évaluation 2). Une heure oubliée dans l'estimation, ce sont 75 $ que le studio paie de sa poche, ou une fonctionnalité qu'il ne livre pas.
 
 **La méthode, en trois gestes.**
 1. **Découper en tâches.** Une tâche : une personne, une ou deux journées au plus. « Faire le site » n'est pas une tâche. Puis relire la liste des cinq tâches qu'on oublie :
@@ -216,7 +216,7 @@ Une collègue pressée a estimé le site de la boulangerie avec un seul chiffre 
 
 <FigureDevis />
 
-Une commission se calcule avec le **volume**. Pour Aventure Saint-Maurice : 2 600 réservations × montant moyen × pourcentage. Écrivez le calcul sous le tableau.
+Une commission est un pourcentage de chaque vente : pour la calculer, il faut le **volume** de ventes d'une année. Pour Aventure Saint-Maurice, la commission ne touche que les réservations **payées en ligne** : environ 1 800 par année (70 % des 2 600 réservations du mandat), à 120 $ en moyenne, soit 216 000 $ par année. Un outil qui prend 3 % coûte donc 216 000 $ × 3 % = 6 480 $ par année. Ce sont les hypothèses des tableaux de comparaison communs. Dans votre devis, écrivez le calcul sous le tableau.
 
 Quand le devis dépasse, trois familles de solutions :
 

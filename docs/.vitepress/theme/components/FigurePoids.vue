@@ -17,10 +17,10 @@ const ETAPES = [
     poids: 2,
     nom: "Important",
     effet: "on garde le meilleur des outils qui restent",
-    critere: "Moins de 40 $ par mois",
+    critere: "Moins de 50 $ par mois pour l'outil de commande",
     outils: [
       { nom: "Outil A", ok: true },
-      { nom: "Outil B", ok: false, note: "la commission revient à environ 150 $ par mois" },
+      { nom: "Outil B", ok: false, note: "4 % de 2 000 commandes de 22 $ par année ≈ 150 $ par mois" },
       { nom: "Outil C", ok: true },
     ],
   },
