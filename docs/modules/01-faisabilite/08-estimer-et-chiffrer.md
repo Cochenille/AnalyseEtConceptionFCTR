@@ -195,15 +195,20 @@ Quand le devis dépasse, trois familles de solutions :
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
 <strong>Consigne (10 min en équipe, puis 10 min de retour en grand groupe)</strong><br>
-Le devis de la boulangerie dépasse son budget de 6 000 $. Six mesures sont proposées.
+Le devis de la boulangerie dépasse son budget de 6 000 $. Vous avez six idées pour économiser. Pour chacune, vous décidez si vous la présentez à la cliente comme option.
 <ol class="list-decimal pl-5">
-  <li><strong>Pour chaque mesure</strong>, écrivez en une phrase <strong>ce que la cliente perd</strong>.</li>
-  <li>Choisissez <strong>Proposer</strong> ou <strong>Écarter</strong>.</li>
-  <li><strong>Cliquez sur « Vérifier »</strong> pour voir l'effet sur trois ans, puis lisez l'explication des mesures où vous vous êtes trompés.</li>
+  <li><strong>Pour chaque économie</strong>, écrivez en une phrase <strong>ce que la cliente perd</strong> si elle l'accepte.</li>
+  <li>Répondez à la question <strong>« Propose-t-on cette économie à la cliente ? »</strong>
+    <ul class="list-disc pl-5">
+      <li><strong>Oui, on la propose</strong> : elle fait partie des options qu'on présente à la cliente.</li>
+      <li><strong>Non, on garde le devis tel quel</strong> : l'économie est trop risquée ou coûte plus cher plus tard. On ne la présente pas, et rien ne change dans le devis sur ce point.</li>
+    </ul>
+  </li>
+  <li><strong>Cliquez sur « Vérifier »</strong> pour voir l'effet sur trois ans, puis lisez l'explication des économies où vous vous êtes trompés.</li>
   <li><strong>Copiez vos réponses</strong> avec le bouton, pour les garder.</li>
 </ol>
-<strong>Si vous bloquez :</strong> relisez le tableau des critères de la boulangerie (étape 1). Une mesure qui fait échouer un critère de poids 3 s'écarte.<br>
-<strong>Pour le retour en groupe :</strong> quelle mesure avait l'air bonne, mais ne l'était pas sur trois ans ?
+<strong>Si vous bloquez :</strong> relisez le tableau des critères de la boulangerie (étape 1). Une économie qui fait échouer un critère de poids 3 ne se propose pas.<br>
+<strong>Pour le retour en groupe :</strong> quelle économie avait l'air bonne, mais ne l'était pas sur trois ans ?
 </div>
 
 <EntrerDansLeBudget />

@@ -26,6 +26,10 @@ type Mesure = {
 
 const FAMILLES = { A: "Enlever une fonctionnalité", B: "Changer d'outil", C: "Livrer en étapes" };
 
+// Chaque mesure est une économie possible. « Oui » : on la présente à la cliente comme option.
+// « Non » : on ne la lui présente pas, et le devis reste tel quel sur ce point.
+const LIBELLES = { proposer: "Oui, on la propose", ecarter: "Non, on garde le devis tel quel" };
+
 const MESURES: Mesure[] = [
   {
     cle: "m1",
@@ -123,16 +127,16 @@ function texteReponses() {
       const lignes = [
         `${m.famille}. ${m.titre} (coûts uniques : ${fmtSigne(m.uniques)})`,
         `   Ce que la cliente perd ou reporte : ${pertes[m.cle].trim() || "—"}`,
-        `   Notre décision : ${choix[m.cle] === "proposer" ? "proposer" : choix[m.cle] === "ecarter" ? "écarter" : "—"}`,
+        `   Propose-t-on cette économie à la cliente ? ${choix[m.cle] ? LIBELLES[choix[m.cle] as "proposer" | "ecarter"] : "—"}`,
       ];
       if (verifie.value) {
-        lignes.push(`   Effet sur trois ans : ${fmtSigne(effetTroisAns(m))} · attendu : ${m.attendu === "proposer" ? "proposer" : "écarter"}`);
+        lignes.push(`   Effet sur trois ans : ${fmtSigne(effetTroisAns(m))} · réponse attendue : ${LIBELLES[m.attendu]}`);
         lignes.push(`   ${m.explication}`);
       }
       return lignes.join("\n");
     }),
     "",
-    `Avec nos mesures proposées : coûts uniques ${fmt(uniquesApres.value)} (${dansBudget.value ? "dans le budget" : "hors budget"}), ${fmt(troisAnsApres.value)} sur trois ans.`,
+    `Avec les économies proposées : coûts uniques ${fmt(uniquesApres.value)} (${dansBudget.value ? "dans le budget" : "hors budget"}), ${fmt(troisAnsApres.value)} sur trois ans.`,
   ];
   return l.join("\n");
 }
@@ -183,7 +187,7 @@ watch([choix, pertes, verifie], () => {
 
     <div class="eb-jauge" :class="dansBudget ? 'is-ok' : 'is-depasse'">
       <div class="eb-jauge-tete">
-        <span>Coûts uniques, avec les mesures proposées</span>
+        <span>Coûts uniques, avec les économies proposées</span>
         <strong>{{ fmt(uniquesApres) }}</strong>
       </div>
       <div class="eb-piste">
@@ -211,14 +215,15 @@ watch([choix, pertes, verifie], () => {
           Ce que la cliente perd ou reporte
           <textarea v-model="pertes[m.cle]" class="eb-texte" rows="2" />
         </label>
-        <div class="eb-choix" role="radiogroup" :aria-label="'Décision : ' + m.titre">
-          <label><input v-model="choix[m.cle]" type="radio" value="proposer" :name="'eb-' + m.cle" /> Proposer</label>
-          <label><input v-model="choix[m.cle]" type="radio" value="ecarter" :name="'eb-' + m.cle" /> Écarter</label>
+        <p class="eb-question">Propose-t-on cette économie à la cliente ?</p>
+        <div class="eb-choix" role="radiogroup" :aria-label="'Propose-t-on cette économie à la cliente ? ' + m.titre">
+          <label><input v-model="choix[m.cle]" type="radio" value="proposer" :name="'eb-' + m.cle" /> {{ LIBELLES.proposer }}</label>
+          <label><input v-model="choix[m.cle]" type="radio" value="ecarter" :name="'eb-' + m.cle" /> {{ LIBELLES.ecarter }}</label>
         </div>
         <div v-if="verifie" class="eb-corr">
           <p>
             Effet sur trois ans : <strong>{{ fmtSigne(effetTroisAns(m)) }}</strong> ·
-            À {{ m.attendu === "proposer" ? "proposer" : "écarter" }}
+            Réponse attendue : {{ LIBELLES[m.attendu] }}
           </p>
           <p class="eb-expl">{{ m.explication }}</p>
         </div>
@@ -231,7 +236,7 @@ watch([choix, pertes, verifie], () => {
     </div>
 
     <p v-if="verifie" class="eb-note">
-      Trois mesures tiennent : une par famille. Aucune ne suffit seule sauf le report des paniers-cadeaux; ensemble, deux d'entre elles suffisent.
+      Trois économies peuvent se proposer : une par famille. Aucune ne suffit seule sauf le report des paniers-cadeaux; ensemble, deux d'entre elles suffisent.
       C'est ce que demande la section 6.4 : <strong>trois options</strong>, chacune avec son économie et ce que le client perd, pour qu'il choisisse.
     </p>
 
@@ -347,7 +352,8 @@ watch([choix, pertes, verifie], () => {
   resize: vertical;
 }
 .eb-texte:focus { outline: none; border-color: var(--vp-c-brand-1); }
-.eb-choix { display: flex; gap: 1rem; margin-top: 0.4rem; font-size: 0.8rem; }
+.eb-question { margin: 0.45rem 0 0 !important; font-size: 0.75rem; font-weight: 600; color: var(--vp-c-text-2); }
+.eb-choix { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; margin-top: 0.2rem; font-size: 0.8rem; }
 .eb-choix label { display: inline-flex; gap: 0.3rem; align-items: center; cursor: pointer; }
 .eb-choix input { accent-color: var(--vp-c-brand-1); }
 .eb-corr {
