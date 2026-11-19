@@ -190,7 +190,7 @@ Le rapport que vous venez de remettre décrivait la situation, sans rien recomma
 <div class="bg-yellow-50 border border-yellow-200 text-yellow-900 rounded-lg p-4 mb-5">
 <strong>En bref</strong><br>
 <ul class="list-disc pl-5">
-  <li><strong>Remise :</strong> mercredi <strong>9 décembre, 18 h 30</strong>, sur LÉA (séance 11). 20 %, dont 10 % pour le français.</li>
+  <li><strong>Remise :</strong> mercredi <strong>13 janvier, 18 h 30</strong>, sur LÉA (séance 13, au retour des fêtes). 20 %, dont 10 % pour le français.</li>
   <li><strong>Ce qui s'ajoute :</strong> les choix techniques, les formats et les règles de mise en ligne, les adaptations aux contraintes, le temps, l'argent et la recommandation finale.</li>
   <li><strong>Le rapport 1 ne change pas :</strong> l'introduction de la proposition en résume l'essentiel et y renvoie par numéro de section. Les commentaires reçus pour l'évaluation 1 s'appliquent à votre façon d'écrire la proposition.</li>
 </ul>
@@ -205,7 +205,7 @@ Ce que chaque séance vous apporte pour la proposition :
 | 8 (18 nov.) | **Choisir** avec des critères, estimer le **temps** et monter le **devis** (sections 2, 5 et 6). Votre rapport de l'évaluation 1 vous est rendu corrigé, avec des tableaux de comparaison communs |
 | 9 (25 nov.) | La **rencontre avec le client** : apportez cinq questions, choisies dans votre rapport 1; les réponses confirment ou ajustent vos choix |
 | 10 (2 déc.) | 15 minutes de questions sur l'évaluation 2, au début de la séance |
-| 11 (9 déc.) | **Remise** avant 18 h 30 |
+| 13 (13 janv.) | **Remise** avant 18 h 30, au retour des fêtes |
 
 Votre rapport de l'évaluation 1 vous sera rendu corrigé **au plus tard le 18 novembre**, avec les commentaires à appliquer. Vous recevrez en même temps des **tableaux de comparaison communs** pour les cinq questions : toutes les équipes partiront des mêmes outils pour faire leurs choix. D'ici là, commencez par ce qui n'en dépend pas : les critères de choix (section 2.1), tirés de vos exigences et de vos contraintes.
 

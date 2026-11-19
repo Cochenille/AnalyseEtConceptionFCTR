@@ -10,7 +10,7 @@ aside: false
 <ul class="list-disc pl-5">
   <li><strong>Pondération :</strong> 20 % de la note finale, dont 10 % de l'évaluation pour la qualité du français.</li>
   <li><strong>Équipe :</strong> votre équipe de la session, 2 ou 3 personnes.</li>
-  <li><strong>Remise :</strong> sur LÉA, au plus tard le <strong>mercredi 9 décembre, 18 h 30</strong> (début de la séance 11).</li>
+  <li><strong>Remise :</strong> sur LÉA, au plus tard le <strong>mercredi 13 janvier, 18 h 30</strong> (début de la séance 13, au retour des fêtes).</li>
   <li><strong>Format :</strong> la proposition technique seule, dans un fichier Word (<code>.docx</code>) fait à partir du gabarit et nommé <code>eval2-equipeN-nom1-nom2-nom3.docx</code>. <strong>Vous ne modifiez pas</strong> le rapport de l'évaluation 1 : vous y renvoyez.</li>
   <li><strong>Longueur :</strong> de 8 à 12 pages, sans compter la page de titre, la table des matières, les références et les annexes.</li>
   <li><strong>Retard :</strong> 10 % par jour; aucun travail accepté après 7 jours.</li>
@@ -84,7 +84,7 @@ Ne recopiez pas la section 5.3 du rapport 1. La <strong>mesure</strong> de l'év
 
 #### 5. Le temps
 - **5.1 Les tâches et l'estimation** : le travail découpé en tâches, chacune estimée en trois chiffres (optimiste, probable, pessimiste), et l'estimation retenue. (Vu à la séance 8.)
-- **5.2 L'échéancier** : un échéancier **simple, par étapes**, jusqu'au 1<sup>er</sup> mars 2027 : ce qui est livré à chacune, ce que le client doit fournir et quand, et le **coussin** prévu pour les imprévus. (Vu à la séance 8.) Les cycles de travail agiles viendront aux séances 16 et 17; ils ne sont pas demandés ici.
+- **5.2 L'échéancier** : un échéancier **simple, par étapes**, jusqu'au 1<sup>er</sup> mars 2027 : ce qui est livré à chacune, ce que le client doit fournir et quand, et le **coussin** prévu pour les imprévus, dans un tableau suivi d'un **diagramme de Gantt** (outils gratuits proposés à la [séance 8](./../modules/01-faisabilite/08-estimer-et-chiffrer#echeancier)). Les cycles de travail agiles viendront aux séances 16 et 17; ils ne sont pas demandés ici.
 
 #### 6. L'argent
 - **6.1 Les coûts uniques** : la construction (les heures de l'estimation × le taux de Studio Web FC) et ce qui s'achète une seule fois.
@@ -172,7 +172,8 @@ Les mêmes règles qu'à l'[évaluation 1](./evaluation-1#l-intelligence-artific
 | 8 | 18 nov. | Le rapport de l'évaluation 1 vous est rendu corrigé, avec des **tableaux de comparaison communs** pour les cinq questions. La séance porte sur les critères de choix, l'estimation du temps et le devis : avancez les **sections 2** (choix techniques), **5** (temps) et **6** (argent) |
 | 9 | 25 nov. | Rencontre avec le client : apportez **cinq questions**, choisies à la fin du Lab 08 parmi celles du rapport 1 (section 7.2). Notez ses réponses dans la **section 1.3**, puis ajustez les **sections 2 et 4**. N'attendez pas la rencontre pour écrire la section 2 |
 | 10 | 2 déc. | 15 minutes de questions sur l'évaluation 2 au début de la séance. À la maison : écrire les sections **1.1**, **1.2** et **7**, puis le résumé |
-| 11 | 9 déc. | **Remise** avant 18 h 30 |
+| — | 21 déc. au 10 janv. | Vacances des fêtes. Gardez du temps pour la relecture par une autre personne de l'équipe |
+| 13 | 13 janv. | **Remise** avant 18 h 30 |
 
 ---
 
@@ -191,5 +192,5 @@ Les mêmes règles qu'à l'[évaluation 1](./evaluation-1#l-intelligence-artific
   <li><label><input type="checkbox"><span class="check-text">La première phrase de la section 7 dit si le projet est faisable</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Le texte a été relu par une autre personne de l'équipe que celle qui l'a écrit, et passé dans un correcteur</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les annexes A et B sont présentes (et l'annexe C au besoin)</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Le fichier est nommé correctement et déposé sur LÉA avant 18 h 30 le 9 décembre</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Le fichier est nommé correctement et déposé sur LÉA avant 18 h 30 le 13 janvier</span></label></li>
 </ul>

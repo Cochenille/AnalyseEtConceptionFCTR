@@ -24,7 +24,7 @@ aside: false
 
 Studio Web FC, c'est vous. [Aventure Saint-Maurice](./../mandat/) vous a demandé si son projet de nouveau site est faisable. Avant de lui proposer quoi que ce soit, votre agence doit lui remettre une **évaluation technique** : un portrait clair et honnête de ce que son projet exige, de ce qui le limite, de ce qui pourrait mal tourner et des technologies qui existent pour le réaliser.
 
-Ce rapport est la **première partie** du rapport de faisabilité. L'évaluation 2 (remise le 9 décembre) en sera la deuxième, dans son propre document : la **proposition technique**, avec les choix recommandés, les coûts et l'échéancier. Elle renverra à ce rapport-ci sans le modifier.
+Ce rapport est la **première partie** du rapport de faisabilité. L'évaluation 2 (remise le 13 janvier) en sera la deuxième, dans son propre document : la **proposition technique**, avec les choix recommandés, les coûts et l'échéancier. Elle renverra à ce rapport-ci sans le modifier.
 
 <div class="hors-rapport">
 <strong>Ce rapport décrit. Il ne recommande rien.</strong><br>

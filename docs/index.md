@@ -111,7 +111,7 @@ hero:
       },
       {
         title: 'L’énoncé de l’évaluation 2',
-        badge: '20 % · remise le 9 déc.',
+        badge: '20 % · remise le 13 janv.',
         links: [
           { text: 'Évaluation 2', href: '/evaluations/evaluation-2', variant: 'primary' },
           { text: 'Gabarit (Word)', href: '/fiches/eval2-gabarit-proposition.docx', variant: 'secondary' }

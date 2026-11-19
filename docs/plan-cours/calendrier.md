@@ -19,13 +19,13 @@ Les cours ont lieu le **mercredi de 18 h 30 à 22 h** (4 périodes), sauf la der
 | 8 | 18 nov. | HK29 / HK33 | — |
 | 9 | 25 nov. | HK33 — Conception d'un projet Web | — |
 | 10 | 2 déc. | HK33 — Conception d'un projet Web | — |
-| 11 | 9 déc. | HK33 — Conception d'un projet Web | <Badge type="warning" text="Remise" /> **Évaluation 2** (20 %) — <Badge type="info" text="Énoncé" /> Évaluation 3 |
+| 11 | 9 déc. | HK33 — Conception d'un projet Web | — |
 | 12 | 16 déc. | HK33 — Conception d'un projet Web | — |
 | — | 21 déc. au 10 janv. |  | <Badge type="info" text="Pause" /> **Vacances des fêtes** |
-| 13 | 13 janv. | HK33 — Conception d'un projet Web | — |
+| 13 | 13 janv. | HK33 — Conception d'un projet Web | <Badge type="warning" text="Remise" /> **Évaluation 2** (20 %) — <Badge type="info" text="Énoncé" /> Évaluation 3 |
 | 14 | 20 janv. | HK33 — Conception d'un projet Web | — |
 | 15 | 27 janv. | HK33 — Conception d'un projet Web | — |
-| 16 | 3 févr. | HK33 — Conception d'un projet Web | <Badge type="warning" text="Remise" /> **Évaluation 3** (20 %) — <Badge type="info" text="Énoncé" /> Évaluation synthèse |
+| 16 | 3 févr. | HK33 — Conception d'un projet Web | <Badge type="info" text="Énoncé" /> Évaluation synthèse |
 | 17 | 10 févr. | HK33 — Conception d'un projet Web | — |
-| 18 | 17 févr. | Travail en classe — évaluation synthèse | — |
+| 18 | 17 févr. | Travail en classe — évaluation synthèse | <Badge type="warning" text="Remise" /> **Évaluation 3** (20 %) |
 | 19 | 24 févr. | Travail en classe — évaluation synthèse | <Badge type="danger" text="Synthèse" /> **Évaluation synthèse** (40 %, individuelle) |

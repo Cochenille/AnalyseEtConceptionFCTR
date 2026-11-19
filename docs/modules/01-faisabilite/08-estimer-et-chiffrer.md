@@ -159,6 +159,17 @@ Une collègue pressée a estimé le site de la boulangerie avec un seul chiffre 
 
 <FigureEcheancier />
 
+Ce type de figure s'appelle un **diagramme de Gantt** : une ligne par étape, et une barre qui va de la date de début à la date de fin de chacune. On le lit de gauche à droite, comme un calendrier.
+
+<div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
+<strong>Faire un diagramme de Gantt pour votre rapport : deux outils gratuits</strong>
+<ul class="list-disc pl-5">
+  <li><a href="https://www.ganttproject.biz/"><strong>GanttProject</strong></a> : un logiciel gratuit à installer (Windows, macOS). Vous entrez les étapes et leurs dates, puis vous l'exportez en image PNG (menu Projet → Exporter) pour l'insérer dans Word.</li>
+  <li><strong>Google Sheets</strong>, modèle « Diagramme de Gantt » de la galerie de modèles : en ligne, rien à installer, et l'équipe y travaille en même temps. Vous coloriez les semaines de chaque étape, puis vous copiez le tableau dans Word.</li>
+</ul>
+Le diagramme s'ajoute au tableau de la section 5.2 du gabarit, il ne le remplace pas : le diagramme montre les durées d'un coup d'œil, le tableau donne ce qui est livré et ce que le client fournit.
+</div>
+
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> Un texte du client en retard est la première cause de retard d'un petit projet : sa date est dans l'échéancier.<br>
 <strong>Pour Aventure Saint-Maurice :</strong> la date ferme est le <strong>1<sup>er</sup> mars 2027</strong>. Pensez aux fêtes, et à la réponse de la MRC en <strong>janvier</strong> : qu'est-ce qui en dépend ?<br>

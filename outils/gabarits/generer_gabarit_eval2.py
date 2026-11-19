@@ -196,6 +196,8 @@ def generer():
                   "(séance 8 et Lab 08). Pour chaque étape, ce que le client doit fournir et à quelle date (accès au domaine, "
                   "textes, photos, décharge traduite…). Les cycles de travail agiles ne sont pas demandés ici.")
     tableau(doc, ["Étape", "Début", "Fin", "Ce qui est livré", "Ce que le client doit fournir, et quand"], rangees=6)
+    consigne(doc, "Sous le tableau, ajoutez un diagramme de Gantt des mêmes étapes, fait avec GanttProject ou Google Sheets "
+                  "(séance 8, étape 3) et inséré comme image.")
     saut(doc)
 
     # 6 -----------------------------------------------------------------------
