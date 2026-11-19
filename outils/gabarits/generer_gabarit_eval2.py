@@ -91,7 +91,7 @@ def generer():
     garder_debut(doc)
     p = doc.paragraphs
     remplacer_texte(p[1], "Partie 2 — Proposition technique")
-    remplacer_texte(p[5], "Date : 9 décembre 2026")
+    remplacer_texte(p[5], "Date : 13 janvier 2027")
     remplacer_texte(p[6], "582-A05-RI — Analyse et conception Web — Évaluation 2 (20 %)")
     remplacer_texte(p[7], "Ce gabarit est votre rapport complet pour l'évaluation 2 : vous n'avez rien à modifier dans le "
                           "rapport de l'évaluation 1. Les paragraphes en gris italique sont des consignes : remplacez-les par "
