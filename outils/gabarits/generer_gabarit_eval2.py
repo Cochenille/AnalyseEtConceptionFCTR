@@ -121,7 +121,7 @@ def generer():
     consigne(doc, "Les questions posées à Mélanie à la séance 9 (tirées du rapport 1, section 7.2), sa réponse, et ce que ça "
                   "change dans la proposition, avec le numéro de la section touchée. Une question restée sans réponse va à la "
                   "section 7.3, comme une décision que la cliente doit prendre.")
-    tableau(doc, ["Question posée", "Réponse de Mélanie", "Ce que ça change (section)"], rangees=6)
+    tableau(doc, ["Question posée", "Réponse de Mélanie", "Ce que ça change (section)"], rangees=5)
     saut(doc)
 
     # 2 -----------------------------------------------------------------------
@@ -134,10 +134,12 @@ def generer():
     tableau(doc, ["Critère", "D'où il vient (exigence ou contrainte du rapport 1)", "Poids (1 à 3)"], rangees=6)
 
     doc.add_heading("2.2 Les choix pour les cinq questions", level=2)
-    consigne(doc, "Partez des tableaux de comparaison communs : ce sont les mêmes pour toutes les équipes. Pour chaque "
-                  "question : l'outil ou la solution retenu, pourquoi (les critères de 2.1, les essais, les sources), ce que "
-                  "vous écartez et pourquoi, et ce qui reste à vérifier avant de s'engager. Pour Q4, on choisit où héberger "
-                  "et comment diffuser les vidéos; la préparation des fichiers va à la section 3.")
+    consigne(doc, "Partez des tableaux de comparaison communs : ce sont les mêmes pour toutes les équipes, et ils suffisent "
+                  "comme source (aucune nouvelle recherche). Votre question, en profondeur : les quatre rangées, avec les "
+                  "critères de 2.1, vos essais et les tableaux communs. Les quatre autres, en bref : l'outil retenu et deux ou "
+                  "trois lignes qui disent pourquoi; les deux dernières rangées tiennent en une ligne chacune, ou en un renvoi "
+                  "au tableau commun. Pour Q4, on choisit où héberger et comment diffuser les vidéos; la préparation des "
+                  "fichiers va à la section 3.")
     for q in QUESTIONS:
         doc.add_heading(q, level=3)
         tableau(doc, ["", "Notre choix"], premiere_colonne=[
@@ -163,6 +165,8 @@ def generer():
         "Tarifs, horaires, conditions",
         "Document à imprimer ou à signer",
     ], gras_premiere=True)
+    consigne(doc, "Sous le tableau : quelques phrases qui disent à Mélanie ce que ces règles changent pour son site, chiffres à l'appui. "
+                  "Reprenez-y vos constats chiffrés de la partie 4 du Lab 07 (avant → après).")
     doc.add_heading("3.2 Qui fait ce travail chez le client", level=2)
     consigne(doc, "Qui préparera les photos et les vidéos après la mise en ligne, avec quel outil, combien de temps par fichier "
                   "(mesuré au Lab 07), et à quel moment de l'année. Tenez compte des 70 heures par semaine de Mélanie l'été.")
@@ -174,7 +178,8 @@ def generer():
     consigne(doc, "Une rangée pour chaque contrainte déterminante (rapport 1, section 4.3) et chaque risque de la zone rouge "
                   "(rapport 1, section 5.3), avec son numéro. Ne recopiez pas la mesure du rapport 1 : l'adaptation est la "
                   "décision concrète de votre proposition (l'outil retenu, la fonction à activer, la façon de faire) qui "
-                  "obtient le résultat visé par la mesure.")
+                  "obtient le résultat visé par la mesure. Six rangées au plus : les contraintes déterminantes d'abord, puis "
+                  "les risques rouges les plus graves s'il n'y a pas de place pour tous.")
     tableau(doc, ["Contrainte ou risque (n° dans le rapport 1)", "L'adaptation que nous proposons", "Ce que ça change pour le client"], rangees=6)
     doc.add_heading("4.2 Ce que nous ne proposons pas", level=2)
     consigne(doc, "Les demandes du mandat que vous ne retenez pas, ou pas tout de suite (l'application mobile, le niveau de la "
@@ -185,8 +190,8 @@ def generer():
     doc.add_heading("5. Le temps", level=1)
     doc.add_heading("5.1 Les tâches et l'estimation", level=2)
     consigne(doc, "Le travail de Studio Web FC découpé en tâches, chacune estimée en trois chiffres, en heures (séance 8 et "
-                  "Lab 08). N'oubliez pas la gestion de projet, les rencontres, la formation de Mélanie et les tests. Au-delà de "
-                  "15 tâches, regroupez-les ici et mettez le détail à l'annexe C.")
+                  "Lab 08). Les huit tâches de la fiche du Lab 08 suffisent; ajoutez-en seulement si la rencontre avec Mélanie "
+                  "en fait apparaître une. Au-delà de 15 tâches, regroupez-les ici et mettez le détail à l'annexe C.")
     tableau(doc, ["Tâche", "Optimiste (h)", "Probable (h)", "Pessimiste (h)", "Estimation retenue (h)"],
             premiere_colonne=[""] * 10 + ["Total"], gras_premiere=True)
     consigne(doc, "Sous le tableau : la formule de l'estimation retenue, (optimiste + 4 × probable + pessimiste) ÷ 6, et le "
@@ -252,8 +257,9 @@ def generer():
 
     # 8 -----------------------------------------------------------------------
     doc.add_heading("8. Références", level=1)
-    consigne(doc, "Style APA 7, par ordre alphabétique : toutes les sources de cette proposition (pages de prix, documentation "
-                  "des fournisseurs, tableaux de comparaison communs). Pour les tableaux : Studio Web FC. (2026). Tableaux de "
+    consigne(doc, "Style APA 7, par ordre alphabétique : toutes les sources de cette proposition. Les tableaux de comparaison "
+                  "communs peuvent être votre seule source pour les outils et leurs prix; ajoutez une autre source seulement "
+                  "pour un outil ou un prix qui n'y figure pas. Pour les tableaux : Studio Web FC. (2026). Tableaux de "
                   "comparaison communs : essais des équipes du groupe [Document Word]. 582-A05-RI. Votre rapport de "
                   "l'évaluation 1 se cite aussi, s'il sert de source.")
     saut(doc)

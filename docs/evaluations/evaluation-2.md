@@ -18,6 +18,17 @@ aside: false
 <a href="./../fiches/eval2-gabarit-proposition.docx" download><strong>Télécharger le gabarit de la proposition (Word)</strong></a>
 </div>
 
+<div class="bg-green-50 border border-green-200 text-green-900 rounded-lg p-4 mb-5">
+<strong>Mise à jour du 25 novembre : quatre allègements</strong><br>
+Rien de ce que vous avez déjà fait ne devient inutile, et le gabarit que vous avez commencé reste bon.
+<ul class="list-disc pl-5">
+  <li><strong>2.2 :</strong> seule votre question est traitée en profondeur. Pour les quatre autres, l'outil retenu et deux ou trois lignes de justification suffisent.</li>
+  <li><strong>Aucune nouvelle recherche :</strong> les tableaux de comparaison communs suffisent comme source, pour les choix comme pour les prix.</li>
+  <li><strong>4.1 :</strong> six rangées au plus.</li>
+  <li><strong>5.1 :</strong> les huit tâches de la fiche du Lab 08 suffisent.</li>
+</ul>
+</div>
+
 ---
 
 ## La mise en situation
@@ -53,7 +64,7 @@ Une nouveauté : Mélanie va **prendre des décisions** à partir de ce rapport.
 
 ## Le contenu du rapport
 
-Le gabarit contient toutes ces sections, avec des consignes dans chacune. Il garde la page de titre et la table des matières de l'évaluation 1.
+**Tout ce qui est exigé est sur cette page et dans le gabarit.** Les labs vous aident à le préparer, mais n'ajoutent aucune exigence. Le gabarit contient toutes ces sections, avec des consignes dans chacune. Il garde la page de titre et la table des matières de l'évaluation 1.
 
 #### Résumé
 Une demi-page au maximum, écrite en dernier : la **recommandation**, les outils retenus, le coût, la date de mise en ligne visée et les décisions que Mélanie doit prendre.
@@ -65,16 +76,20 @@ Une demi-page au maximum, écrite en dernier : la **recommandation**, les outils
 
 #### 2. Les choix techniques
 - **2.1 Les critères de choix** : ce qui compte le plus pour ce client, tiré de vos exigences et de vos contraintes (rapport 1, sections 3 et 4), avec un poids pour chacun (par exemple : Mélanie peut modifier les prix seule, le coût annuel, la gestion des départs à 8 places).
-- **2.2 Les choix pour les cinq questions** : pour chacune des questions Q1 à Q5, l'outil ou la solution retenu, **pourquoi** (les critères, vos essais, vos sources), ce que vous écartez et pourquoi, et ce qui reste à vérifier. Partez des <a href="./../fiches/eval2-tableaux-communs.docx" download><strong>tableaux de comparaison communs</strong></a> (Word), remis avec la correction de l'évaluation 1 : ce sont les mêmes pour toutes les équipes. Vous pouvez y ajouter un outil, à condition de dire pourquoi. Votre question peut s'appuyer sur vos essais; pour les quatre autres, dites sur quoi repose le choix, et ce qu'un essai devra confirmer avant de s'engager. Pour Q4, on choisit **où héberger et comment diffuser** les vidéos; la préparation des fichiers va à la section 3.
+- **2.2 Les choix pour les cinq questions** : un outil ou une solution retenu pour chacune des questions Q1 à Q5. Partez des <a href="./../fiches/eval2-tableaux-communs.docx" download><strong>tableaux de comparaison communs</strong></a> (Word), remis avec la correction de l'évaluation 1 : ce sont les mêmes pour toutes les équipes, et ils suffisent comme source. Vous n'avez pas de nouvelle recherche à faire. Comme à l'évaluation 1, les questions ne sont pas toutes traitées avec la même profondeur :
+  - **votre question, en profondeur** : l'outil retenu, **pourquoi** (les critères de 2.1, vos essais, les tableaux communs), ce que vous écartez et pourquoi, et ce qui reste à vérifier;
+  - **les quatre autres, en bref** : l'outil retenu et **deux ou trois lignes** qui disent pourquoi, en renvoyant aux critères et aux tableaux communs. Ce que vous écartez et ce qui reste à vérifier tiennent en une ligne chacun, ou en un renvoi au tableau commun.
+
+  Vous pouvez ajouter un outil absent des tableaux communs, à condition de dire pourquoi et de citer sa source. Pour Q4, on choisit **où héberger et comment diffuser** les vidéos; la préparation des fichiers va à la section 3.
 
 Un exemple sur un autre client, une boulangerie (ses critères et leurs poids), est dans les notes de la [séance 8](./../modules/01-faisabilite/08-estimer-et-chiffrer#choisir-avec-des-criteres).
 
 #### 3. Les formats et les règles de mise en ligne
-- **3.1 Les règles par sorte de contenu** : un tableau qui donne, pour chaque sorte de contenu, le format, la largeur, le poids maximal, l'outil et la règle d'accessibilité à respecter. (Vu à la séance 7 et au Lab 07.)
+- **3.1 Les règles par sorte de contenu** : un tableau qui donne, pour chaque sorte de contenu, le format, la largeur, le poids maximal, l'outil et la règle d'accessibilité à respecter. (Vu à la séance 7 et au Lab 07.) Sous le tableau, quelques phrases disent à Mélanie ce que ces règles changent pour son site, chiffres à l'appui : reprenez-y vos **constats chiffrés de la partie 4 du Lab 07** (avant → après).
 - **3.2 Qui fait ce travail chez le client** : qui, avec quel outil, et combien de temps ça lui prendra.
 
 #### 4. Les adaptations proposées
-- **4.1** Pour chaque **contrainte déterminante** (rapport 1, section 4.3) et chaque **risque de la zone rouge** (rapport 1, section 5.3) : l'adaptation que vous proposez et ce qu'elle change pour le client. Exemple : le réseau est faible au quai, donc la liste des participants et de leurs allergies doit pouvoir s'ouvrir sans connexion.
+- **4.1** Pour chaque **contrainte déterminante** (rapport 1, section 4.3) et chaque **risque de la zone rouge** (rapport 1, section 5.3) : l'adaptation que vous proposez et ce qu'elle change pour le client. **Six rangées au plus** : les contraintes déterminantes d'abord, puis les risques rouges les plus graves s'il n'y a pas de place pour tous. Exemple : le réseau est faible au quai, donc la liste des participants et de leurs allergies doit pouvoir s'ouvrir sans connexion.
 - **4.2 Ce que vous ne proposez pas** (l'application mobile, le niveau de la rivière en direct, l'ouverture l'hiver…), et pourquoi, ou pour quand.
 
 <div class="bg-blue-50 border border-blue-200 text-blue-900 rounded-lg p-4 mb-5">
@@ -83,7 +98,7 @@ Ne recopiez pas la section 5.3 du rapport 1. La <strong>mesure</strong> de l'év
 </div>
 
 #### 5. Le temps
-- **5.1 Les tâches et l'estimation** : le travail découpé en tâches, chacune estimée en trois chiffres (optimiste, probable, pessimiste), et l'estimation retenue. (Vu à la séance 8.)
+- **5.1 Les tâches et l'estimation** : le travail découpé en tâches, chacune estimée en trois chiffres (optimiste, probable, pessimiste), et l'estimation retenue. (Vu à la séance 8.) Les **huit tâches** de la fiche du Lab 08 suffisent; ajoutez-en seulement si la rencontre avec Mélanie en fait apparaître une.
 - **5.2 L'échéancier** : un échéancier **simple, par étapes**, jusqu'au 1<sup>er</sup> mars 2027 : ce qui est livré à chacune, ce que le client doit fournir et quand, et le **coussin** prévu pour les imprévus, dans un tableau suivi d'un **diagramme de Gantt** (outils gratuits proposés à la [séance 8](./../modules/01-faisabilite/08-estimer-et-chiffrer#echeancier)). Les cycles de travail agiles viendront aux séances 16 et 17; ils ne sont pas demandés ici.
 
 #### 6. L'argent
@@ -117,7 +132,7 @@ Ne recopiez pas la section 5.3 du rapport 1. La <strong>mesure</strong> de l'év
 - **7.3 Ce que le client doit décider et faire**, avec qui et avant quand : par exemple récupérer l'accès au nom de domaine, choisir une politique d'annulation, faire traduire la décharge par l'avocat.
 
 #### 8. Références
-Toutes les sources de la proposition, en style <a href="https://boite-outils.bib.umontreal.ca/citer/apa?p=5248896">APA 7</a>, y compris les tableaux de comparaison communs. Une source déjà citée dans le rapport 1 est citée de nouveau si la proposition s'en sert.
+Toutes les sources de la proposition, en style <a href="https://boite-outils.bib.umontreal.ca/citer/apa?p=5248896">APA 7</a>. Les tableaux de comparaison communs peuvent être votre seule source pour les outils et leurs prix : leurs coûts sur trois ans se reprennent tels quels dans le devis. Ajoutez une autre source seulement pour un outil ou un prix qui n'y figure pas. Une source déjà citée dans le rapport 1 est citée de nouveau si la proposition s'en sert.
 
 #### Annexes
 - **A. Déclaration d'utilisation de l'IA générative**, pour la proposition.
@@ -140,7 +155,7 @@ Les mêmes règles qu'à l'[évaluation 1](./evaluation-1#l-intelligence-artific
 |:-:|:--|:--|--:|
 | 1 | **Organisation et clarté** | Résumé qui donne la recommandation, le coût et la date; renvois précis au rapport 1, sans recopie; tableaux lisibles; texte compréhensible pour une non-spécialiste | 10 |
 | 2 | **Introduction et suivi de la rencontre** | Mandat, contraintes déterminantes et risques rouges résumés avec leur numéro; portée claire; réponses de la cliente à la séance 9 et ce qu'elles changent | 5 |
-| 3 | **Choix techniques** | Critères tirés des exigences et des contraintes; chaque choix justifié par les essais ou les sources; solutions écartées expliquées | 20 |
+| 3 | **Choix techniques** | Critères tirés des exigences et des contraintes; chaque choix justifié par les critères, les essais ou les tableaux communs; votre question traitée en profondeur, avec les solutions écartées expliquées | 20 |
 | 4 | **Formats et mise en ligne** | Format, largeur et poids pour chaque sorte de contenu; règles d'accessibilité; qui fait le travail chez le client | 10 |
 | 5 | **Adaptations** | Réponses concrètes aux contraintes déterminantes et aux risques de la zone rouge; ce qui n'est pas proposé est expliqué | 10 |
 | 6 | **Temps et échéancier** | Tâches complètes, estimation en trois chiffres, coussin, échéancier réaliste pour le 1<sup>er</sup> mars et ce que le client doit fournir | 15 |
@@ -185,7 +200,7 @@ Les mêmes règles qu'à l'[évaluation 1](./evaluation-1#l-intelligence-artific
   <li><label><input type="checkbox"><span class="check-text">L'introduction se lit sans le rapport 1, et chaque renvoi au rapport 1 donne le numéro de la section</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">La section 1.3 donne les réponses de Mélanie et ce qu'elles changent</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Chaque choix de la section 2 renvoie à une exigence, une contrainte, un essai ou une source</span></label></li>
-  <li><label><input type="checkbox"><span class="check-text">Chaque contrainte déterminante et chaque risque rouge ont leur adaptation (section 4), qui renvoie à la mesure du rapport 1 sans la recopier</span></label></li>
+  <li><label><input type="checkbox"><span class="check-text">Chaque contrainte déterminante et les risques rouges les plus graves (six rangées au plus) ont leur adaptation (section 4), qui renvoie à la mesure du rapport 1 sans la recopier</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Chaque fonctionnalité promise a ses heures dans l'estimation et son coût dans le devis</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">L'échéancier finit avant le 1<sup>er</sup> mars, avec un coussin, et dit ce que le client doit fournir et quand</span></label></li>
   <li><label><input type="checkbox"><span class="check-text">Les coûts sont en dollars canadiens et avant taxes, avec un seul taux de change; les coûts uniques sont comparés à 8 000 $ et à 13 000 $, les coûts annuels à ce que le client paie aujourd'hui</span></label></li>
