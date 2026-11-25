@@ -12,7 +12,7 @@ parties:
   - titre: "Pendant la rencontre"
     duree: "en grand groupe"
     a_faire: "notez toutes les réponses de Mélanie, celles des autres équipes aussi, une rangée par question. Après chaque réponse, écrivez D si elle a tranché, A s'il reste quelque chose à éclaircir."
-    besoin: "vos cinq questions de la partie 4 du Lab 08. Si une équipe pose votre question avant vous, passez à la suivante ou posez une relance."
+    besoin: "vos cinq questions de la partie 4 du Lab 08. Si une équipe pose votre question avant vous, passez à la suivante ou posez une question de suivi, qui creuse la réponse déjà donnée."
     blocs:
       - type: liste
         prefixe: N
@@ -81,7 +81,7 @@ aide:
   - titre: "Décidé ou à éclaircir ?"
     texte: "Décidé : Mélanie a tranché, vous pouvez l'écrire dans la proposition. À éclaircir : elle hésite, elle doit vérifier, ou quelqu'un d'autre doit répondre (l'avocat, le neveu, la MRC). « Je vous reviens d'ici vendredi » : c'est un A."
   - titre: "Une question, une décision"
-    texte: "Si Mélanie ne comprend pas votre question, reformulez-la sans jargon : qu'est-ce que ça change pour elle ? Si elle répond à moitié, relancez : « Donc, si un client annule la veille, il est remboursé ? »"
+    texte: "Si Mélanie ne comprend pas votre question, reformulez-la sans jargon : qu'est-ce que ça change pour elle ? Si elle répond à moitié, posez une question de suivi : « Donc, si un client annule la veille, il est remboursé ? »"
   - titre: "Où vont vos notes dans l'évaluation 2"
     points:
       - "Vos questions, ses réponses et ce qu'elles changent : section 1.3."

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Séance 9, étape 1 : une phrase du client, une relance, deux besoins possibles.
+// Séance 9, étape 1 : une phrase du client, une question pour creuser, deux besoins possibles.
 const BRANCHES = [
   {
     qui: "Si c'est pour les clients",
@@ -28,7 +28,7 @@ const GESTES = [
         <span class="up-source">Le beau-frère de Patrick (mandat)</span>
       </div>
 
-      <div class="up-fleche" aria-hidden="true"><span>la relance</span></div>
+      <div class="up-fleche" aria-hidden="true"><span>on creuse</span></div>
 
       <div class="up-col">
         <span class="up-etiquette">Ce qu'on demande</span>
@@ -58,7 +58,7 @@ const GESTES = [
     </ol>
 
     <figcaption>
-      <strong>Une phrase, deux projets différents.</strong> Sans la relance, on construit une application que personne n'a demandée. Tant que la cliente n'a pas dit « oui, c'est ça », le besoin est une hypothèse.
+      <strong>Une phrase, deux projets différents.</strong> Sans cette question, on construit une application que personne n'a demandée. Tant que la cliente n'a pas dit « oui, c'est ça », le besoin est une hypothèse.
     </figcaption>
   </figure>
 </template>

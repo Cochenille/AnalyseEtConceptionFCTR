@@ -51,7 +51,7 @@ const PHRASES: Phrase[] = [
     sorte: "comment",
     relance: "« Rapide pour qui, et à quel moment ? »",
     explication:
-      "« Rapide » peut vouloir dire trois choses différentes : le chantier, la préparation ou le site. Il faut relancer. Ici, c'est une qualité du site (sa vitesse), pas une fonction : on la vérifie avec un chiffre, par exemple moins de 3 secondes sur un téléphone.",
+      "« Rapide » peut vouloir dire trois choses différentes : le chantier, la préparation ou le site. Il faut lui demander de préciser. Ici, c'est une qualité du site (sa vitesse), pas une fonction : on la vérifie avec un chiffre, par exemple moins de 3 secondes sur un téléphone.",
   },
   {
     cle: "p3",

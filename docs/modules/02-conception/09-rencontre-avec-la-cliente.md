@@ -51,7 +51,7 @@ La partie 1 demandait : **peut-on le faire, avec quoi, et combien ça coûte ?**
 
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> On ne note pas la solution que la cliente propose : on note le besoin qu'elle a confirmé.<br>
-<strong>Où ça va.</strong> Ce soir, dans vos relances pendant la rencontre.
+<strong>Où ça va.</strong> Ce soir, dans les questions que vous posez après une réponse de Mélanie, pour creuser.
 </div>
 
 ### Activité 1 — La boulangerie, six phrases {#activite-1}
@@ -98,7 +98,7 @@ On retrouve la boulangerie de la séance 8. À la première rencontre, la propri
 
 **Les règles de la rencontre.**
 1. **Une question à la fois**, posée à voix haute par une personne de l'équipe. L'ordre des équipes est donné dans le chat; on fait plusieurs tours.
-2. **Votre question a déjà été posée ?** Passez à la suivante, ou posez une **relance** : « Donc, si un client annule la veille, il est remboursé ? »
+2. **Votre question a déjà été posée ?** Passez à la suivante, ou posez une **question de suivi**, qui creuse une réponse déjà donnée : « Donc, si un client annule la veille, il est remboursé ? »
 3. **Tout le monde note toutes les réponses**, pas seulement celles de son équipe. Une réponse donnée à l'équipe 3 peut changer votre devis.
 4. **On ne vend pas de solution ce soir.** On pose des questions; les choix seront dans la proposition.
 
