@@ -25,8 +25,8 @@ const SORTES = [
     titre: "Une décision de la cliente",
     signe: "Une règle d'affaires qu'aucun outil ne choisit",
     exemple: "« Une commande non ramassée n'est pas remboursée. »",
-    devient: "Une ligne du compte rendu : D si elle a tranché, A si elle doit encore décider",
-    ou: "Évaluation 2 : 1.3, 7.3",
+    devient: "Une règle d'affaires, déjà décidée ou encore à décider",
+    ou: "Compte rendu, puis évaluation 2 : 1.3, 7.3",
   },
 ];
 </script>

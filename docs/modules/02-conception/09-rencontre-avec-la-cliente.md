@@ -87,7 +87,7 @@ On retrouve la boulangerie de la séance 8. À la première rencontre, la propri
 
 <div class="bg-slate-50 border border-slate-200 text-slate-900 rounded-lg p-4 mb-5">
 <strong>À retenir.</strong> Le « afin de » est la partie la plus importante : c'est le besoin.<br>
-<strong>Où ça va.</strong> Dans la colonne « D ou A ? » de la fiche du Lab 09, puis dans les récits de la séance 10.
+<strong>Où ça va.</strong> Dans la fiche du Lab 09, puis dans les récits de la séance 10.
 </div>
 
 ---
