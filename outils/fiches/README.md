@@ -32,5 +32,5 @@ Les conseils (outils, mots-clés, cas particuliers) vont dans la section `aide`,
 |:--|:--|
 | Fichier remis | `labNN-equipeN.docx`, déposé dans l'équipe Teams du cours (la clé `remise` du YAML remplace la phrase de remise quand il y a autre chose à déposer, `{nom}` y donne le nom de la fiche) |
 | Captures | `labNN-equipeN-E3-01.png` (lab, équipe, élément, numéro) |
-| Numérotation | B (besoins), S (sources), E (essais), C (constats), R (risques), V (points de révision), M (médias), T (tâches), J (étapes de l'échéancier), N (notes de rencontre), D (décisions), A (à éclaircir), P (prochaines étapes) : les mêmes d'un lab à l'autre |
+| Numérotation | B (besoins), S (sources), E (essais), C (constats), R (risques), V (points de révision), M (médias), T (tâches), J (étapes de l'échéancier), N (notes de rencontre), D (décisions), A (à éclaircir) : les mêmes d'un lab à l'autre |
 | Enchaînement | Une fiche ne contient jamais un tableau à remplir dans un lab suivant |

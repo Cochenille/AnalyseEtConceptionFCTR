@@ -9,7 +9,7 @@ aside: false
 <strong>Objectifs du laboratoire</strong><br>
 <ul class="list-disc pl-5">
   <li>Poser vos cinq questions à Mélanie et noter toutes ses réponses.</li>
-  <li>Écrire le compte rendu de la rencontre : ce qui est décidé, ce qui reste à éclaircir, la suite des choses.</li>
+  <li>Écrire le compte rendu de la rencontre : ce qui est décidé et ce qui reste à éclaircir.</li>
   <li>Choisir la réponse qui change le plus votre proposition.</li>
 </ul>
 </div>
@@ -26,13 +26,13 @@ aside: false
 
 ---
 
-## L'horaire
+## Le déroulement
 
-| Partie | Heure | Ce que vous faites |
+| Partie | Quand | Ce que vous faites |
 |:--|:-:|:--|
-| 1 — Pendant la rencontre | 20 h 05 à 21 h 10, en grand groupe | Poser vos questions et noter toutes les réponses de Mélanie |
-| 2 — Le compte rendu | 21 h 10 à 21 h 50, en équipe | Ce qui est décidé, ce qui reste à éclaircir, la suite des choses |
-| 3 — Préparer le retour | 5 min | La réponse qui change le plus votre proposition |
+| 1 — Pendant la rencontre | Après la pause, en grand groupe | Poser vos questions et noter toutes les réponses de Mélanie |
+| 2 — Le compte rendu | Après la rencontre, en équipe | Ce qui est décidé et ce qui reste à éclaircir |
+| 3 — Préparer le retour | À la fin de la soirée, en équipe | La réponse qui change le plus votre proposition |
 
 Toutes les consignes sont dans la fiche. Les règles de la rencontre sont dans la [séance 9](./../modules/02-conception/09-rencontre-avec-la-cliente#la-rencontre).
 

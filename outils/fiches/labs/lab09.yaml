@@ -5,12 +5,12 @@ numero: 9
 fichier: lab09-fiche-rencontre.docx
 titre: "La rencontre avec Mélanie et son compte rendu"
 contexte: "Mandat Aventure Saint-Maurice · Prépare la section 1.3 de l'évaluation 2 · Travail formatif en équipe"
-objectif: "noter ce que Mélanie répond pendant la rencontre, en grand groupe, puis écrire en équipe le compte rendu : ce qui est décidé, ce qui reste à éclaircir et la suite des choses."
+objectif: "noter ce que Mélanie répond pendant la rencontre, en grand groupe, puis écrire en équipe le compte rendu : ce qui est décidé et ce qui reste à éclaircir."
 regle: "on note les mots de la cliente, pas notre résumé : un chiffre, une date, un nom."
 
 parties:
   - titre: "Pendant la rencontre"
-    duree: "65 min, en grand groupe"
+    duree: "en grand groupe"
     a_faire: "notez toutes les réponses de Mélanie, celles des autres équipes aussi, une rangée par question. Après chaque réponse, écrivez D si elle a tranché, A s'il reste quelque chose à éclaircir."
     besoin: "vos cinq questions de la partie 4 du Lab 08. Si une équipe pose votre question avant vous, passez à la suivante ou posez une relance."
     blocs:
@@ -33,8 +33,8 @@ parties:
       - "Chaque réponse est marquée D ou A"
 
   - titre: "Le compte rendu"
-    duree: "40 min, en équipe"
-    a_faire: "à partir de vos notes de la partie 1, écrivez le compte rendu en trois listes : ce qui est décidé, ce qui reste à éclaircir, et qui fait quoi ensuite. Gardez seulement ce qui change quelque chose pour votre proposition."
+    duree: "après la rencontre, en équipe"
+    a_faire: "à partir de vos notes de la partie 1, écrivez le compte rendu en deux listes : ce qui est décidé et ce qui reste à éclaircir. Gardez seulement ce qui change quelque chose pour votre proposition."
     besoin: "la partie 1 de cette fiche, et votre fiche du Lab 08 (tâches, échéancier, devis) pour voir ce que chaque réponse change."
     blocs:
       - type: texte
@@ -44,7 +44,7 @@ parties:
         prefixe: D
         rangees: 6
         colonnes:
-          - { titre: "Qu'est-ce qui a été décidé ?", aide: "une décision par rangée, avec ses chiffres", largeur: 4.4 }
+          - { titre: "Qu'est-ce qui a été décidé ?", aide: "une décision ou une date promise par la cliente, avec ses chiffres", largeur: 4.4 }
           - { titre: "Qu'est-ce que ça change dans notre proposition ?", aide: "la section de l'évaluation 2 : 2.1, 4.1, 5.2, 6.2…", largeur: 4 }
         exemple:
           - "Boulangerie : les commandes sont payées d'avance, sans remboursement à moins de 24 heures."
@@ -62,24 +62,13 @@ parties:
           - "La propriétaire"
           - "4 déc."
           - "14 h la veille, et on le dit en 7.3"
-      - type: liste
-        prefixe: P
-        rangees: 5
-        colonnes:
-          - { titre: "Qui fait quoi ?", largeur: 4.2 }
-          - { titre: "Pour quand ?", aide: "une date", largeur: 1.2 }
-          - { titre: "Où est-ce dans notre proposition ?", aide: "une étape de l'échéancier, une tâche, la section 7.3", largeur: 3 }
-        exemple:
-          - "Studio Web FC : envoyer ce compte rendu à Mélanie"
-          - "27 nov."
-          - "T1, gestion de projet"
     cochez:
       - "Chaque décision dit ce qu'elle change, avec une section de l'évaluation 2"
       - "Chaque point à éclaircir a une personne et une date"
-      - "Chaque date promise par la cliente se retrouve dans la liste P"
+      - "Chaque date promise par la cliente est dans la liste D"
 
   - titre: "Préparer le retour"
-    duree: "5 min"
+    duree: "à la fin de la soirée"
     a_faire: "choisissez la réponse de Mélanie qui change le plus votre proposition. Vous la direz au début de la séance 10."
     blocs:
       - type: texte

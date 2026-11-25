@@ -44,6 +44,10 @@ import FigureEcheancier from "./components/FigureEcheancier.vue"
 import FigureDevis from "./components/FigureDevis.vue"
 import FigureTroisFacons from "./components/FigureTroisFacons.vue"
 import CeQuElleVeut from "./components/CeQuElleVeut.vue"
+import FigureUnePhraseDeuxProjets from "./components/FigureUnePhraseDeuxProjets.vue"
+import FigureTroisSortes from "./components/FigureTroisSortes.vue"
+import FigureRecit from "./components/FigureRecit.vue"
+import FigureDeLaQuestionAuRapport from "./components/FigureDeLaQuestionAuRapport.vue"
 
 
 export default {
@@ -96,6 +100,10 @@ export default {
     app.component("FigureDevis", FigureDevis);
     app.component("FigureTroisFacons", FigureTroisFacons);
     app.component("CeQuElleVeut", CeQuElleVeut);
+    app.component("FigureUnePhraseDeuxProjets", FigureUnePhraseDeuxProjets);
+    app.component("FigureTroisSortes", FigureTroisSortes);
+    app.component("FigureRecit", FigureRecit);
+    app.component("FigureDeLaQuestionAuRapport", FigureDeLaQuestionAuRapport);
   }
 }
 
