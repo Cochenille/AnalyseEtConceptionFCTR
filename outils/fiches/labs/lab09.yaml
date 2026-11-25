@@ -1,0 +1,100 @@
+# Lab 09 — La rencontre avec Mélanie et son compte rendu (séance 9, 25 novembre 2026)
+# python outils/fiches/generer_fiche.py outils/fiches/labs/lab09.yaml
+
+numero: 9
+fichier: lab09-fiche-rencontre.docx
+titre: "La rencontre avec Mélanie et son compte rendu"
+contexte: "Mandat Aventure Saint-Maurice · Prépare la section 1.3 de l'évaluation 2 · Travail formatif en équipe"
+objectif: "noter ce que Mélanie répond pendant la rencontre, en grand groupe, puis écrire en équipe le compte rendu : ce qui est décidé, ce qui reste à éclaircir et la suite des choses."
+regle: "on note les mots de la cliente, pas notre résumé : un chiffre, une date, un nom."
+
+parties:
+  - titre: "Pendant la rencontre"
+    duree: "65 min, en grand groupe"
+    a_faire: "notez toutes les réponses de Mélanie, celles des autres équipes aussi, une rangée par question. Après chaque réponse, écrivez D si elle a tranché, A s'il reste quelque chose à éclaircir."
+    besoin: "vos cinq questions de la partie 4 du Lab 08. Si une équipe pose votre question avant vous, passez à la suivante ou posez une relance."
+    blocs:
+      - type: liste
+        prefixe: N
+        rangees: 14
+        hauteur: 0.55
+        colonnes:
+          - { titre: "Quelle équipe ?", largeur: 1 }
+          - { titre: "Quelle question ?", largeur: 3 }
+          - { titre: "Que répond Mélanie ?", aide: "ses mots, avec les chiffres et les dates", largeur: 4.2 }
+          - { titre: "D ou A ?", aide: "décidé ou à éclaircir", largeur: 1.1 }
+        exemple:
+          - "É2"
+          - "Où sont gardées les décharges papier ?"
+          - "« Dans des boîtes au sous-sol du chalet, depuis 2014. »"
+          - "D"
+    cochez:
+      - "Chacune de vos cinq questions a été posée, ou sa réponse a été donnée à une autre équipe"
+      - "Chaque réponse est marquée D ou A"
+
+  - titre: "Le compte rendu"
+    duree: "40 min, en équipe"
+    a_faire: "à partir de vos notes de la partie 1, écrivez le compte rendu en trois listes : ce qui est décidé, ce qui reste à éclaircir, et qui fait quoi ensuite. Gardez seulement ce qui change quelque chose pour votre proposition."
+    besoin: "la partie 1 de cette fiche, et votre fiche du Lab 08 (tâches, échéancier, devis) pour voir ce que chaque réponse change."
+    blocs:
+      - type: texte
+        consigne: "L'en-tête : la date, les personnes présentes et l'objet de la rencontre, en deux lignes."
+        lignes: 2
+      - type: liste
+        prefixe: D
+        rangees: 6
+        colonnes:
+          - { titre: "Qu'est-ce qui a été décidé ?", aide: "une décision par rangée, avec ses chiffres", largeur: 4.4 }
+          - { titre: "Qu'est-ce que ça change dans notre proposition ?", aide: "la section de l'évaluation 2 : 2.1, 4.1, 5.2, 6.2…", largeur: 4 }
+        exemple:
+          - "Boulangerie : les commandes sont payées d'avance, sans remboursement à moins de 24 heures."
+          - "2.1 : l'outil de commande doit prendre le paiement d'avance (poids 3)."
+      - type: liste
+        prefixe: A
+        rangees: 4
+        colonnes:
+          - { titre: "Qu'est-ce qui reste à éclaircir ?", largeur: 3 }
+          - { titre: "Qui doit répondre ?", largeur: 1.5 }
+          - { titre: "Avant quand ?", aide: "une date", largeur: 1.2 }
+          - { titre: "Sans réponse, que suppose-t-on ?", aide: "ce qu'on écrit dans la proposition", largeur: 2.7 }
+        exemple:
+          - "Boulangerie : l'heure limite des commandes"
+          - "La propriétaire"
+          - "4 déc."
+          - "14 h la veille, et on le dit en 7.3"
+      - type: liste
+        prefixe: P
+        rangees: 5
+        colonnes:
+          - { titre: "Qui fait quoi ?", largeur: 4.2 }
+          - { titre: "Pour quand ?", aide: "une date", largeur: 1.2 }
+          - { titre: "Où est-ce dans notre proposition ?", aide: "une étape de l'échéancier, une tâche, la section 7.3", largeur: 3 }
+        exemple:
+          - "Studio Web FC : envoyer ce compte rendu à Mélanie"
+          - "27 nov."
+          - "T1, gestion de projet"
+    cochez:
+      - "Chaque décision dit ce qu'elle change, avec une section de l'évaluation 2"
+      - "Chaque point à éclaircir a une personne et une date"
+      - "Chaque date promise par la cliente se retrouve dans la liste P"
+
+  - titre: "Préparer le retour"
+    duree: "5 min"
+    a_faire: "choisissez la réponse de Mélanie qui change le plus votre proposition. Vous la direz au début de la séance 10."
+    blocs:
+      - type: texte
+        consigne: "La réponse, ce qu'elle change dans votre proposition, et pourquoi, en deux phrases."
+        lignes: 2
+    cochez:
+      - "La fiche est déposée dans l'équipe Teams du cours, ce soir"
+
+aide:
+  - titre: "Décidé ou à éclaircir ?"
+    texte: "Décidé : Mélanie a tranché, vous pouvez l'écrire dans la proposition. À éclaircir : elle hésite, elle doit vérifier, ou quelqu'un d'autre doit répondre (l'avocat, le neveu, la MRC). « Je vous reviens d'ici vendredi » : c'est un A."
+  - titre: "Une question, une décision"
+    texte: "Si Mélanie ne comprend pas votre question, reformulez-la sans jargon : qu'est-ce que ça change pour elle ? Si elle répond à moitié, relancez : « Donc, si un client annule la veille, il est remboursé ? »"
+  - titre: "Où vont vos notes dans l'évaluation 2"
+    points:
+      - "Vos questions, ses réponses et ce qu'elles changent : section 1.3."
+      - "Les décisions qui touchent un outil : sections 2.1 et 2.2. Celles qui touchent une contrainte ou un risque : section 4.1."
+      - "Les dates promises par la cliente : section 5.2. Ce qui reste à éclaircir : section 7.3."

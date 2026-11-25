@@ -18,7 +18,7 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
   <li><span class="frise-date">28 oct.</span><strong>Séance 5</strong><span class="frise-sous">Écrire pour le client · Lab 05</span></li>
   <li><span class="frise-date">4 nov.</span><strong>Séance 6</strong><span class="frise-sous">Réviser le rapport · Lab 06</span></li>
   <li><span class="frise-date">11 nov.</span><strong>Séance 7</strong><span class="frise-sous">Formats de fichiers · Lab 07</span><span class="frise-badge">Remise éval. 1 · 20&nbsp;% · Énoncé éval. 2</span></li>
-  <li class="is-actuelle"><span class="frise-date">18 nov.</span><strong>Séance 8</strong><span class="frise-sous">Estimer et chiffrer · Lab 08 · Transition vers la partie 2</span></li>
+  <li><span class="frise-date">18 nov.</span><strong>Séance 8</strong><span class="frise-sous">Estimer et chiffrer · Lab 08 · Transition vers la partie 2</span></li>
 </ol>
 
 ## Objectifs du module
@@ -49,3 +49,5 @@ Compétence **HK29** — séances 1 à 8. Apprendre à juger si un projet Web es
   - [Évaluation 2 — Rapport de faisabilité technique : proposition technique](./../../evaluations/evaluation-2)
 - [Séance 8 — Estimer le temps et monter le devis](./08-estimer-et-chiffrer)
   - [Lab 08 — Estimer et chiffrer la proposition](./../../labs/lab08-estimer-et-chiffrer)
+
+La suite : [Partie 2 — Collaborer à la conception d'un projet Web](./../02-conception/).

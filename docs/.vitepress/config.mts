@@ -31,7 +31,7 @@ export default withMermaid(defineConfig({
 				text: "Modules",
 				items: [
 					{ text: "Partie 1 — Faisabilité technique", link: "/modules/01-faisabilite/" },
-					//{ text: "Partie 2 — Conception d'un projet Web", link: "/modules/02-conception/" },
+					{ text: "Partie 2 — Conception d'un projet Web", link: "/modules/02-conception/" },
 				],
 			},
 		],
@@ -91,6 +91,17 @@ export default withMermaid(defineConfig({
 							},
 						],
 					},
+					{
+						text: "Partie 2 — Conception d'un projet Web",
+						collapsed: false,
+						items: [
+							{ text: "Présentation", link: "/modules/02-conception/" },
+							{
+								text: "Séance 9 — La rencontre avec la cliente",
+								link: "/modules/02-conception/09-rencontre-avec-la-cliente",
+							},
+						],
+					},
 				],
 			},
 			{
@@ -105,6 +116,7 @@ export default withMermaid(defineConfig({
 					{ text: "Lab 06 — Réviser le rapport", link: "/labs/lab06-reviser-le-rapport" },
 					{ text: "Lab 07 — Alléger les médias", link: "/labs/lab07-alleger-les-medias" },
 					{ text: "Lab 08 — Estimer et chiffrer", link: "/labs/lab08-estimer-et-chiffrer" },
+					{ text: "Lab 09 — La rencontre avec Mélanie", link: "/labs/lab09-rencontre-avec-melanie" },
 				],
 			},
 			{

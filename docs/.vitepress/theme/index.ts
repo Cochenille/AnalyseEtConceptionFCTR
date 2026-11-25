@@ -43,6 +43,7 @@ import FilDeLaSeance from "./components/FilDeLaSeance.vue"
 import FigureEcheancier from "./components/FigureEcheancier.vue"
 import FigureDevis from "./components/FigureDevis.vue"
 import FigureTroisFacons from "./components/FigureTroisFacons.vue"
+import CeQuElleVeut from "./components/CeQuElleVeut.vue"
 
 
 export default {
@@ -94,6 +95,7 @@ export default {
     app.component("FigureEcheancier", FigureEcheancier);
     app.component("FigureDevis", FigureDevis);
     app.component("FigureTroisFacons", FigureTroisFacons);
+    app.component("CeQuElleVeut", CeQuElleVeut);
   }
 }
 
